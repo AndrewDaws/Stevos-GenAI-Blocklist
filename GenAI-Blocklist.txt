@@ -1429,6 +1429,13 @@ www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.
 ! Search bar - "Find the answer with AI"
 developerdocs.instructure.com##[data-testid="search-ask-question"]
 
+! ============
+! == Intuit ==
+! ============
+! -- https://ttlc.intuit.com/community/home/misc/03/en-us
+! Search suggestions
+ttlc.intuit.com###chip-wrapper
+
 ! ===================
 ! == Investing.com ==
 ! ===================
