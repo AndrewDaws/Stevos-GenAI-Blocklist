@@ -1805,6 +1805,13 @@ www.nate.com##.link-ngpt
 ! AI Chat tab below search bar
 www.nate.com##.chat1
 
+! ======================================
+! == National University of Singapore ==
+! ======================================
+! -- https://www.nus.edu.sg/commencement/ceremonies/schedule-ceremonies.html
+! Chatbot
+www.nus.edu.sg###copilotWrapper
+
 ! ==========
 ! == NDTV ==
 ! ==========
