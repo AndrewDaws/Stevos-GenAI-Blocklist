@@ -427,8 +427,12 @@ www.dell.com##[data-test-id="virtual-assistant"]
 ! ================
 ! -- https://www.deviantart.com/ (Homepage)
 ! Header > "DreamUp AI Art"
-! * Also matches several other Dreamup links
 www.deviantart.com##.reset-link[href="https://www.deviantart.com/dreamup"]
+! Navbar > ... menu options
+! * Also matches "Create Art" Dreamup option on tag pages
+www.deviantart.com##[role="menuitem"][href^="https://www.deviantart.com/dreamup"]
+www.deviantart.com##[role="menuitem"][href="https://www.deviantart.com/studio/video"]
+
 ! Left sidebar items - Dreamup & Video Generator
 www.deviantart.com##.nu6Rw3.xODI7E:has(> [href="https://www.deviantart.com/dreamup"])
 www.deviantart.com##.nu6Rw3.xODI7E:has(> [href="https://www.deviantart.com/studio/video"])
@@ -442,6 +446,8 @@ www.deviantart.com##.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.devianta
 ! * Dreamup link includes tag name, so do a partial match
 www.deviantart.com##[role="menuitem"][href^="https://www.deviantart.com/dreamup"]
 www.deviantart.com##.reset-button[label="Create a video"]
+! Sparkle icon for "Create Art" button
+www.deviantart.com##.DTw2tY.AvdBMS.NvE3Tw:has(> svg)
 
 ! -- https://www.deviantart.com/studio/draw?new=1 (Create with Draw)
 !  Navbar buttons for Dreamup and Remove Background
