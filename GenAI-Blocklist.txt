@@ -424,6 +424,13 @@ www.consumerreports.org##.cda-gnav__main-search-hints-semantic-askCR
 ! "AskCR" tab
 www.consumerreports.org###ask-cr-search-tab
 
+! ====================
+! == Crate & Barrel ==
+! ====================
+! -- https://www.crateandbarrel.com/facette-white-vase-8.5-by-athena-calderone/s677502
+! Review summary
+www.crateandbarrel.com##.swat-review-summary-container-border
+
 ! ==========
 ! == Dell ==
 ! ==========
