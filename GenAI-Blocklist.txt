@@ -129,6 +129,13 @@ www.android.com###create-your-own-unique-android-bot
 www.android.com###ai-on-android
 
 ! ==============
+! == AutoZone ==
+! ==============
+! -- https://www.autozone.com/p/duralast-platinum-battery-h7-agm/319458
+! Review summary
+www.autozone.com###custom-reviews-container [data-testid="st-view"]:has(> [data-testid="st-view"] > [src="/images/reviews/ai.svg"])
+
+! ==============
 ! == Backbone ==
 ! ==============
 ! -- https://help.backbone.com/hc/en-us/articles/18306138828311-Which-cases-are-compatible-with-the-Backbone-One-2nd-Gen
@@ -1543,6 +1550,13 @@ kahoot.com##.menu-item:has(> [href^="https://kahoot.com/kahoot-study/notes-to-fl
 ! AI Assisted tools to get started
 discover.kahoot.it##[data-functional-selector="native-carousel-item"]:has([class^="styles_AiAssisted__"])
 
+! ============
+! == Kiehls ==
+! ============
+! -- https://www.kiehls.com/skincare/face-oils/midnight-recovery-concentrate-moisturizing-face-oil-serum/819.html
+! Review summary
+www.kiehls.com##.swat-review-summary-container-border
+
 ! ==============
 ! == Langfuse ==
 ! ==============
@@ -2297,6 +2311,12 @@ trip.com##.StartModule_planAI__S_98b
 ! -- https://turbotax.intuit.com/
 ! "Ask AI Concierge" sticky button in bottom right
 turbotax.intuit.com###aic-entry
+
+! =================
+! == Ulta Beauty ==
+! =================
+! Ulta AI floating button
+www.ulta.com##chat-messenger[service*="commerce-ai"]
 
 ! ======================
 ! == UnitedHealthCare ==
