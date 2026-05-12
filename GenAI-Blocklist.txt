@@ -969,6 +969,14 @@ analytics.google.com##gmp-suggestion-dropdown > div:has(#ask-chatbotundefined)
 ! Insights button in report header
 analytics.google.com##ga-toolbar-icon-button-component.ga-intelligence-button
 
+! =============================
+! == Google Arts and Culture ==
+! =============================
+! -- https://artsandculture.google.com/asset/sights-in-and-around-kyoto-unknown/8QHASebeKxBYFA
+! ArtRemix and PoemPostcard
+artsandculture.google.com##.toZRUd.BK2CBb:has([href^="/experiment/2gFc5DkygEURfw"])
+artsandculture.google.com##.toZRUd.BK2CBb:has([href^="/experiment/ZgG5_uTbBgTpIQ"])
+
 ! =================
 ! == Google Blog ==
 ! =================
