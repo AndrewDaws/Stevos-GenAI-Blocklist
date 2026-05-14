@@ -2328,7 +2328,7 @@ webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 www.target.com##.sc-35985976-1
 ! QA posts made by AI
 ! * Does not adjust QA count to exclude AI questions
-www.target.com##[data-test="question"]:has([data-test="questionUserNickname"]:has-text(AI Shopping Assistant))
+www.target.com##[data-test="questionUserNickname"]:has-text(AI Shopping Assistant):upward([data-test="question"])
 ! Review summary
 www.target.com##div:has(> [data-test="review-summary-title"])
 
