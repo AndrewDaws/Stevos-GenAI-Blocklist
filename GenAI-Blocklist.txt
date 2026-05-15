@@ -109,7 +109,8 @@ www.amazon.*##[data-csa-c-item-id="cr-product-insights-cards"], [data-csa-c-item
 
 ! -- https://www.amazon.com/s?k=light+blue+flats
 ! Rufus chatbot window
-www.amazon.*###nav-flyout-rufus
+! * Avoid filtering when docked to avoid blank sidebar
+www.amazon.*###nav-flyout-rufus[data-state="expanded"]
 
 ! -- https://health.amazon.com/
 ! "Health AI" button in navbar
