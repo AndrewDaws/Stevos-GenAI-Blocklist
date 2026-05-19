@@ -224,7 +224,7 @@ www.bing.com###sa_ai_block
 www.bing.com###b-scopeListItem-copilotsearch
 ! "Copilot" tab in navbar below search bar
 www.bing.com###b-scopeListItem-conv
-! "Copilot Search" box at top of search
+! "Copilot Search" summary box at top of search
 www.bing.com##.b_ans:has(> #copans_container)
 ! AI generated summary
 www.bing.com###b_wpt_container_ml
