@@ -121,7 +121,7 @@ While uBlock Origin Lite exists as an alternative, it [does not support custom f
 Probably not. These filters are focused on hiding AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, the AI overview's content seemingly doesn't generate until after it is unhidden. However, AI content may still be generated in the background on other webpages.
 
 ### How many websites have filters for AI features?
-Over 200.
+Over 250.
 
 ### Why do some filters show "*Invalid filter: Filter requires trusted source*" in uBlock Origin?
 A small number of filters use features that require trusted origin filters in uBlock Origin. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
