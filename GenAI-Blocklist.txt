@@ -2168,6 +2168,13 @@ pictory.ai###livex-chatbot-app
 ! Hide image if Pixiv assigned an AI-generated label
 www.pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
 
+! ============
+! == Pockit ==
+! ============
+! -- https://pockit.tools/blog/css-has-selector-complete-guide/
+! AI Tools in header nav
+pockit.tools##[href="/ai/"]
+
 ! ================
 ! == Posit Docs ==
 ! ================
