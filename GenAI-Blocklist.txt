@@ -2002,6 +2002,13 @@ www.nate.com##.chat1
 ! Chatbot
 ||azurefd.net/cdns/copilot_v3.min.js$script,domain=nus.edu.sg
 
+! ===========
+! == Naver ==
+! ===========
+! -- https://search.naver.com/search.naver?where=nexearch&query=test
+! AI summary box
+search.naver.com##[data-meta-ssuid-extra="fender_renderer-ai_briefing"]
+
 ! ==========
 ! == NDTV ==
 ! ==========
