@@ -290,6 +290,19 @@ search.brave.com##.tab-item:has(> a[href^="/ask"])
 ! AI Answer
 search.brave.com###llm-snippet
 
+! ============
+! == Bricks ==
+! ============
+! -- https://www.thebricks.com/resources/how-to-untable-in-excel
+! Header
+www.thebricks.com###announcement-banner
+! Floating sidebar promo
+www.thebricks.com###sidebar-cta
+! In-article signup promos
+www.thebricks.com##.Cta1_container__T8L_e, .Cta2_container__dcad2, .Cta3_container__pjUHX, .Cta4_container__Ut98Y, .Cta5_container__8bABo
+! Popover signup promo
+www.thebricks.com##.Modal_container__jm1jX
+
 ! ================
 ! == Britannica ==
 ! ================
@@ -2468,6 +2481,7 @@ thenewstack.io##.masthead-search-icon path[d^="M18 4a4 4 0 0 0-4 4 4 4 0"]
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
 ! * Alternate filter for AdGuard support
 www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType')
+
 ! ==========
 ! == Time ==
 ! ==========
