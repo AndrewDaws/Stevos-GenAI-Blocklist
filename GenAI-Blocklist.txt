@@ -1714,6 +1714,17 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
+! ===============
+! == LogRocket ==
+! ===============
+! -- https://blog.logrocket.com/advanced-guide-css-has-selector/
+! Promo at top of article
+blog.logrocket.com##.plug-dev-top
+! Promo in sidebar
+blog.logrocket.com##.plug-gutter
+! Promo at bottom of article
+blog.logrocket.com##.code-block:has(> .blog-plug)
+
 ! ===========
 ! == Lowes ==
 ! ===========
