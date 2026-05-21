@@ -2434,11 +2434,9 @@ thenewstack.io##.masthead-search-icon path[d^="M18 4a4 4 0 0 0-4 4 4 4 0"]
 ! * Prevents videos from appearing when swiping or when loading a creators channel page
 ! * AI videos can play if loaded directly from the URL
 ! * Created with assistance from paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1t9pvef/comment/ol4f58p/)
-www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType, , propsToMatch, /item_list)
-www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
-www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].moderationAigcLabelType')
-www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].aigcLabelType')
-
+www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
+! * Alternate filter for AdGuard support
+www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType')
 ! ==========
 ! == Time ==
 ! ==========
@@ -2824,6 +2822,7 @@ www.youtube.com##.ytp-fullscreen-quick-actions button[aria-label="Ask"]
 youtube.com##+js(json-edit, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed])
 youtube.com##+js(json-edit-xhr-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 youtube.com##+js(json-edit-fetch-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+! * Alternate filter for AdGuard support
 youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats.*[?.audioTrack.isAutoDubbed]')
 ! * Backup to remove auto-dub menu options from settings menu when video loaded from URL and trusted filters are disabled.
 !   This will not prevent the auto-dubbed audio from playing as the default selection 
