@@ -19,6 +19,12 @@ www.adobe.com###adbmsgCta
 ! "Adobe Virtual Asssistant" chatbox
 www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://cdn.prod.assistant.adobe.com/production/static/"])
 
+! ==================
+! == Ars Technica ==
+! ==================
+! AI category in header
+arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
+
 ! =====================
 ! == Cloudflare Blog ==
 ! =====================
@@ -43,6 +49,18 @@ gitlab.com##.timeline-entry:has(.note-header-info [data-original="@GitLabDuo"])
 gitlab.com##.timeline-entry:has(.note-header-info [data-username="GitLabDuo"])
 ! Participants - GitLab Duo
 gitlab.com##.participants [data-username="GitLabDuo"]
+
+! =============
+! == Gizmodo ==
+! =============
+! Navbar AI category
+gizmodo.com##[aria-label="Quick Links"] [href="https://gizmodo.com/tech/artificial-intelligence"]
+! Pullout ☰ menu AI category
+gizmodo.com##[cmp-ltrk="fly-menu"][href="https://gizmodo.com/tech/artificial-intelligence"]
+
+! -- https://gizmodo.com/tech/
+! Navbar AI category
+gizmodo.com##.giz-bg-main [href="https://gizmodo.com/tech/artificial-intelligence"]
 
 ! ==========================
 ! == Google Admin Console ==
