@@ -19,11 +19,11 @@ Available for PC, ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge
 
 Before:
 
-<img width="776" height="433" alt="google.com with AI buttons" src="https://github.com/user-attachments/assets/13ff160a-8666-4a23-9b95-01adb0bb9ff4" />
+<img width="687" height="538" alt="Google homepage with AI" src="https://github.com/user-attachments/assets/248231e3-a107-40a5-a757-b5255decdc19" />
 
 After:
 
-<img width="776" height="433" alt="google.com without AI buttons" src="https://github.com/user-attachments/assets/204bbc90-0a04-4fa7-94b7-b8e523c331be" />
+<img width="687" height="359" alt="Google homepage without AI" src="https://github.com/user-attachments/assets/e9c84390-6702-4d9e-9e01-c18f4893c5fe" />
 
 ## Installation
 ### Firefox, Microsoft Edge, or Waterfox (Desktop)
