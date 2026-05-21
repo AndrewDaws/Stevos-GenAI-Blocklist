@@ -95,9 +95,9 @@ www.amazon.*###nav-rufus-disco
 ! Health AI in navbar
 www.amazon.*##.nav-li:has([data-csa-c-content-id$="_cs_health_ai"])
 ! Navbar > Medical Care - AI elements
-www.amazon.com##.health-ai-header
-www.amazon.com##.ask-health-ai-section 
-www.amazon.com##.ahi-health-ai-content > .banner-pills-container
+www.amazon.*##.health-ai-header
+www.amazon.*##.ask-health-ai-section 
+www.amazon.*##.ahi-health-ai-content > .banner-pills-container
 ! AI questions in autocomplete search suggestions
 www.amazon.*##+js(json-prune, suggestions.[-].metadata.RufusSuggestionType)
 
