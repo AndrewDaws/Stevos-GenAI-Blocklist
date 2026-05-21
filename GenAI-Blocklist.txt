@@ -2810,6 +2810,16 @@ yandex.com##.Root-FuturisSearchOuter
 ! "Chat" button in header
 yep.com##.css-1k0ztkl-button
 
+! ============
+! == Youdao ==
+! ============
+! LobsterAI in navbar
+www.youdao.com##.nav_item:has(> [href^="https://lobsterai.youdao.com/"])
+! LobsterAI product slide
+www.youdao.com##.swiper-slide:has(> [src="https://ydlunacommon-cdn.nosdn.127.net/460a5a719e1f7b60a49fbb220136b56c.png"])
+! LobsterAI in product list
+www.youdao.com##.product-item:has([src="https://ydlunacommon-cdn.nosdn.127.net/cc4afa89cc5497e23b355bc7436cb1c9.png"])
+
 ! =============
 ! == YouTube ==
 ! =============
