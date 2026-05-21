@@ -120,6 +120,12 @@ central.insightsoftware.com###forethought-chat
 www.lowes.com##.sc-coJMku.ChatInviteButton
 
 ! =====================
+! == Microsoft Learn ==
+! =====================
+! Promo to get started with MCP Server
+learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-directory/hero_mcp.png"])
+
+! =====================
 ! == Microsoft Teams ==
 ! =====================
 ! -- https://teams.microsoft.com/v2/ (logged in)
