@@ -100,6 +100,10 @@ www.google.com,www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/searc
 ! * Use remove() to prevent selection by keyboard shortcut. The item still takes up a slot with keyboards selection, but it cannot be selected. (IE: Need to hit arrow twice to get past it.)
 www.google.com,www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:has([role="option"][aria-description="AI Mode"]):remove()
 
+! -- https://www.google.com/search?q=test
+! Google Labs icon in header (mobile)
+www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
+
 ! ===================
 ! == Google Slides ==
 ! ===================
