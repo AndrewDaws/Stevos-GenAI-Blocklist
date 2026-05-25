@@ -140,6 +140,14 @@ learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-direc
 ! Sparkle icon indicating an app has AI features (Apps tab)
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
+! ======================
+! == Quicken Simplifi ==
+! ======================
+! -- https://support.simplifi.quicken.com/en/articles/5149435-marking-accounts-as-closed-on-the-mobile-app
+! Message notification from Fin (ai chatbot)
+! * Appeared asking if the article I read was useful
+support.simplifi.quicken.com##[data-testid="notification-preview-container"]:has(> [aria-label*="message notification from Fin"])
+
 ! ============
 ! == Reddit ==
 ! ============
