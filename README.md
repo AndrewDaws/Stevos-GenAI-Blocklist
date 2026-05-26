@@ -115,7 +115,7 @@ uBlock Origin is not available for Google Chrome and iOS.
 While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
 
 ### Will this prevent AI content from being generated in the background?
-Not usually. These filters are mainly focused on hiding AI elements.
+Probably not in most cases. These filters are mainly focused on hiding AI elements.
 
 ### How many websites have filters for AI features?
 Over 300.
