@@ -40,7 +40,6 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Click "_Apply Changes_"
 
 ### Google Chrome (Desktop)
-
 - Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
 - Click the green AdGuard icon in Chrome then click the gear icon.
 - Open the Filters tab, go to "Custom", and click the "extension settings" link.
@@ -56,7 +55,6 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Click _Add_.
 
 ### Firefox (Android)
-
 - Open Firefox
 - Tap the action menu (⋮) and select "_Extensions_"
 - Click the plus (+) next to _uBlock Origin_ and install it
@@ -68,7 +66,6 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Tap "_Apply Changes_"
 
 ### Safari (iOS)
-
 - Install [AdGuard Ad Blocker for Safari](https://apps.apple.com/us/app/adguard-ad-blocker-for-safari/id1047223162)
 - From your homescreen, Open *Settings > Apps > Safari > Extensions*
 - Tap *AdGuard — Custom* and enable *Allow Extension*
@@ -83,7 +80,6 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Change the toggle for custom filters from "Disabled" to "Enabled"
 
 ### Brave Browser (iOS)
-
 * Install [Brave Browser](https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175).
 * Open Brave and tap *... > Shields and Privacy > Content Filtering > Add Filter by URL...*
 * Paste in the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
@@ -146,7 +142,6 @@ The filter for automatic dubbing on YouTube does not work when opening a video v
 The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](#why-do-some-filters-show-invalid-filter-filter-requires-trusted-source-in-ublock-origin)), and causes a visible page refresh whenever a video is loaded directly via URL.
 
 ## Contributing guidelines
-
 If you want to [report an issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues) or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
 
 Commit messages use prefixes to indicate the type of change.
@@ -158,7 +153,6 @@ Commit messages use prefixes to indicate the type of change.
 * +: Filter applied to the "extra" list
 
 ## Other AI blocking projects
-
 * [Just the Browser](https://justthebrowser.com/): Removes AI features, telemetry, and sponsored content from web browsers.
 * [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows.
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
@@ -172,7 +166,6 @@ Commit messages use prefixes to indicate the type of change.
 * [Is AI Profitable Yet](https://isaiprofitable.com/): Site that tracks the costs and revenue of AI companies.
 
 ## Feedback
-
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
 
 If you have any feedback about this project, I can be reached on Bluesky at [@stevoisiak.bsky.social](https://bsky.app/profile/stevoisiak.bsky.social) or via email at Stevoisiak(at)gmail.com.
