@@ -39,6 +39,12 @@ www.foxbusiness.com##.dropdown-item--ai
 ! Footer > Tech > AI
 www.foxbusiness.com##.nav-item--ai
 
+! ===============
+! == Futuruism ==
+! ===============
+! AI category in header
+futurism.com##.menu-item:has([href="https://futurism.com/category/artificial-intelligence"])
+
 ! ============
 ! == GitHub ==
 ! ============
