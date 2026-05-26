@@ -1521,6 +1521,12 @@ imgflip.com###gen-qa > p:has-text(Funny you ask. Why yes, we do. Here you go:)
 ! Floating "Simplify" button
 indianstartupnews.com###nudgeai-widget
 
+! =============
+! == Insight ==
+! =============
+! Nia in header
+www.insight.com##.c-header-main-nav__item:has(.c-header-main-nav__item-nia)
+
 ! ======================
 ! == Insight Software ==
 ! ======================
