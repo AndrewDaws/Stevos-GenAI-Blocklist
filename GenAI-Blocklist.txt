@@ -2881,7 +2881,11 @@ search.yahoo.co.jp##.AnswerAiNavigation__content
 ! Navbar - yandex ai
 yandex.com##.HeaderNav-Tab[href$="&promo=force_neuro"]
 ! AI Summary
+! * No longer used?
 yandex.com##.Root-FuturisSearchOuter
+! Yandex AI answer box
+yandex.com##[data-fast-name="neuro_answer"]
+||yandex.com/search/generative_answer$xhr,1p
 
 ! =========
 ! == Yep ==
