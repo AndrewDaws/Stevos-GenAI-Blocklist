@@ -316,8 +316,10 @@ search.brave.com###submit-llm-button
 ! -- https://search.brave.com/search?q=Why+are+we+here (Search results)
 ! "Ask" tab in navbar
 search.brave.com##.tab-item:has(> a[href^="/ask"])
-! AI Answer
+! AI Answer text
 search.brave.com###llm-snippet
+! Block generating answer for non-pre-generated responses
+||search.brave.com/api/chatllm/with_ask$xhr,domain=search.brave.com
 
 ! ============
 ! == Bricks ==
@@ -354,7 +356,7 @@ www.businessinsider.com##.catch-me-up-quickly
 
 ! -- https://www.businessinsider.com/answers#test
 ! Search summary
-www.businessinsider.com##.js-summary-section
+||www.businessinsider.com/ajax/stream-ai-search$xhr,domain=www.businessinsider.com
 
 ! -- https://www.businessinsider.com/aging-retirement-vibe-coding-ai-lovable-chatgpt-claude-security-cameras-2026-3
 www.businessinsider.com##.ai-summary-questions
@@ -641,6 +643,7 @@ duckduckgo.com##a.Pd_jmhkZzftl0UtTaw0u[href*="&ia=chat"]
 duckduckgo.com##a.d3n3IVqx1558EtMlZV_g[href*="&assist="]
 ! Top of page > "Search Assist" summary
 duckduckgo.com##[data-react-module-id="wikinlp"]
+||duckduckgo.com/qna.js$xhr,1p
 ! Right sidebar > "More from DuckDuckGo" > "Duck.ai"
 duckduckgo.com##.nav-menu__item:has(> a[href="https://duck.ai"])
 ! Right sidebar > "Search Assist" summary
@@ -2052,6 +2055,7 @@ www.nate.com##.chat1
 ! -- https://search.naver.com/search.naver?where=nexearch&query=test
 ! AI summary box
 search.naver.com##[data-meta-ssuid-extra="fender_renderer-ai_briefing"]
+||aib-api.naver.com/aibrender.naver?where=nexearch&query=$xhr,domain=search.naver.com
 
 ! ==========
 ! == NDTV ==
@@ -2385,6 +2389,7 @@ sogou.com##.searchnav > li:has(> #sogou_aimode)
 ! -- https://www.sogou.com/sogou?pid=sogou-wsse-ff111e4a5406ed40&insite=zhihu.com&query=%E6%B2%B9%E4%BB%B7%E4%BB%8A%E6%99%9A%E4%B8%8A%E8%B0%83%20%E5%8A%A0%E6%BB%A1%E4%B8%80%E7%AE%B1%E5%A4%9A%E8%8A%B13%E5%85%83
 ! AI summary
 www.sogou.com##.reactResult
+||wenda.sogou.com/produce_ai_answer$xhr,domain=www.sogou.com
 
 ! =============
 ! == Spotify ==
@@ -2514,6 +2519,7 @@ www.testmuai.com##.w-\[265px\].flex-shrink-0.desktop\:hidden .mt-20.flex-shrink-
 ! == The New Stack ==
 ! ===================
 ! -- https://thenewstack.io/search/
+||thenewstack.io/no-cache/vertex-answer/$xhr,1p
 thenewstack.io###tns-search-overview
 thenewstack.io##.search-disclaimer
 thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a prompt."]:remove-attr(placeholder)
@@ -2700,6 +2706,7 @@ www.wayfair.com##._6o3atz1bd[data-hb-id="BoxV3"]:has(> [data-hb-id="Text"]._6o3a
 ! -- https://www.webmd.com/search?query=What+is+gout
 ! AI Summary
 www.webmd.com##.ai-ovw-wrapper
+||www.webmd.com/kapi/secure/get_search_results_ai_overview$xhr,domain=www.webmd.com
 
 ! =========
 ! == Wix ==
@@ -2886,6 +2893,7 @@ yep.com##.css-1k0ztkl-button
 ! -- https://yep.com/web?q=Test
 ! "Yep TLDR" box
 yep.com##.css-2p650t-sidebar
+||api.yep.com/summary_v3$xhr,1p
 
 ! ============
 ! == Youdao ==
