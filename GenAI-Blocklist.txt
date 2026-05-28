@@ -279,6 +279,10 @@ www.bing.com##.editorial-promo-card:has(> [aria-label^="Advance your AI skills"]
 ! Copilot price insignhts (bottom)
 www.bing.com###ShoppingLandingPage_ShoppingEducation:has-text(Try it on Copilot)
 
+! -- https://rewards.bing.com/
+! Earn > Microsoft Unlocked
+rewards.bing.com##mee-card:has([aria-label="Microsoft Unlocked, Stories from the heart and soul of AI innovation, Explore now"])
+
 ! ===============
 ! == Bloomberg ==
 ! ===============
