@@ -293,9 +293,9 @@ techcrunch.com##.wp-block-navigation-link:has(> [data-ctatext="AI"])
 ! ===============
 ! -- https://www.theverge.com/
 ! "AI" category in header
-www.theverge.com##.urbcaf0:has(> [href="https://www.theverge.com/ai-artificial-intelligence"])
+www.theverge.com##[aria-label="Top Navigation"] li:has(> [href="https://www.theverge.com/ai-artificial-intelligence"])
 ! "AI" category in header menu (☰)
-www.theverge.com##._1sdloqz0:has(> [aria-label="Collapse 'AI' Section"])
+www.theverge.com##[aria-label="Drawer Navigation"] li:has(> [aria-label="Collapse 'AI' Section"])
 
 ! ==========
 ! == Time ==
