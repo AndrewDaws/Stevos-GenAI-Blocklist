@@ -252,6 +252,8 @@ www.bing.com##.cdxCopilotIconBg
 www.bing.com###aitools
 ! AI tools search suggestions (mobile only)
 www.bing.com###sa_ai_block
+! Microsoft Rewards > Try Bing Image Creator
+www.bing.com##.gbfo_c_bsic_variant:has(> [href^="https://www.bing.com/images/create"])
 
 ! -- https://www.bing.com/search?q=recharts+import+from+csv (Search results)
 ! "Search" tab in navbar below search bar
