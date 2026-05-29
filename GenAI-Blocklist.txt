@@ -927,6 +927,9 @@ github.blog##.Button[href^="https://github.com/features/copilot"]
 ! ================
 ! Web version of VS Code used for editing files on GitHub
 
+! Block user authentication for Copilot
+||api.github.com/copilot_internal/$xhr,domain=github.dev
+
 ! Source Control > Changes > Message bar - "Generate Commit Message" sparkle icon
 ! * Leaves behind an an invisible box which shows "click" mouse cursor when hovered. Clicking just focuses text box though.
 github.dev##.action-label.codicon.codicon-sparkle[role="button"]
