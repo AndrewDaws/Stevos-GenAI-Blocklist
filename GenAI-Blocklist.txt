@@ -3296,6 +3296,8 @@ hentaifox.com##.thumb[data-tags~="3298"]
 ! =========================
 ! "AI Porn" link in header
 hentaihaven.xxx###menu-item-96519
+! Ad for AI site in "New Hentai" carousel
+hentaihaven.xxx##.hhz_nh
 ! AI Ads in sidebar
 hentaihaven.xxx##.widget_block:has(.novaads)
 hentaihaven.xxx##.widget_block:has(.wp-block-heading:has-text(AI Hentai))
