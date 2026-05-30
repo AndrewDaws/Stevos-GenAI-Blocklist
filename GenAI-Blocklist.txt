@@ -1981,7 +1981,7 @@ learn.microsoft.com##[data-bi-name="ask-learn-assistant-entry"]
 learn.microsoft.com##[data-id="ai-summary"]
 
 ! -- https://learn.microsoft.com/en-us/search/?terms=test (Search results)
-! AI search summary
+! AI search summary (no longer used?)
 learn.microsoft.com###search-answer
 
 ! ==========================
@@ -2999,8 +2999,7 @@ search.yahoo.co.jp##.AnswerAiNavigation__content
 ! -- https://yandex.com/search?text=test&promo=force_neuro (Search results)
 ! Navbar - yandex ai
 yandex.com##.HeaderNav-Tab[href$="&promo=force_neuro"]
-! AI Summary
-! * No longer used?
+! AI Summary (no longer used?)
 yandex.com##.Root-FuturisSearchOuter
 ! Yandex AI answer box
 yandex.com##[data-fast-name="neuro_answer"]
