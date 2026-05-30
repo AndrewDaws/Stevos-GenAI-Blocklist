@@ -547,7 +547,27 @@ www.crateandbarrel.com##.swat-review-summary-container-border
 ! ==========
 ! == Dell ==
 ! ==========
-www.dell.com##[data-test-id="virtual-assistant"]
+! Artificial Intelligence in navbar
+www.dell.com##.mh-top-menu:has(> [href="//www.dell.com/en-us/shop/dell-ai-solutions/sc/artificial-intelligence"])
+! Virtual Assistant in header
+www.dell.com##.mh-valink
+! "How can I help you today" section
+www.dell.com##dell-ai-assistant
+! Virtual Assistant floating button
+www.dell.com##.shop-ai-chat-wrapper
+! Virtual assistant chat in sidebar
+||www.dell.com/csbapi/unifiedai-chat/$xhr,domain=www.dell.com
+
+! -- https://www.dell.com/en-us/search/laptop%2015%20inch
+! Virtual assistant response to search query
+||www.dell.com/csbapi/searchux/productAI/getpanelcontent/$xhr,domain=www.dell.com
+www.dell.com##.sux-virtual-assistant
+
+! https://www.dell.com/en-us/shop/dell-laptops/dell-15-laptop/spd/dell-dc15250-laptop/usedc15250hbtshrck
+! Commonly asked questions
+www.dell.com##.tech-specs-faq:has(> .ai-prompt-header)
+! Review summary
+www.dell.com###va-review-summary:has(> .ai-reviews-summary)
 
 ! ================
 ! == design.dev ==
