@@ -2260,13 +2260,16 @@ pictory.ai###livex-chatbot-app
 ! == Pixiv ==
 ! ===========
 ! -- https://www.pixiv.net/search?q=scenery&s_mode=tag&type=artwork
-! Filter AI results out of search (trusted filter)
-! * Only works when logged in
-! * Doesn't reduce the number of results 
-||pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
-
 ! Hide AI generated images in search results (does not require login)
-pixiv.net##+js(json-edit-fetch-response, ..data.*[?.aiType==2], propsToMatch, /ajax/search/)
+www.pixiv.net##+js(json-edit-fetch-response, ..data.*[?.aiType==2], propsToMatch, /ajax/search/)
+! * AdGuard compatability
+www.pixiv.net#%#//scriptlet('json-prune-fetch-response', '$..data.*[?aiType==2]', 'propsToMatch', '/ajax/search/')
+
+! Filter AI results out of search (trusted filter)
+! * Doesn't reduce the number of results per-page
+! * Does not work in all scenarios. (Ex: When logged out, it won't work when loading a search via direct URL)
+! * Does not work in AdGuard
+||www.pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
 
 ! -- https://www.pixiv.net/en/artworks/140381030 (Image page)
 ! Hide image if Pixiv assigned an AI-generated label
