@@ -333,6 +333,8 @@ cloud.boldbi.com###bold-ai
 ! -- https://search.brave.com/ (Homepage)
 ! Purple "Ask" button in search bar
 search.brave.com###submit-llm-button
+! Disable AI summarizer
+search.brave.com##+js(set-cookie, summarizer, 0)
 
 ! -- https://search.brave.com/search?q=Why+are+we+here (Search results)
 ! "Ask" tab in navbar
