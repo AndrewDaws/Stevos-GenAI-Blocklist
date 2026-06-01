@@ -771,6 +771,17 @@ emojipedia.org##.flex.flex-col.gap-4:has(> .items-center > .Button_btn__p7Xgd[hr
 ! "Buyer highlights"
 www.etsy.com##[data-appears-component-name="reviews_feature_tags"]
 
+! =================
+! == Excel Adept ==
+! =================
+! -- https://exceladept.com/suppressing-zero-values-in-pivottables-in-excel/
+! AI share buttons
+exceladept.com##div > [href^="https://chat.openai.com/"]
+exceladept.com##div > [href^="https://www.perplexity.ai/"]
+exceladept.com##div > [href^="https://x.com/i/grok"]
+exceladept.com##div > [href^="https://www.perplexity.ai/"]
+exceladept.com##div > [href^="https://www.google.com/search?udm=50"]
+
 ! ==============
 ! == Facebook ==
 ! ==============
