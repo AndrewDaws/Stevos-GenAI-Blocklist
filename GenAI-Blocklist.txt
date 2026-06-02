@@ -1087,6 +1087,11 @@ github.dev##.command-center .codicon-chat-sparkle
 ! * TODO: Fix keyboard menu navigation. (:remove doesn't work)
 github.dev##.monaco-menu .actions-container:has([aria-label="Learn How to Hide AI Features"]) > .action-item:not(:has([aria-label="Learn How to Hide AI Features"]))
 
+! "Resolve Conflicts with AI" button
+! * Appears during merge conflicts
+github.dev##.action-item.menu-entry:has(> .codicon-chat-sparkle)
+github.dev##.action-item.disabled:has(> .separator):has(+ .action-item.menu-entry > .codicon-chat-sparkle)
+
 ! =================
 ! == GitHub Docs ==
 ! =================
