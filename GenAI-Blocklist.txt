@@ -2157,6 +2157,9 @@ sharepoint.com##[data-automation-id="designIdeas"]:upward(1)
 ! == Microsoft Support ==
 ! =======================
 ! -- https://support.microsoft.com/en-us
+! "Try Copilot Chat" button in header
+! * Button starts as "Buy Microsoft 365", but may change into Copilot button during page load.
+support.microsoft.com###buyInstallButton[href^="https://m365.cloud.microsoft/chat"]
 ! "Start your Copilot journey" section
 support.microsoft.com##.ocpSectionLayout:has(> #copilot)
 
