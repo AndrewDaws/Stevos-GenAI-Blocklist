@@ -303,6 +303,12 @@ stackoverflow.blog##.my4:has(> a[href="/ai/"])
 techcrunch.com##.wp-block-navigation-link:has(> [data-ctatext="AI"])
 
 ! ===============
+! == TechRadar ==
+! ===============
+! AI category in navbar
+www.techradar.com##.meganav-item--top-level:has(> [data-before-rewrite-localise="/tag/ai"])
+
+! ===============
 ! == The Verge ==
 ! ===============
 ! -- https://www.theverge.com/
