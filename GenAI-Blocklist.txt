@@ -3250,7 +3250,7 @@ studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
 ! AI menu in header
 www.zoom.com##[data-primary="ai"]
 ! AI notetaker banner
-www.zoom.com##.fdn-alert-banner--homepage-v2[href^="https://www.zoom.com/en/products/ai-assistant/features/ai-note-taking/"]
+www.zoom.com##.fdn-alert-banner--homepage-v2[href^="https://www.zoom.com/en/products/ai-assistant/"]
 www.zoom.com##.hero__content:style(padding-top: 60px !important)
 
 ! -----------------------------------------------------------
