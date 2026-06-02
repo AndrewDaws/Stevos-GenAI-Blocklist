@@ -1518,6 +1518,8 @@ docs.google.com##.ai-standard-menu-item:has(.docs-icon-performance-auto-18x18) +
 docs.google.com##.FormulaBarContainerGeminiSummarizeButton
 ! "Insert AI Column Right" icon that appears when hovering last column in a table
 docs.google.com##.extendTableControlsOverlayIconContainer:has(> .extendTableControlsOverlayColumnsmithIcon)
+! Modal promo for "Drag to fill with Gemini"
+docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog--sheet:has([src="https://www.gstatic.com/apps/upsell/sheets_magic_drag_without_toolbar.png"])
 
 ! - Table options (Insert > Pre-built tables)
 ! "Help me create a table" button
