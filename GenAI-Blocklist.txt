@@ -3414,7 +3414,6 @@ hentai.name,nhentai.net###content > .container.index-container > .gallery:has-te
 ! "AI Jerk off" Banner
 gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(> [target="_blank"])
 nhentai.net##.desktop > [href="//tsyndicate.com/api/v1/direct/e220320bd2e542b8a2ab7cd2c5a9df8c?"]
-rule34video.com##.button_fav.ai
 
 ! ========================
 ! == CartoonPorn (NSFW) ==
@@ -3818,6 +3817,8 @@ rule34.xxx###content > .image-list > span:has( > .thumb > a > img:is([title~="ai
 ! ==========================
 ! Notice that AI videos should be uploaded elsewhere
 rule34video.com##.emger[href="https://rule34gen.com"]
+! "AI Jerk off" Banner
+rule34video.com##.button_fav.ai
 
 ! ==========================
 ! == Rule 34 World (NSFW) ==
