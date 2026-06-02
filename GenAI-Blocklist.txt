@@ -2226,6 +2226,12 @@ www.msn.com##fluent-button#codex-bing-button
 ! App slider menu - Microsoft 365
 www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Microsoft 365"])
 
+! ============================
+! == My Online Training Hub ==
+! ============================
+! Floating Chatbot button
+||www.chatbase.co/embed.min.js$script,domain=www.myonlinetraininghub.com
+
 ! ==========
 ! == Nate ==
 ! ==========
