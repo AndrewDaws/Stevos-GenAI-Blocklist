@@ -363,10 +363,3 @@ www.zazzle.com##.CcaiLaunchButton_root
 ! =====================
 ! Floating chatbot button
 support.zendesk.com###launcher
-
-! ==========
-! == Zoom ==
-! ==========
-! -- https://www.zoom.com/
-! Virtual Agent floating icon for support chatbot
-zoom.com,zoom.us##.livesdk__invitation
