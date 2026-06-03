@@ -183,6 +183,12 @@ docs.google.com###content-library-rail-convert-to-video-element
 ! * Possibly required to submit tickets to a human
 central.insightsoftware.com###forethought-chat
 
+! ==================
+! == Live Science ==
+! ==================
+! Navbar > Technology > Artificial Intelligence
+www.livescience.com##.meganav-item__link[data-before-rewrite-localise="/technology/artificial-intelligence"]
+
 ! ===========
 ! == Lowes ==
 ! ===========
