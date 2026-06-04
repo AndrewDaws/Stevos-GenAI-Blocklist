@@ -2130,6 +2130,8 @@ portal.azure.com##.___koxvwx0_fue3jg0
 ! == Microsoft Learn ==
 ! =====================
 ! -- https://learn.microsoft.com/en-us/
+! "AI Skills Fest" header banner 
+learn.microsoft.com###banner-holder:has([data-bi-name="CTA"][href="https://aka.ms/AISkillsFest_LearnPromoBanner"])
 ! "What can we help you with today?" prompt
 learn.microsoft.com##[data-assistant-on-homepage="enabled"]
 
