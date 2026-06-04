@@ -179,6 +179,7 @@ www.automateexcel.com##nav:has([href="/formula-generator-ai-bot/"]):has([href="/
 ! ================
 ! == Autonocion ==
 ! ================
+! -- https://www.autonocion.com/
 ! Floating chat button
 www.autonocion.com###an-box-btn
 
@@ -394,9 +395,9 @@ www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
 ! ======================
 ! == Business Insider ==
 ! ======================
-! "Your briefing" content & search summaries 
+! -- https://www.businessinsider.com/
+! "Your briefing" content & summaries on search result pages 
 ||www.businessinsider.com/ajax/$xhr,domain=www.businessinsider.com
-
 ! "Your Briefing" button
 www.businessinsider.com##.catch-me-up-quickly
 
@@ -566,6 +567,7 @@ www.crateandbarrel.com##.swat-review-summary-container-border
 ! ==========
 ! == Dell ==
 ! ==========
+! -- https://www.dell.com/en-us
 ! Artificial Intelligence in navbar
 www.dell.com##.mh-top-menu:has(> [href="//www.dell.com/en-us/shop/dell-ai-solutions/sc/artificial-intelligence"])
 ! Virtual Assistant in header
@@ -669,6 +671,7 @@ www.deviantart.com##section.ail3hi:has([href="https://www.deviantart.com/dreamup
 ! ===============
 ! == Drinkmate ==
 ! ===============
+! -- https://idrinkproducts.com/
 ! Floating chatbot icon in bottom right
 idrinkproducts.com###smart-bot-container
 
@@ -1175,6 +1178,7 @@ gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
 ! ============
 ! == Glyphy ==
 ! ============
+! -- https://glyphy.io/
 ! Name Generator (header nav & colored list)
 ! * Match end of URL to support Spanish site
 glyphy.io##li:has(> [href$="/name-generator"])
