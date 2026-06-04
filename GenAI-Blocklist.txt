@@ -189,6 +189,15 @@ www.autonocion.com###an-box-btn
 ! Review summary
 www.autozone.com###custom-reviews-container [data-testid="st-view"]:has(> [data-testid="st-view"] > [src="/images/reviews/ai.svg"])
 
+! ==========
+! == Asus ==
+! ==========
+! AI in header navbar
+www.asus.com##.Header__menuOuter__xBkro:has(> #aiMenu)
+www.asus.com##.Header__menuOuter__xBkro:has(> #aiMenu) + .Header__spaceForMenuItem__14d_b
+! Floating chatbot button
+www.asus.com###brandAssistant-root
+
 ! ==============
 ! == Backbone ==
 ! ==============
