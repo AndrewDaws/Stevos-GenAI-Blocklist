@@ -10,7 +10,7 @@ Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-o
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
 * Amazon Rufus's product and review summaries
 * Reddit Answers and recommended posts from AI subreddits
-* DeviantArt's DreamUp ads
+* DeviantArt images with AI tools disclaimer and DreamUp ads
 * Facebook's AI chat
 * TikTok videos tagged as AI generated
 * X/Twitter's Grok buttons
