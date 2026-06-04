@@ -2268,6 +2268,11 @@ www.mixscan.me##div.fixed:has(h2.font-pixel)
 ! ============
 ! == Mojeek ==
 ! ============
+! Disable "Summarise these results button"
+www.mojeek.com##+js(set-cookie, sumb, 0)
+! Disable "Summary Tab"
+www.mojeek.com##+js(set-cookie, sumt, 0)
+
 ! -- https://www.mojeek.com/search?q=test
 ! Summary tab in navbar
 www.mojeek.com##.opts-bar li:has(> [href$="&fmt=summary"])
