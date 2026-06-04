@@ -2447,6 +2447,17 @@ www.pcmag.com##div:has(> [data-element="embedded-unit"] > form[\@submit\.prevent
 ! AI Chatbot
 pictory.ai###livex-chatbot-app
 
+! ===============
+! == Pinterest ==
+! ===============
+! -- https://www.pinterest.com/search/pins/?q=scenery
+! Hides *some* images tagged as AI modified in search results
+! * Unclear how Pinterest decides to apply AI topic properties. For example, take JSON response
+!   https://gist.github.com/Stevoisiak/645fd3ef2b7c007bb2cf3cf54da1165a. Both
+!   /pin/969681363537571333/ and /pin/608126755979471436/ have an "AI modified" label when viewing
+!   the image pages, but only the former has the `gen_ai_topics` property in search results.
+www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_topics)
+
 ! ===========
 ! == Pixiv ==
 ! ===========
