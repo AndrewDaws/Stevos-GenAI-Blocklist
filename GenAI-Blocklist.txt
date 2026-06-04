@@ -2495,6 +2495,8 @@ www.quora.com##.q-box[class*="dom_annotate_question_answer_item_"]:has(.q-image[
 ! ===========
 ! Disable AI flash answers
 www.qwant.com##+js(set-cookie, llm, 0)
+
+! -- https://www.qwant.com/
 ! Promo box for Flash Answers
 www.qwant.com##._1xQVj.cqvg5:has(> .B6E61)
 
