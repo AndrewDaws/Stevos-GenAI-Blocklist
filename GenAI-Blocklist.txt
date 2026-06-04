@@ -706,7 +706,7 @@ www.dropbox.com##.oa-pulsar-effect-WAFFLE_RECLAIM
 ! ================
 ! == DuckDuckGo ==
 ! ================
-! Set "Duck.ai" to "On"
+! Set "Duck.ai" to "Off"
 duckduckgo.com##+js(set-cookie, bg, -1)
 ! Set "Search Assist" to "Never"
 duckduckgo.com##+js(set-cookie, be, 0)
