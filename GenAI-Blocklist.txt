@@ -2152,12 +2152,12 @@ learn.microsoft.com###search-answer
 ! ==========================
 ! == Microsoft Office/365 ==
 ! ==========================
-! Use for web office apps, not including sharepoint and M365 Copilot.
+! Use for web Office apps. Tested via SharePoint. 
 
 ! Floating Copilot button in bottom right (After opening document)
 officeapps.live.com###CopilotDABContainer
 
-! -- https://word.cloud.microsoft/ (Microsoft Office)
+! -- https://word.cloud.microsoft/ (Microsoft Word)
 ! "Try Copilot" suggestions (logged out)
 word.cloud.microsoft##[role="region"][aria-label="Try Copilot"]
 ! "What would you like to create today" prompt box (logged in)
@@ -2171,14 +2171,16 @@ word.cloud.microsoft##.f10pi13n.fly5x3f.f1gl81tg.f22iagw.f1vx9l62.fnkimw8.f70vs8
 ! Navbar buttons (Home tab) for Copilot
 usc-onenote.officeapps.live.com,usc-word-edit.officeapps.live.com###CopilotChat-group:upward(2)
 
-! -- https://excel.cloud.microsoft/
+! -- https://excel.cloud.microsoft/ (Microsoft Excel)
 ! "Copilot in Excel" recomended template (No longer used?)
 excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
 ! -- With document opened
+! Floating copilot button + network requests
+||/officeonline/x/s/*__layouts/App_Scripts/rslc0/EwaTS.copilot*.js$script,domain=usc-excel.officeapps.live.com
 ! Copilot navbar button
 usc-excel.officeapps.live.com###Copilot-group:upward(2)
 
-! -- https://powerpoint.cloud.microsoft/
+! -- https://powerpoint.cloud.microsoft/ (Microsoft PowerPoint)
 ! * TODO: Copilot button briefly appears when PowerPoint is loading
 usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 
