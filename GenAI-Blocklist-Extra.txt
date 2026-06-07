@@ -263,7 +263,7 @@ www.pixiv.net##+js(json-edit-fetch-response, ..zengoIdWorks.*.[?.aiType==2])
 ! (AdGuard)
 www.pixiv.net#%#//scriptlet('json-prune', '$.body.*.[?aiType==2]')
 ! (uBlock Origin)
-www.pixiv.net##+js(json-edit-fetch-response, ..zengoIdWorks.*.[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, .body.*.[?.aiType==2])
 
 ! -- https://www.pixiv.net/en/users/113334118/illustrations
 ! (AdGuard)
