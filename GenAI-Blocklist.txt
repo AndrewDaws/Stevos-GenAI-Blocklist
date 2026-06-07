@@ -2941,6 +2941,16 @@ www.ulta.com##chat-messenger[service*="commerce-ai"]
 ! "Ask Avery" button in header
 member.uhc.com##[data-test-id="global-nav-ask-ai"]
 
+! ============================
+! == University of Illinois ==
+! ============================
+! -- https://education.illinois.edu/about/news-events/news/article/2024/11/11/what-is-generative-ai-vs-ai
+! Floating chat widget
+||chat-widget.geckoengage.com^$script,domain=education.illinois.edu
+education.illinois.edu##.gecko-chat-widget-app
+! * Reposition "back to top" button where AI chatbot would have been
+education.illinois.edu##ilw-back-to-top:style(--ilw-back-to-top--right: 40px !important)
+
 ! =========
 ! == UPS ==
 ! =========
