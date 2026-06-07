@@ -2455,6 +2455,14 @@ myapps.paychex.com##png-chat-launcher
 ! "Meet your Paychex Assistant" in right "help" sidebar
 myapps.paychex.com##png-fab-help-chat-card
 
+! =============
+! == PB Tech ==
+! =============
+! -- https://www.pbtech.com/product/MONSAM72534/Samsung-Odyssey-G5-34-Ultrawide-QHD-165Hz-Curved-G
+! Customer Review Summary (appears twice)
+www.pbtech.co.nz,www.pbtech.com##.ai-summary
+www.pbtech.co.nz,www.pbtech.com###aiReviewCard
+
 ! ===========
 ! == PCMag ==
 ! ===========
