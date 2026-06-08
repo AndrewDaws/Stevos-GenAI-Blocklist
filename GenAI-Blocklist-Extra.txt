@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Title: Stevo's GenAI Blocklist (Extra)
+! Title: Stevo's AI Blocklist (Extra)
 ! Expires: 1 day (update frequency)
-! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist
+! Homepage: https://github.com/Stevoisiak/Stevos-AI-Blocklist
 
-! This is intended as an optional complimentary list to the primary GenAI Blocklist.
+! This is intended as an optional complimentary list to the primary AI Blocklist.
 ! Examples of filters that belong in extra include:
 ! * Anything that may break important website functionality
 ! * AI customer support chatbots that need to be used before sending requests to a real human support member

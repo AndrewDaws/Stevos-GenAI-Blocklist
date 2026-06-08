@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Title: Stevo's GenAI Blocklist
+! Title: Stevo's AI Blocklist
 ! Expires: 1 day (update frequency)
-! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist
+! Homepage: https://github.com/Stevoisiak/Stevos-AI-Blocklist
 
 ! Primary goal:
 ! * Hide website features that use Generative AI.
@@ -996,7 +996,7 @@ github.com##.start-copilot-banner
 ! "Getting started" checklist section
 github.com##[data-testid="copilot-free-user-checklist"]
 
-! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt (File view)
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist.txt (File view)
 ! "Ask Copilot about this file" button - Copilot logo in header bar above file contents
 github.com###blob-view-header-copilot-icon
 ! "Ask Copilot about this snippet" button that appears after selecting lines in file view
@@ -1017,17 +1017,17 @@ github.com##div:has(> [class*="CopilotPopover-module__copilotButton__"])
 ! Copilot button in symbols panel
 github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has([data-testid="copilot-ask-menu"])
 
-! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/new (New issue page)
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/new (New issue page)
 ! "Write with Copilot" below issue description
 ! * Doesn't always appear. May be limited to issues from repository owner?
 ! * The end of class name changed from "__RL1TZUq" to "__eCAAR". Is it dynamic?
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footerButtonWrapper__eCAAR
 
-! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/13 (Pull request)
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/13 (Pull request)
 ! "Copilot" promo when adding reviewers via gear icon
 github.com##[partial-name="copilot-assisted-review-upsell"]
 
-! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/15/files (Viewing changed files of a pull request)
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/15/files (Viewing changed files of a pull request)
 ! "Ask Copilot" button next to "Review" button
 github.com##[partial-name="copilot-code-chat"]
 ! "Ask Copilot about this file diff" icon that appears when hovering over diff
@@ -1035,7 +1035,7 @@ github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid
 ! "Ask Copilot about this diff" in action menu (...)
 github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
 
-! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
 ! "Ask about this diff" and "Copilot" options in ... and ▾ menu
 ! * Use :remove() to fix arrow key navigation.
 github.com##[role="menuitem"]:has(.octicon-copilot)
@@ -1505,7 +1505,7 @@ www.google.com,www.google.*##[data-attnms]
 www.google.com,www.google.*##.Kevs9.SLPe5b:has([data-attnms])
 www.google.com,www.google.*##.YNk70c.EjQTId:has(+ div [data-attnms]) #oFNiHe:empty
 ! * Fix conflict with laylavish's AI blocklist
-!   See https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/52
+!   See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/52
 www.google.com#@#.YzCcne:remove()
 ! "People also ask" questions with AI overviews
 www.google.com,www.google.*##[jsname="YrZdPb"][data-evn]
