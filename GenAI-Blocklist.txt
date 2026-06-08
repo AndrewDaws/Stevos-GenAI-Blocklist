@@ -1027,13 +1027,17 @@ github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footer
 ! "Copilot" promo when adding reviewers via gear icon
 github.com##[partial-name="copilot-assisted-review-upsell"]
 
-! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/15/files (Viewing changed files of a pull request)
-! "Ask Copilot" button next to "Review" button
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/13/changes (Viewing changed files of a pull request)
+! "Ask Copilot" button next to "Review" button (no longer used?)
 github.com##[partial-name="copilot-code-chat"]
-! "Ask Copilot about this file diff" icon that appears when hovering over diff
+! "Ask Copilot about this file diff" icon that appears when hovering over diff (no longer used?)
 github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid="more-copilot-button"])
-! "Ask Copilot about this diff" in action menu (...)
+! "Ask Copilot about this diff" in action menu (...) (no longer used?)
 github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
+! Copilot panel button
+github.com##.flex-items-center:has(> [data-component="IconButton"] > .octicon-copilot)
+! "Ask about this diff" button
+github.com##[data-testid="copilot-diff-explain-button"]
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
 ! "Ask about this diff" and "Copilot" options in ... and ▾ menu
