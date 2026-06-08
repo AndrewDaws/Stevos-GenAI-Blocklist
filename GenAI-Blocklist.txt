@@ -1029,11 +1029,13 @@ github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid
 github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
 
 ! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
-! "Copilot" section in menu that appears when hitting ▾ in code diff. (ie: "Ask about this diff")
+! "Ask about this diff" and "Copilot" options in ... and ▾ menu
 ! * Use :remove() to fix arrow key navigation.
 github.com##[role="menuitem"]:has(.octicon-copilot)
 github.com##[role="menuitem"]:has(.octicon-copilot):remove()
+! Extra dividers in both menus
 github.com##[data-component="ActionList.Divider"]:last-child
+github.com##[data-component="ActionList.Divider"] + [data-component="ActionList.Divider"]
 
 ! -- https://github.com/zloirock/core-js/actions/runs/22272347580/job/64429009933 (Failed workflow job)
 ! "Explain error" button
