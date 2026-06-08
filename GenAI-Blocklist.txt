@@ -2514,6 +2514,15 @@ docs.posit.co###kapa-widget-container
 ! "Ask AI" in navbar
 docs.posit.co##.nav-item:has(#custom-ask-ai-button)
 
+! ===============
+! == Priceline ==
+! ===============
+! Navbar Penny button
+www.priceline.com###penny-icon-module
+! Floating Penny chatbot button 
+www.priceline.com##[data-testid="penny-fab-button"]
+www.priceline.com##[data-testid="poptip"]
+
 ! ==============
 ! == ProQuest ==
 ! ==============
