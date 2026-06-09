@@ -3259,6 +3259,8 @@ yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy
 ! -- https://www.yahoo.com/
 ! Scout button on searchbar
 www.yahoo.com##[aria-label="Search with Yahoo Scout"]
+! AI search suggestion
+www.yahoo.com##+js(json-prune-fetch-response, $.r.*[?.m==89])
 ! Yahoo Scout in "More" navbar menu
 www.yahoo.com##[role="menuitem"]:has(> [href^="https://scout.yahoo.com/"])
 ! Featured item from from Yahoo Scout below search bar 
@@ -3278,12 +3280,18 @@ search.yahoo.com##.sb-scout-wrap
 search.yahoo.com##.scoutNav
 ! "Yahoo Scout" in navbar (mobile)
 search.yahoo.com##.scout-tab
+! More > Shopping
+search.yahoo.com##.searchLeftTop li:has(> [href^="https://shopping.yahoo.com/search"])
 ! "Explore AI results" in sidebar
 search.yahoo.com##.searchRightBottom:has(.AlsoTry_E):has([href^="https://scout.yahoo.com/chat"])
 
 ! -- https://search.yahoo.com/search?p=Women%27s+College+World+Series
 ! "Trending now" AI headline
 search.yahoo.com##.summary-container:has(> .ai-summary)
+
+! -- https://shopping.yahoo.com/
+! Search bar (redirects to Scout AI)
+shopping.yahoo.com##form[role="search"]
 
 ! =================
 ! == Yahoo Japan ==
