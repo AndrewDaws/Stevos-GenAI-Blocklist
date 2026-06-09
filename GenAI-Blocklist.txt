@@ -1013,6 +1013,10 @@ github.com##[data-component="ActionList.Item"]:has(> [data-tab-item="agents"])
 ! * Does not appear for all users
 github.com##div:has(> [class*="CopilotPopover-module__copilotButton__"])
 
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/compare/main...reddit-rewrite (Pull request creation)
+! "Generate pull request title with Copilot" button
+github.com##[data-component="IconButton"]:has(> .octicon-copilot)
+
 ! -- https://github.com/gorhill/uBlock/blob/master/src/js/resources/json-edit.js
 ! Copilot button in symbols panel
 github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has([data-testid="copilot-ask-menu"])
