@@ -3260,6 +3260,9 @@ yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy
 ! Scout button on searchbar
 www.yahoo.com##[aria-label="Search with Yahoo Scout"]
 ! AI search suggestion
+! (uBlock Origin)
+www.yahoo.com##+js(json-edit-fetch-response, $.r.*[?.m==89])
+! (AdGuard)
 www.yahoo.com##+js(json-prune-fetch-response, $.r.*[?.m==89])
 ! Yahoo Scout in "More" navbar menu
 www.yahoo.com##[role="menuitem"]:has(> [href^="https://scout.yahoo.com/"])
