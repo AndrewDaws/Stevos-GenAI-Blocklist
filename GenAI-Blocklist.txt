@@ -961,7 +961,7 @@ gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 ! * Prevents Copilot generated commit messages 
 ||api.individual.githubcopilot.com/$xhr,domain=github.com
 ! "Chat with Copilot" icon in header next to search bar
-github.com##[data-component="ButtonGroup"]:has(> div > [type="button"][href="/copilot"])
+github.com##[data-testid="top-bar-actions"] > .hide-md:has(> .CopilotItems-module__Wrapper__BFG9q)
 ! "Copilot" button in left hamburger menu (≡)
 github.com##[data-testid="side-nav-menu-item-COPILOT"]
 ! "Ask Copilot" prompt box in "Home" feed
