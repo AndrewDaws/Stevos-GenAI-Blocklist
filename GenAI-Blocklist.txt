@@ -2536,6 +2536,12 @@ docs.posit.co###kapa-widget-container
 ! "Ask AI" in navbar
 docs.posit.co##.nav-item:has(#custom-ask-ai-button)
 
+! =============
+! == Postman ==
+! =============
+! Floating chatbot
+||app.qualified.com/w/1/*/messenger$subdocument,domain=www.postman.com
+
 ! ===============
 ! == Priceline ==
 ! ===============
