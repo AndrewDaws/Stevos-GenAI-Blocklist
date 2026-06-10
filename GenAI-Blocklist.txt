@@ -95,7 +95,7 @@ www.amazon.*##.ask-health-ai-section
 www.amazon.*##.ahi-health-ai-content > .banner-pills-container
 ! AI questions in autocomplete search suggestions
 ! * Recieved from `https://www.amazon.com/suggestions`
-www.amazon.*##+js(json-prune, suggestions.[-].metadata.RufusSuggestionType)
+www.amazon.*##+js(json-prune, suggestions.[-].widgetId)
 ! Rufus chatbot in sidebar 
 ! * Source: https://www.reddit.com/r/uBlockOrigin/comments/1thwnv1/block_rufus_sidebar_on_ublock_origin/
 www.amazon.*###nav-flyout-rufus
