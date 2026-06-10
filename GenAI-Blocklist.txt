@@ -2258,11 +2258,10 @@ sharepoint.com##[data-automation-id="designIdeas"]:upward(1)
 ! -- https://support.microsoft.com/en-us
 ! "Try Copilot Chat" button in header
 ! * Button starts as "Buy Microsoft 365", but may change into Copilot button during page load.
-! * TODO: Add second attribute check for `dataScenario=="M365Promo"`
 ! (uBlock Origin)
-support.microsoft.com##+js(json-edit, $.ad[?@.overrideContentSelector=="#c-uhf-nav-cta"])
+support.microsoft.com##+js(json-edit, $.ad[?@.overrideContentSelector=="#c-uhf-nav-cta"][?@.campaignId=="cmmd71pygu7"])
 ! (AdGuard)
-support.microsoft.com##+js(json-prune, $.ad[?@.overrideContentSelector=="#c-uhf-nav-cta"])
+support.microsoft.com##+js(json-prune, $.ad[?@.overrideContentSelector=="#c-uhf-nav-cta"][?@.campaignId=="cmmd71pygu7"])
 ! * Backup cosmetic filter
 support.microsoft.com###buyInstallButton[href^="https://m365.cloud.microsoft/chat"]
 ! "Start your Copilot journey" section
