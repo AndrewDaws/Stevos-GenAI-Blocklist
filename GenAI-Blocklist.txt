@@ -2916,6 +2916,13 @@ www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType itemLi
 ! * Alternate filter for AdGuard support
 www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType')
 
+! Ad from AI company
+! * I wasn't able to get this ad to appear again, so this rule isn't fully tested
+! (uBlock Origin)
+www.tiktok.com##+js(json-edit-fetch-response, $.itemList.[?.ad_info][?.author.uniqueId=="lovart_ai"])
+! (AdGuard)
+www.tiktok.com##+js(json-prune-fetch-response, $.itemList.[?.ad_info][?.author.uniqueId=="lovart_ai"])
+
 ! ==========
 ! == Time ==
 ! ==========
