@@ -2632,9 +2632,9 @@ www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"]:has(sea
 ! Reddit Answers logo in header (Mobile only)
 www.reddit.com###answers-nav-button
 ! Ads in comments
-www.reddit.com##shreddit-comments-page-ad:is([domain$=".ai"], [domain="apollo.io"])
+www.reddit.com##shreddit-comments-page-ad:is([domain$=".ai"], [domain="apollo.io"], [domain="hyperagent.com"], #t3_1tr5mav)
 ! Ads in sidebar
-www.reddit.com##shreddit-sidebar-ad#t3_1tqih0v
+www.reddit.com##shreddit-sidebar-ad:is(#t3_1tqih0v, #t3_1tr5maz)
 ! "Related Answers" (Mobile only)
 www.reddit.com###answers-suggested-queries-m3
 ! Suggestions to repost to AI subreddit
