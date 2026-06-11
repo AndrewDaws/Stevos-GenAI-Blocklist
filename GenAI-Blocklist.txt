@@ -2622,7 +2622,7 @@ www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"]:has(sea
 ! Reddit Answers logo in header (Mobile only)
 www.reddit.com###answers-nav-button
 ! Ads in comments
-www.reddit.com##shreddit-comments-page-ad[domain="apollo.io"]
+www.reddit.com##shreddit-comments-page-ad:is([domain$=".ai"], [domain="apollo.io"])
 ! Ads in sidebar
 www.reddit.com##shreddit-sidebar-ad#t3_1tqih0v
 ! "Related Answers" (Mobile only)
