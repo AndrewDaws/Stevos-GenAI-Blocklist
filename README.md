@@ -6,7 +6,7 @@ Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-o
 
 ## Examples of filtered content
 * Google's AI Overviews
-* YouTube's Ask button, video summaries, and Inspiration tab
+* YouTube's Ask button, video summaries, auto-dubbing, and 'Super Resolution' upscaling
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
 * Amazon Rufus's product and review summaries
 * Reddit Answers and recommended posts from AI subreddits

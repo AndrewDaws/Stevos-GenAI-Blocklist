@@ -3452,6 +3452,17 @@ youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats.*[?.audioTrack.isAut
 www.youtube.com##.ytp-menuitem-section-header
 www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 
+! -- https://www.youtube.com/watch?v=oh5p5f5_-7A
+! Block AI upscaled "Super Resolution" quality options
+! * May not work if video is loaded directly from URL
+! (uBlock Origin)
+www.youtube.com##+js(json-edit, $[?..paygatedQualitiesMetadata.*[?.key=="1080p"]]..adaptiveFormats.*[?.qualityLabel=="1080p"])
+www.youtube.com##+js(json-edit, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]]..adaptiveFormats.*[?.qualityLabel=="720p"])
+! (AdGuard)
+www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="1080p"]]..adaptiveFormats.*[?.qualityLabel=="1080p"])
+www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]]..adaptiveFormats.*[?.qualityLabel=="720p"])
+
+
 ! -- Livestream
 ! Chat summary
 www.youtube.com##yt-live-chat-banner-manager:has(yt-live-chat-banner-chat-summary-renderer)
