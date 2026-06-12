@@ -1519,16 +1519,19 @@ www.google.com,www.google.*##.oGdvd
 ! * List items with AI overviews
 www.google.com,www.google.*##[jscontroller="Elkdbc"]
 ! * Hide full section if all items are AI
-! * TODO: Leaves some extra blank space. Should filter on .ULSxyf, but need to be careful not to over-filter.
-!   The class can sometimes be used on a higher-level parent, like on "World cup standings" page.
+! * TODO: Often leaves blank space. Filtering on parent `.ULSxyf` fixes this, but the class can also be used by
+!         higher level parents on some pages, leading to overblocking. (For example, standings pages for active sports events).
+!         This can be fixed with the commented filter below, but it has a slight delay before it takes effect.
+! www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > div > div[jsname="Ypkwb"] > div[data-hveid] > .YViDd:not(:has(:not([jscontroller="Elkdbc"]) > .EyBRub)):has([jscontroller="Elkdbc"] > .EyBRub))
 www.google.com,www.google.*##.YViDd:has([jscontroller="Elkdbc"]>.EyBRub):not(:has(:not([jscontroller="Elkdbc"])>.EyBRub))
 
 ! "People also ask" section
 ! * List items with AI overviews
 www.google.com,www.google.*##[jsname="YrZdPb"][data-evn]
 ! * Hide full section if all items are AI (desktop & mobile)
-! * TODO: Leaves some extra blank space. Should filter on .ULSxyf, but need to be careful not to over-filter.
-!   The class can sometimes be used on a higher-level parent, like on "World cup standings" page.
+! * TODO: Often leaves blank space. (See "things to know" comment above)
+!         Can be fixed with commented filter below, but it has a slight delay.
+! www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > .A6K0A > .cUnQKe:has([jsname="YrZdPb"]):not(:has([jsname="YrZdPb"]:not([data-evn]))))
 www.google.com,www.google.*##.cUnQKe:has([jsname="YrZdPb"]):not(:has([jsname="YrZdPb"]:not([data-evn])))
 
 ! AI generated topic overview (mobile only)
