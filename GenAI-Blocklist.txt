@@ -1623,7 +1623,7 @@ docs.google.com##.appsSketchyGenerativeaiNudgesCanvasNudgeSurfaceAnchoredContain
 ! Google Support - AI "Help guide" chatbox
 support.google.com##div.helpPanelContainerRoot
 
--- https://support.google.com/a/users/answer/15593939
+! -- https://support.google.com/a/users/answer/15593939
 ! Notice promoting Workplace with Gemini
 support.google.com##.notification[data-name="Gemini_EN_RemoteWork_Covid19_NonEN"]
 
