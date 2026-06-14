@@ -2523,6 +2523,12 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! * This filter will reduce the number of results shown per-page, since AI images aren't replaced with new results.
 ! * Some pages need both 'json-edit' and 'json-edit-fetch-response'. The former applies mainly when loading page via direct URL.
 
+! -- https://www.pixiv.net/search?q=ai&s_mode=tag&type=artwork (Logged in) (semi-NSFW)
+! Change search settings to hide AI
+! * Alters search results instead of hiding items. Allows more non-ai results per page
+! * Requires trust
+||pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
+
 ! -- https://www.pixiv.net/en/tags/ai/illustrations (semi-NSFW)
 ! Search results
 ! * Page changes depending on whether user is logged in
