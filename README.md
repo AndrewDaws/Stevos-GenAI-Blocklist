@@ -8,7 +8,7 @@ Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-o
 * Google's AI Overviews
 * YouTube's Ask button, video summaries, auto-dubbing, and 'Super Resolution' upscaling
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
-* Images on Pixiv, DeviantArt, and Danbooru with AI-generated label
+* Images on Pixiv and DeviantArt with AI-generated label
 * Amazon Rufus's product and review summaries
 * Reddit Answers and recommended posts from AI subreddits
 * Facebook's AI chat
