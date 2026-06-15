@@ -604,16 +604,18 @@ design.dev##.sponsor-banner--coderabbit
 ! * Checks for currentPageData to avoid filtering on deviation pages.
 !   Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
 ! * Requires Javascript to be enabled
-! ** uBlock Origin
+!#if ext_ublock
 www.deviantart.com##+js(json-edit, $[?$.currentPageData]['@@entities'].deviation.*[?.isAiGenerated==true][*])
-! ** AdGuard
+!#else
 www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
+!#endif
 
 ! Block images loaded when scrolling page, homepage sections, and related images.
-! ** uBlock Origin
+!#if ext_ublock
 www.deviantart.com##+js(json-edit, ..deviations.*[?.isAiGenerated==true])
-! ** AdGuard
+!#else
 www.deviantart.com##+js(json-prune, $..deviations.*[?.isAiGenerated==true])
+!#endif
 
 ! -- https://www.deviantart.com/ (Homepage)
 ! Header - "DreamUp AI Art"
@@ -2267,10 +2269,11 @@ sharepoint.com##[data-automation-id="designIdeas"]:upward(1)
 ! -- https://support.microsoft.com/en-us
 ! "Try Copilot Chat" button in header
 ! * Button starts as "Buy Microsoft 365", but may change into Copilot button during page load.
-! (uBlock Origin)
+!#if ext_ublock
 support.microsoft.com##+js(json-edit, $.ad[?@.overrideContentSelector=="#c-uhf-nav-cta"][?@.campaignId=="cmmd71pygu7"])
-! (AdGuard)
+!#else
 support.microsoft.com##+js(json-prune, $.ad[?@.overrideContentSelector=="#c-uhf-nav-cta"][?@.campaignId=="cmmd71pygu7"])
+!#endif
 ! * Backup cosmetic filter
 support.microsoft.com###buyInstallButton[href^="https://m365.cloud.microsoft/chat"]
 ! "Start your Copilot journey" section
@@ -2523,6 +2526,7 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! * JSON filters reduce the number of results shown per-page, since AI images aren't replaced with new results.
 ! * Some pages need both 'json-edit' and 'json-edit-fetch-response'. The former applies mainly when loading page via direct URL.
 ! * Ideally some of these filters would be combined, but filtering too broadly causes errors (ex: '$..*[?.aiType==2]' breaks logged-in homepage)
+! * 'json-prune' filters are for AdGuard compatability
 
 ! -- https://www.pixiv.net/search?q=ai&s_mode=tag&type=artwork (Logged in) (semi-NSFW)
 ! Change search settings to hide AI
@@ -2533,60 +2537,66 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! -- https://www.pixiv.net/en/tags/ai/illustrations (semi-NSFW)
 ! Search results
 ! * Page changes depending on whether user is logged in
-! (uBlock Origin)
+!#if ext_ublock
 www.pixiv.net##+js(json-edit, $..data.[?.aiType==2])
 www.pixiv.net##+js(json-edit-fetch-response, $..data.[?.aiType==2])
 www.pixiv.net##+js(json-edit-fetch-response, $..popular.*.[?.aiType==2])
-! (AdGuard)
+!#else
 www.pixiv.net##+js(json-prune, $..data.[?.aiType==2])
 www.pixiv.net##+js(json-prune-fetch-response, $..popular.*.[?.aiType==2])
+!#endif
 
 ! -- https://www.pixiv.net/en/ (logged in)
 ! Latest works for you
-! (uBlock Origin)
+!#if ext_ublock
 www.pixiv.net##+js(json-edit, $..data.thumbnails.[?.aiType==2])
 www.pixiv.net##+js(json-edit-fetch-response, $..data.thumbnails.[?.aiType==2])
-! (AdGuard)
+!#else
 www.pixiv.net##+js(json-prune, $..data.thumbnails.[?.aiType==2])
+!#endif
 
 ! Recommended works
 ! * 'carousel' filter applies when user loads a different Pixiv page via direct url then navigates to homepage  
-! (uBlock Origin)
+!#if ext_ublock
 www.pixiv.net##+js(json-edit, $..contents.[?.thumbnails.[?.aiType==2]])
 www.pixiv.net##+js(json-edit-fetch-response, $..contents.[?.thumbnails.[?.aiType==2]])
 www.pixiv.net##+js(json-edit-fetch-response, $..content.[?.kind=="carousel"].thumbnails[?.aiType==2])
-! (AdGuard)
+!#else
 www.pixiv.net##+js(json-prune, $..contents.[?.thumbnails.[?.aiType==2]])
 www.pixiv.net##+js(json-prune-fetch-response, $..content.[?.kind=="carousel"].thumbnails[?.aiType==2])
+!#endif
 
 ! -- https://www.pixiv.net/bookmark_new_illust.php (logged in)
-! (uBlock Origin)
+!#if ext_ublock
 www.pixiv.net##+js(json-edit-fetch-response, $..illust.[?.aiType==2])
 www.pixiv.net##+js(json-edit-fetch-response, $..novel.[?.aiType==2])
-! (AdGuard)
+!#else
 www.pixiv.net##+js(json-prune-fetch-response, $..illust.[?.aiType==2])
 www.pixiv.net##+js(json-prune-fetch-response, $..novel.[?.aiType==2])
+!#endif
 
 ! -- https://www.pixiv.net/en/artworks/145900548
 ! Works by same author
 ! * First filter also covers related & other works sections
-! (uBlock Origin)
+!#if ext_ublock
 www.pixiv.net##+js(json-edit-fetch-response, $.body.*[?.aiType==2])
 www.pixiv.net##+js(json-edit-fetch-response, $..userIllusts.*[?.aiType==2])
 www.pixiv.net##+js(json-edit-fetch-response, $..illusts.*[?.aiType==2])
-! (AdGuard)
+!#else
 www.pixiv.net##+js(json-prune-fetch-response, $.body.*[?.aiType==2])
 www.pixiv.net##+js(json-prune-fetch-response, $..userIllusts.*[?.aiType==2])
 www.pixiv.net##+js(json-prune-fetch-response, $..illusts.*[?.aiType==2])
+!#endif
 ! Hide image if 'AI-generated' tag is present 
 www.pixiv.net##.dIQnXc:has(.uniTI.jwpVQN > [href="https://www.pixiv.help/hc/articles/11866167926809"]) > figure
 
 ! -- https://www.pixiv.net/en/users/112965293/illustrations
 ! Illustrations by user
-! (uBlock Origin)
+!#if ext_ublock
 www.pixiv.net##+js(json-edit-fetch-response, $..works.*[?.aiType==2])
-! (AdGuard)
+!#else
 www.pixiv.net##+js(json-prune-fetch-response, $..works.*[?.aiType==2])
+!#endif
 ! Blank space on user's page when viewing image list
 www.pixiv.net##.lptroa
 
@@ -3018,10 +3028,11 @@ www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].aigcLabelType itemList.
 
 ! Ad from AI company
 ! * I wasn't able to get this ad to appear again, so this rule isn't fully tested
-! (uBlock Origin)
+!#if ext_ublock
 www.tiktok.com##+js(json-edit-fetch-response, $.itemList.[?.ad_info][?.author.uniqueId=="lovart_ai"])
-! (AdGuard)
+!#else
 www.tiktok.com##+js(json-prune-fetch-response, $.itemList.[?.ad_info][?.author.uniqueId=="lovart_ai"])
+!#endif
 
 ! ==========
 ! == Time ==
@@ -3376,10 +3387,11 @@ yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy
 ! Scout button on searchbar
 www.yahoo.com##[aria-label="Search with Yahoo Scout"]
 ! AI search suggestion
-! (uBlock Origin)
+!#if ext_ublock
 www.yahoo.com##+js(json-edit-fetch-response, $.r.*[?.m==89])
-! (AdGuard)
+!#else
 www.yahoo.com##+js(json-prune-fetch-response, $.r.*[?.m==89])
+!#endif
 ! Yahoo Scout in "More" navbar menu
 www.yahoo.com##[role="menuitem"]:has(> [href^="https://scout.yahoo.com/"])
 ! Featured item from from Yahoo Scout below search bar 
@@ -3502,11 +3514,14 @@ www.youtube.com##.ytp-suggested-action-badge[aria-label="Ask about this video"]
 !   only one non-AI audio option exists. Does not work when loading videos directly from a URL.
 ! * Targets response from 'https://www.youtube.com/youtubei/v1/get_watch'
 ! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
+!#if ext_ublock
 youtube.com##+js(json-edit, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed])
 youtube.com##+js(json-edit-xhr-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 youtube.com##+js(json-edit-fetch-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+!#else
 ! * Alternate filter for AdGuard support
 youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats.*[?.audioTrack.isAutoDubbed]')
+!#endif
 ! * Backup to remove auto-dub menu options from settings menu when video loaded from URL and trusted filters are disabled.
 !   This will not prevent the auto-dubbed audio from playing as the default selection 
 www.youtube.com##.ytp-menuitem-section-header
@@ -3515,13 +3530,13 @@ www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 ! -- https://www.youtube.com/watch?v=oh5p5f5_-7A
 ! Block AI upscaled "Super Resolution" quality options
 ! * May not work if video is loaded directly from URL
-! (uBlock Origin)
+!#if ext_ublock
 www.youtube.com##+js(json-edit, $[?..paygatedQualitiesMetadata.*[?.key=="1080p"]]..adaptiveFormats.*[?.qualityLabel=="1080p"])
 www.youtube.com##+js(json-edit, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]]..adaptiveFormats.*[?.qualityLabel=="720p"])
-! (AdGuard)
+!#else
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="1080p"]]..adaptiveFormats.*[?.qualityLabel=="1080p"])
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]]..adaptiveFormats.*[?.qualityLabel=="720p"])
-
+!#endif
 
 ! -- Livestream
 ! Chat summary
