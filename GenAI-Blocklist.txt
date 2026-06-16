@@ -1368,7 +1368,7 @@ docs.google.com##.appsElementsCalloutIsPrimary.appsElementsCalloutAnchorPaddingC
 ! "Refine" icon in text selection floating menu
 docs.google.com##.inlineFabBubbleContainerRefineButtonContainer
 
--- https://docs.google.com/spreadsheets/create (Sheets)
+! -- https://docs.google.com/spreadsheets/create (Sheets)
 ! Menubar - "Gemini"
 ! * TODO: Still selectable with keyboard using arrow key navigation
 docs.google.com###docs-gemini-menu
