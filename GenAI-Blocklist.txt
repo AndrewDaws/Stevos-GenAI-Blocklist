@@ -1168,11 +1168,11 @@ about.gitlab.com##.card.card-1.gitlab-duo
 about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai for coding"], [data-ga-name="agentic ai"]
 
 ! -- https://gitlab.com/ (Homepage - logged in)
-! "GitLab Duo Agent Platform" in left sidebar
-! * Blocks both the button to open Duo panel and the panel itself
+! Right sidebar panel for Gitlab Duo
 gitlab.com##.ai-panels
-! Duo items in "What's new at GitLab" sidebar
-! * Accessed via "What's new" button in left sidebar
+! Left Sidebar - Orbit
+gitlab.com##[data-testid="nav-item"]:has(> [data-track-label="orbit_menu"])
+! Profile icon > What's new for you > Duo items in sidebar
 gitlab.com##[data-testid="whats-new-article-toggle"]:has-text(GitLab Duo):upward(1)
 
 ! -- https://gitlab.com/ (Group/Project issue pages - logged in)
