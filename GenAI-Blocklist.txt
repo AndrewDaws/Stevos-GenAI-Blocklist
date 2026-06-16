@@ -1343,14 +1343,6 @@ developer.chrome.com,developers.google.com,docs.cloud.google.com,knowledge.works
 ! "AI Powered" results
 developer.chrome.com,developers.google.com,docs.cloud.google.com,knowledge.workspace.google.com,web.dev##devsite-search-summary
 
-! ===========================
-! == Chrome for Developers ==
-! ===========================
-! -- https://developer.chrome.com/s/results?q=Test
-! AI search summary
-,web.dev##devsite-search-summary
-
-
 ! =================
 ! == Google Docs ==
 ! =================
