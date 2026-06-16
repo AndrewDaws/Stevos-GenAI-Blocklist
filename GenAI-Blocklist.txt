@@ -1158,8 +1158,8 @@ docs.github.com##[data-testid="ask-ai"]
 ! == GitLab ==
 ! ============
 ! -- https://about.gitlab.com/ (About page)
-! Sticky promo banner for "See how agentic AI transforms software delivery: Watch GitLab Transcend now"
-about.gitlab.com##.banner:has([data-ga-name="transcend event"])
+! Header banner promos
+about.gitlab.com##.banner:is([data-ga-name="orbit"], [data-ga-name="transcend event"])
 ! Promo card for "GitLab Duo Agent Platform"
 about.gitlab.com##.stacking-cards__card:has([data-ga-name="gitlab-duo"])
 ! GitLab Duo promo (no longer used?)
