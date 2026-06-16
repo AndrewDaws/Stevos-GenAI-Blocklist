@@ -107,6 +107,19 @@ admin.google.com###node-N19-47803731
 design.google##[data-testid="search-bar"]:has(> [name="ai"])
 
 ! =================
+! == Google Docs ==
+! =================
+-- https://docs.google.com/spreadsheets/create (Sheets)
+! Break Gemini chatbot
+||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=docs.google.com
+
+! -- https://docs.google.com/presentation/ (Slides)
+! "Convert to video" in "File" menubar and right sidebar 
+! * Can be used without AI, but heavily encourages using AI tools
+docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
+docs.google.com###content-library-rail-convert-to-video-element
+
+! =================
 ! == Google Labs ==
 ! =================
 ! -- https://labs.google.com/search
@@ -166,20 +179,6 @@ www.google.com,www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:ha
 ! -- https://www.google.com/search?q=test
 ! Google Labs icon in header (mobile)
 www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
-
-! ===================
-! == Google Sheets ==
-! ===================
-! Break Gemini chatbot
-||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=docs.google.com
-
-! ===================
-! == Google Slides ==
-! ===================
-! "Convert to video" in "File" menubar and right sidebar 
-! * Can be used without AI, but heavily encourages using AI tools
-docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
-docs.google.com###content-library-rail-convert-to-video-element
 
 ! ======================
 ! == Insight Software ==

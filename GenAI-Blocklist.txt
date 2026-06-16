@@ -1353,14 +1353,14 @@ developer.chrome.com,developers.google.com,docs.cloud.google.com,knowledge.works
 docs.google.com###textToSpeechToolbarButton
 ! "Help me write" icon in floating menu
 docs.google.com##.superfab-aitextgeneratormenu-button
-! Header > Gemini button (Replaces "Try Gemini" button)
+! Header - Gemini button (Replaces "Try Gemini" button)
 docs.google.com###docs-sidekick-button-container
-! "Insert" > "Audio buttons" in menubar
+! Menubar - "Insert" > "Audio buttons"
 ! * Two label checks to catch placeholder during page load and finalized button
 docs.google.com##.apps-menuitem:has([aria-label="Audio buttons f5"],[aria-label="Audio buttons New f5"])
-! "Tools" > "Audio" in menubar
+! Menubar - "Tools" > "Audio"
 docs.google.com##.apps-menuitem:has([aria-label="Audio f6"], [aria-label="Audio New f6"])
-! "Tools" > "Gemini" in menubar
+! Menubar - "Tools" > "Gemini"
 docs.google.com##.apps-menuitem:has(.goog-menuitem-label[aria-label="Gemini 2"])
 ! "Write with Gemini" footer popup
 docs.google.com##.WithHideTransition.kixWizBarkickWrapper
@@ -1369,10 +1369,10 @@ docs.google.com##.appsElementsCalloutIsPrimary.appsElementsCalloutAnchorPaddingC
 docs.google.com##.inlineFabBubbleContainerRefineButtonContainer
 
 -- https://docs.google.com/spreadsheets/create (Sheets)
-! "Gemini" menu in menubar
+! Menubar - "Gemini"
 ! * TODO: Still selectable with keyboard using arrow key navigation
 docs.google.com###docs-gemini-menu
-! AI menu options in menubar
+! Menubar - AI menu options
 docs.google.com##.ai-standard-menu-item
 ! Separator next to "Data" > "Analyze Data"
 docs.google.com##.ai-standard-menu-item:has(.docs-icon-performance-auto-18x18) + .goog-menuseparator
@@ -1398,11 +1398,10 @@ docs.google.com###feedback-sentiment-plus-classification-building-block, #expens
 ! * TODO: Filter more AI elements
 ! Floating "refine" button when selecting a text box
 docs.google.com##.appsSketchyPluginsFloatingToolbarFloatingToolbarComponentGenerativeAiButton
-! Menubar items
-! * Insert
+! Menubar - "Insert" items
 docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"])
 docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"]) + .goog-menuseparator
-! * Slide
+! Menubar - "Slide" items
 docs.google.com##.goog-menuitem:has([aria-label^="Create a slide"])
 docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"])
 docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"]) + .goog-menuseparator
@@ -1413,7 +1412,6 @@ docs.google.com###openSidekickForSlideGenerationButton
 docs.google.com##.appsSketchyGenerativeaiNudgesCanvasNudgeSurfaceAnchoredContainer
 
 ! -- https://docs.google.com/videos/u/0/create (Vids)
-
 ! - "Start a new video" window
 ! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
 docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
@@ -1431,13 +1429,13 @@ docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbar
 docs.google.com###docs-banner-container:has-text(Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more)
 ! Popup promo for video generation in top right
 docs.google.com###video-generation-promo
-! Header promo for AI upsell
+! Header - Promo for AI upsell
 docs.google.com##.javascriptMaterialdesignGm3WizBannerBannerContent[aria-label="Upgrade to unlock higher video generation limits and premium AI capabilities."]
 
 ! -- https://docs.google.com/forms/create (Forms)
-! "Help me create a form" navbar button
+! Navbar - "Help me create a form" button
 docs.google.com##[data-action-id="freebird-open-help-me-ask-from-icon"]
-! "Help me create a form" menu item for small page sizes
+! Navbar - ⋮ menu > "Help me create a form" (small page sizes)
 docs.google.com##[role="menuitem"]:has(> [data-action-id="freebird-open-help-me-ask-from-icon"])
 docs.google.com##[role="menuitem"]:has(> [data-action-id="freebird-open-help-me-ask-from-icon"]) + [role="separator"]
 ! Gemini popup on new form creation
