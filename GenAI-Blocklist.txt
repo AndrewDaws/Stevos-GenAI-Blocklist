@@ -1348,7 +1348,7 @@ developer.chrome.com,developers.google.com,docs.cloud.google.com,knowledge.works
 ! =================
 ! Some filters only apply to accounts with a Google Workspace or Google AI subscription
 
-! -- https://docs.google.com/create
+! -- https://docs.google.com/create (Docs)
 ! "Listen to this tab" icon in header toolbar
 docs.google.com###textToSpeechToolbarButton
 ! "Help me write" icon in floating menu
@@ -1367,6 +1367,81 @@ docs.google.com##.WithHideTransition.kixWizBarkickWrapper
 docs.google.com##.appsElementsCalloutIsPrimary.appsElementsCalloutAnchorPaddingContainer
 ! "Refine" icon in text selection floating menu
 docs.google.com##.inlineFabBubbleContainerRefineButtonContainer
+
+-- https://docs.google.com/spreadsheets/create (Sheets)
+! "Gemini" menu in menubar
+! * TODO: Still selectable with keyboard using arrow key navigation
+docs.google.com###docs-gemini-menu
+! AI menu options in menubar
+docs.google.com##.ai-standard-menu-item
+! Separator next to "Data" > "Analyze Data"
+docs.google.com##.ai-standard-menu-item:has(.docs-icon-performance-auto-18x18) + .goog-menuseparator
+! "Summarize this data" button in formula bar
+docs.google.com##.FormulaBarContainerGeminiSummarizeButton
+! "Insert AI Column Right" icon that appears when hovering last column in a table
+docs.google.com##.extendTableControlsOverlayIconContainer:has(> .extendTableControlsOverlayColumnsmithIcon)
+! Modal promo for "Drag to fill with Gemini"
+docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog--sheet:has([src="https://www.gstatic.com/apps/upsell/sheets_magic_drag_without_toolbar.png"])
+! Bottom bar - Canvas menu
+docs.google.com##.docs-sheet-canvas-button
+
+! - Table options (Insert > Pre-built tables)
+! "Help me create a table" button
+docs.google.com##.building-blocks-sidekick-entrypoint-button
+docs.google.com##.building-blocks-sidekick-scroll-top:style(top: 58px !important)
+! "AI enhanced tables" promo
+docs.google.com##.building-blocks-promo-container
+! Table categories with AI fields
+docs.google.com###feedback-sentiment-plus-classification-building-block, #expense-classification-building-block, #ad-generation-building-block, #email-generation-building-block, #call-summary-building-block
+
+! -- https://docs.google.com/presentation/ (Slides)
+! * TODO: Filter more AI elements
+! Floating "refine" button when selecting a text box
+docs.google.com##.appsSketchyPluginsFloatingToolbarFloatingToolbarComponentGenerativeAiButton
+! Menubar items
+! * Insert
+docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"])
+docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"]) + .goog-menuseparator
+! * Slide
+docs.google.com##.goog-menuitem:has([aria-label^="Create a slide"])
+docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"])
+docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"]) + .goog-menuseparator
+! "Create slide image" icon on top ribbon bar
+docs.google.com###openSidekickForSlideGenerationButton
+! "Beautify this slide" notice below slide
+! * This leaves a blank space where the notice was. However, this remains even if the notice is manually closed by the user. Slide sizes are done dynamically via styles, so this may not be a solvable issue.
+docs.google.com##.appsSketchyGenerativeaiNudgesCanvasNudgeSurfaceAnchoredContainer
+
+! -- https://docs.google.com/videos/u/0/create (Vids)
+
+! - "Start a new video" window
+! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
+docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
+! Bottom promo bar to buy Google AI
+! * Element is removed instead of hidden to avoid empty space
+docs.google.com###getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
+
+! - Editing a blank video
+! Right sidebar > "Generate", "Avatar", "Voiceover", & "Veo" buttons
+docs.google.com###content-library-rail-image-synthesis-element, #content-library-rail-avatars-element, #content-library-rail-voiceovers-element, #content-library-rail-video-generation-element
+! Bottom timeline - Generate audio button
+! * Appears when selecting an audio track on the timeline
+docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
+! Upgrade sticky banner
+docs.google.com###docs-banner-container:has-text(Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more)
+! Popup promo for video generation in top right
+docs.google.com###video-generation-promo
+! Header promo for AI upsell
+docs.google.com##.javascriptMaterialdesignGm3WizBannerBannerContent[aria-label="Upgrade to unlock higher video generation limits and premium AI capabilities."]
+
+! -- https://docs.google.com/forms/create (Forms)
+! "Help me create a form" navbar button
+docs.google.com##[data-action-id="freebird-open-help-me-ask-from-icon"]
+! "Help me create a form" menu item for small page sizes
+docs.google.com##[role="menuitem"]:has(> [data-action-id="freebird-open-help-me-ask-from-icon"])
+docs.google.com##[role="menuitem"]:has(> [data-action-id="freebird-open-help-me-ask-from-icon"]) + [role="separator"]
+! Gemini popup on new form creation
+docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 
 ! ==================
 ! == Google Drive ==
@@ -1410,18 +1485,6 @@ www.google.com##.yVTUN:has(svg.fdpJhe)
 
 ! "Explore the best flight deals with AI" in useful tools section
 www.google.com##.kfgtbc:has([class="lHmueb"])
-
-! ==================
-! == Google Forms ==
-! ==================
-! -- https://docs.google.com/forms/create
-! "Help me create a form" navbar button
-docs.google.com##[data-action-id="freebird-open-help-me-ask-from-icon"]
-! "Help me create a form" menu item for small page sizes
-docs.google.com##[role="menuitem"]:has(> [data-action-id="freebird-open-help-me-ask-from-icon"])
-docs.google.com##[role="menuitem"]:has(> [data-action-id="freebird-open-help-me-ask-from-icon"]) + [role="separator"]
-! Gemini popup on new form creation
-docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 
 ! =================
 ! == Google Maps ==
@@ -1545,37 +1608,6 @@ www.google.com,www.google.*##[jsname="NoEzVd"]:has([jsname="lHCI7d"])
 ! * Filter has a delay before it applies
 www.google.com,www.google.*##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
 
-! ===================
-! == Google Sheets ==
-! ===================
-! Some filters only apply to accounts with a Google Workspace or Google AI subscription
-
-! -- https://docs.google.com/spreadsheets/create
-! "Gemini" menu in menubar
-! * TODO: Still selectable with keyboard using arrow key navigation
-docs.google.com###docs-gemini-menu
-! AI menu options in menubar
-docs.google.com##.ai-standard-menu-item
-! Separator next to "Data" > "Analyze Data"
-docs.google.com##.ai-standard-menu-item:has(.docs-icon-performance-auto-18x18) + .goog-menuseparator
-! "Summarize this data" button in formula bar
-docs.google.com##.FormulaBarContainerGeminiSummarizeButton
-! "Insert AI Column Right" icon that appears when hovering last column in a table
-docs.google.com##.extendTableControlsOverlayIconContainer:has(> .extendTableControlsOverlayColumnsmithIcon)
-! Modal promo for "Drag to fill with Gemini"
-docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog--sheet:has([src="https://www.gstatic.com/apps/upsell/sheets_magic_drag_without_toolbar.png"])
-! Bottom bar - Canvas menu
-docs.google.com##.docs-sheet-canvas-button
-
-! - Table options (Insert > Pre-built tables)
-! "Help me create a table" button
-docs.google.com##.building-blocks-sidekick-entrypoint-button
-docs.google.com##.building-blocks-sidekick-scroll-top:style(top: 58px !important)
-! "AI enhanced tables" promo
-docs.google.com##.building-blocks-promo-container
-! Table categories with AI fields
-docs.google.com###feedback-sentiment-plus-classification-building-block, #expense-classification-building-block, #ad-generation-building-block, #email-generation-building-block, #call-summary-building-block
-
 ! =====================
 ! == Google Shopping ==
 ! =====================
@@ -1590,29 +1622,6 @@ www.google.com##.GS02Vb .H1EJdd .Asw3Oe[jsname="GHLeGf"]:has(.gyP8Ib.b7GjXe.RiJq
 www.google.com##.GS02Vb .mLFOe > .imucI
 www.google.com##.GS02Vb .mLFOe > .imucI + .ozDyDd.iRPzcb
 
-! ===================
-! == Google Slides ==
-! ===================
-! Some filters only apply to accounts with a Google Workspace or Google AI subscription
-
-! * TODO: Filter more AI elements
-! -- https://docs.google.com/presentation/
-! Floating "refine" button when selecting a text box
-docs.google.com##.appsSketchyPluginsFloatingToolbarFloatingToolbarComponentGenerativeAiButton
-! Menubar items
-! * Insert
-docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"])
-docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"]) + .goog-menuseparator
-! * Slide
-docs.google.com##.goog-menuitem:has([aria-label^="Create a slide"])
-docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"])
-docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"]) + .goog-menuseparator
-! "Create slide image" icon on top ribbon bar
-docs.google.com###openSidekickForSlideGenerationButton
-! "Beautify this slide" notice below slide
-! * This leaves a blank space where the notice was. However, this remains even if the notice is manually closed by the user. Slide sizes are done dynamically via styles, so this may not be a solvable issue.
-docs.google.com##.appsSketchyGenerativeaiNudgesCanvasNudgeSurfaceAnchoredContainer
-
 ! ====================
 ! == Google Support ==
 ! ====================
@@ -1622,29 +1631,6 @@ support.google.com##div.helpPanelContainerRoot
 ! -- https://support.google.com/a/users/answer/15593939
 ! Notice promoting Workplace with Gemini
 support.google.com##.notification[data-name="Gemini_EN_RemoteWork_Covid19_NonEN"]
-
-! =================
-! == Google Vids ==
-! =================
-! -- https://docs.google.com/videos/u/0/create ("Start a new video" window)
-! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
-docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
-! Bottom promo bar to buy Google AI
-! * Element is removed instead of hidden to avoid empty space
-docs.google.com###getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
-
-! -- https://docs.google.com/videos/u/0/create (Editing a blank video)
-! Right sidebar > "Generate", "Avatar", "Voiceover", & "Veo" buttons
-docs.google.com###content-library-rail-image-synthesis-element, #content-library-rail-avatars-element, #content-library-rail-voiceovers-element, #content-library-rail-video-generation-element
-! Bottom timeline - Generate audio button
-! * Appears when selecting an audio track on the timeline
-docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
-! Upgrade sticky banner
-docs.google.com###docs-banner-container:has-text(Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more)
-! Popup promo for video generation in top right
-docs.google.com###video-generation-promo
-! Header promo for AI upsell
-docs.google.com##.javascriptMaterialdesignGm3WizBannerBannerContent[aria-label="Upgrade to unlock higher video generation limits and premium AI capabilities."]
 
 ! ======================
 ! == Google Workspace ==
