@@ -2544,10 +2544,10 @@ www.pixiv.net##+js(json-prune, $..data.thumbnails.[?.aiType==2])
 !#if ext_ublock
 www.pixiv.net##+js(json-edit, $..contents.[?.thumbnails.[?.aiType==2]])
 www.pixiv.net##+js(json-edit-fetch-response, $..contents.[?.thumbnails.[?.aiType==2]])
-www.pixiv.net##+js(json-edit-fetch-response, $..content.[?.kind=="carousel"].thumbnails[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, $..content.thumbnails[?.aiType==2])
 !#else
 www.pixiv.net##+js(json-prune, $..contents.[?.thumbnails.[?.aiType==2]])
-www.pixiv.net##+js(json-prune-fetch-response, $..content.[?.kind=="carousel"].thumbnails[?.aiType==2])
+www.pixiv.net##+js(json-prune-fetch-response, $..content.thumbnails[?.aiType==2])
 !#endif
 
 ! -- https://www.pixiv.net/bookmark_new_illust.php (logged in)
