@@ -2590,6 +2590,15 @@ www.pixiv.net##+js(json-prune-fetch-response, $..works.*[?.aiType==2])
 ! Blank space on user's page when viewing image list
 www.pixiv.net##.lptroa
 
+! ===============
+! == PlugShare ==
+! ===============
+! -- https://www.plugshare.com/location/497532
+! Review summaries (includes "view more" page)
+www.plugshare.com###review-summary
+www.plugshare.com###reviews-summary
+www.plugshare.com###checkins-summary
+
 ! ============
 ! == Pockit ==
 ! ============
