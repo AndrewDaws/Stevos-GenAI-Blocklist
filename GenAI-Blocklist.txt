@@ -1375,6 +1375,8 @@ docs.google.com##.appsElementsCalloutIsPrimary.appsElementsCalloutAnchorPaddingC
 docs.google.com##.inlineFabBubbleContainerRefineButtonContainer
 
 ! -- https://docs.google.com/spreadsheets/create (Sheets)
+! Modal promo for "Drag to fill with Gemini"
+docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog--sheet:has([src="https://www.gstatic.com/apps/upsell/sheets_magic_drag_without_toolbar.png"])
 ! Menubar - "Gemini"
 ! * TODO: Still selectable with keyboard using arrow key navigation
 docs.google.com###docs-gemini-menu
@@ -1386,10 +1388,10 @@ docs.google.com##.ai-standard-menu-item:has(.docs-icon-performance-auto-18x18) +
 docs.google.com##.FormulaBarContainerGeminiSummarizeButton
 ! "Insert AI Column Right" icon that appears when hovering last column in a table
 docs.google.com##.extendTableControlsOverlayIconContainer:has(> .extendTableControlsOverlayColumnsmithIcon)
-! Modal promo for "Drag to fill with Gemini"
-docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog--sheet:has([src="https://www.gstatic.com/apps/upsell/sheets_magic_drag_without_toolbar.png"])
-! Formula error - Fix button
+! Formula suggestion box - Fix
 docs.google.com##.geminiFixButtonWrapper
+! Formula suggestion box - Generate formula
+docs.google.com##.waffle-unified-formula-help-gemini-button-container
 ! Bottom bar - Canvas menu
 docs.google.com##.docs-sheet-canvas-button
 
