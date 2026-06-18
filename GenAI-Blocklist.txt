@@ -2153,7 +2153,7 @@ www.microsoft.com##.experiencefragment:has([data-component-id="01dbc0460ff412456
 www.microsoft.com###ai-overview-container
 
 ! ====================
-! == Micosoft Azure ==
+! == Microsoft Azure ==
 ! ====================
 ! -- https://portal.azure.com/#home
 ! Copilot button next to search
@@ -2166,6 +2166,15 @@ portal.azure.com##.ext-gallery-solutionFinder-smallBanner
 ! -- https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2
 ! Copilot suggestions on blades for all resources, resource groups, subscriptions, etc.
 portal.azure.com##.___koxvwx0_fue3jg0
+
+! ===========================
+! == Microsoft Edge Addons ==
+! ===========================
+! -- https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home
+! Filters won't apply when using Microsoft Edge
+
+! Section for AI-powered extensions
+microsoftedge.microsoft.com##.gridContainer-164:has(> [id="AI-powered extensions"])
 
 ! =====================
 ! == Microsoft Learn ==
