@@ -3046,9 +3046,9 @@ www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].aigcLabelType itemList.
 ! Ad from AI company
 ! * I wasn't able to get this ad to appear again, so this rule isn't fully tested
 !#if ext_ublock
-www.tiktok.com##+js(json-edit-fetch-response, $.itemList.[?.ad_info][?.author.uniqueId=="lovart_ai"])
+www.tiktok.com##+js(json-edit-fetch-response, $.itemList.[?.ad_info][?.author.uniqueId=="lovart_ai"], propsToMatch, /api/recommend/item_list/)
 !#else
-www.tiktok.com##+js(json-prune-fetch-response, $.itemList.[?.ad_info][?.author.uniqueId=="lovart_ai"])
+www.tiktok.com##+js(json-prune-fetch-response, $.itemList.[?.ad_info][?.author.uniqueId=="lovart_ai"], propsToMatch, /api/recommend/item_list/))
 !#endif
 
 ! ==========
@@ -3408,9 +3408,9 @@ yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy
 www.yahoo.com##[aria-label="Search with Yahoo Scout"]
 ! AI search suggestion
 !#if ext_ublock
-www.yahoo.com##+js(json-edit-fetch-response, $.r.*[?.m==89])
+www.yahoo.com##+js(json-edit-fetch-response, $.r.*[?.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
 !#else
-www.yahoo.com##+js(json-prune-fetch-response, $.r.*[?.m==89])
+www.yahoo.com##+js(json-prune-fetch-response, $.r.*[?.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
 !#endif
 ! Yahoo Scout in "More" navbar menu
 www.yahoo.com##[role="menuitem"]:has(> [href^="https://scout.yahoo.com/"])
