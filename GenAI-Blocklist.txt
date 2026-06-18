@@ -2683,8 +2683,9 @@ www.reddit.com##shreddit-post[recommendation-source]:matches-attr(subreddit-name
 
 ! -- https://www.reddit.com/search/?q=legal+eagle+bricks+and+minifigs
 ! "What people are saying" section
-www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"]:has(search-answers-expandable)
-www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"]:has(search-answers-expandable) + .border-solid
+www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"]:has(search-answers-expandable, search-answers-response-container-streaming, .search-answers-preview-section)
+www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"]:has(search-answers-expandable, search-answers-response-container-streaming, .search-answers-preview-section) + .border-solid
+||answers.reddit.com/v1/answers/$xhr,domain=www.reddit.com
 
 ! -- https://www.reddit.com/r/discordapp/comments/1prg44a/comment/orvnqfu/
 ! "Reddit Answers" sparkle icon in header (Mobile only)
