@@ -958,7 +958,7 @@ gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 ! * Prevents Copilot-generated commit messages 
 ||api.individual.githubcopilot.com/$xhr,domain=github.com
 
-! -- https://github.com/ (Homepage - logged in)
+! -- https://github.com/ (logged in)
 ! Header - "Chat with Copilot" icon next to search bar
 github.com##[data-testid="top-bar-actions"] > .hide-md:has(> .CopilotItems-module__Wrapper__BFG9q)
 ! Header - left hamburger menu (≡) - "Copilot" button
@@ -1034,16 +1034,19 @@ github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footer
 github.com##[partial-name="copilot-assisted-review-upsell"]
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/13/changes (Viewing changed files of a pull request)
+! - Classic page
+! "Ask Copilot" button next to "Review" button
+github.com##[partial-name="copilot-code-chat"]
+! "Ask Copilot about this file diff" icon that appears when hovering over diff (classic page)
+github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid="more-copilot-button"])
+! "Ask Copilot about this diff" in action menu (...)
+github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
+
+! - New experience page
 ! Copilot panel button
 github.com##.flex-items-center:has(> [data-component="IconButton"] > .octicon-copilot)
 ! File header - "Ask about this diff" button
 github.com##[data-testid="copilot-diff-explain-button"]
-! "Ask Copilot" button next to "Review" button (no longer used?)
-github.com##[partial-name="copilot-code-chat"]
-! "Ask Copilot about this file diff" icon that appears when hovering over diff (no longer used?)
-github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid="more-copilot-button"])
-! "Ask Copilot about this diff" in action menu (...) (no longer used?)
-github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
 ! "Ask about this diff" and "Copilot" options in ... and ▾ menu
@@ -1058,7 +1061,7 @@ github.com##[data-component="ActionList.Divider"] + [data-component="ActionList.
 ! "Explain error" button
 github.com##[data-test-id="copilot-actions-chat-button"]
 
-! -- https://github.com/home (logged out)
+! -- https://github.com/home
 ! Header - Platform >  "AI Code Creation" section
 ! * This filter might hide more than intended if the Copilot button gets moved to a column with non-ai features
 github.com##li:has(> div[class^="NavGroup-module__group"] a[href="https://github.com/features/copilot"])
