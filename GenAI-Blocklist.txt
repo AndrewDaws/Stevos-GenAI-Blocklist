@@ -624,11 +624,11 @@ www.deviantart.com##+js(json-prune, $..deviations.*[?.isAiGenerated==true])
 !#endif
 
 ! -- https://www.deviantart.com/ (Homepage)
-! Header - "DreamUp AI Art"
-! * Partial match for sidebar promos on deviation pages
+! Header - Image & video generators (escaped links apply when logged out) 
 www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
-! Header - "Create a video"
 www.deviantart.com##.reset-link[href="https://www.deviantart.com/studio/video"]
+www.deviantart.com##.reset-link[href*="https%3A%2F%2Fwww.deviantart.com%2Fdreamup"]
+www.deviantart.com##.reset-link[href*="https%3A%2F%2Fwww.deviantart.com%2Fstudio%2Fvideo"]
 ! Navbar > ... menu options
 ! * Also matches "Create Art" Dreamup option on tag pages
 www.deviantart.com##[role="menuitem"][href^="https://www.deviantart.com/dreamup"]
