@@ -985,9 +985,13 @@ github.com##.DashboardBannerCopilotApp
 ! Right sidebar - Changelog posts containing ai terms
 github.com##.dashboard-changelog .TimelineItem:has(:is([href*="claude"], [href*="copilot"], [href*="gemini"], [href*="gpt-"], [href*="grok"]))
 ! Command Palette - Copilot
-! * Requires enabling "Command Palette" in "Feature Preview". Opens with Ctrl+K
-! * Use :remove() to fix arrow key navigation.
-! * TODO: Prevent auto-complete suggestion for Copilot
+! * "Command Palette" is enabled via "Feature Preview". Opens with Ctrl+K
+!#if ext_ublock
+github.com##+js(json-edit-fetch-response, $.results.[?.action.path=="/copilot"])
+!#else
+github.com##+js(json-prune-fetch-response, $.results.[?.action.path=="/copilot"])
+!#endif
+! * Backup cosmetic filter (Won't remove from autocomplete. Uses :remove() to fix arrow key navigation)
 github.com##command-palette-item[data-item-title="Copilot"]
 github.com##command-palette-item[data-item-title="Copilot"]:remove()
 
