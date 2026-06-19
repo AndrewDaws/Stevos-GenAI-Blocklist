@@ -2570,6 +2570,10 @@ www.pixiv.net##.dIQnXc:has(.uniTI.jwpVQN > [href="https://www.pixiv.help/hc/arti
 ! Blank space on user's page when viewing image list
 www.pixiv.net##.lptroa
 
+! -- https://www.pixiv.net/ranking.php
+! AI generated ranking category
+www.pixiv.net##.fDgtdo[href="/ranking.php?mode=daily_ai"]
+
 ! ===============
 ! == PlugShare ==
 ! ===============
