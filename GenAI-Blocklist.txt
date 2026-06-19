@@ -2527,7 +2527,7 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! * Filtered images should match Pixiv's own AI filter (https://www.pixiv.help/hc/en-us/articles/11866167926809-What-are-display-settings-for-AI-generated-work)
 ! * JSON filters reduce the number of results shown per-page, since AI images aren't replaced with new results.
 ! * Some pages need both 'json-edit' and 'json-edit-fetch-response'. The former applies mainly when loading page via direct URL.
-! * Ideally some of these filters would be combined, but filtering too broadly causes errors (ex: '$..*[?.aiType==2]' breaks logged-in homepage)
+! * Filtering too broadly causes errors. (ex: '$..*[?.aiType==2]' breaks logged-in homepage)
 ! * 'json-prune' filters are for AdGuard compatability
 
 ! -- https://www.pixiv.net/search?q=ai&s_mode=tag&type=artwork (Logged in) (semi-NSFW)
@@ -2536,69 +2536,37 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! * Requires trust
 ||pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
 
-! -- https://www.pixiv.net/en/tags/ai/illustrations (semi-NSFW)
-! Search results
-! * Page changes depending on whether user is logged in
 !#if ext_ublock
-www.pixiv.net##+js(json-edit, $..data.[?.aiType==2])
-www.pixiv.net##+js(json-edit-fetch-response, $..data.[?.aiType==2])
-www.pixiv.net##+js(json-edit-fetch-response, $..popular.*.[?.aiType==2])
-!#else
-www.pixiv.net##+js(json-prune, $..data.[?.aiType==2])
-www.pixiv.net##+js(json-prune-fetch-response, $..popular.*.[?.aiType==2])
-!#endif
-
-! -- https://www.pixiv.net/en/ (logged in)
-! Latest works for you
-!#if ext_ublock
-www.pixiv.net##+js(json-edit, $..data.thumbnails.[?.aiType==2])
-www.pixiv.net##+js(json-edit-fetch-response, $..data.thumbnails.[?.aiType==2])
-!#else
-www.pixiv.net##+js(json-prune, $..data.thumbnails.[?.aiType==2])
-!#endif
-
-! Recommended works
-! * 'carousel' filter applies when user loads a different Pixiv page via direct url then navigates to homepage  
-!#if ext_ublock
+! -- https://www.pixiv.net/en/artworks/145900548 - /ajax/user/112965293/illusts (body, illusts, userIllusts)
+! -- https://www.pixiv.net/en/users/102985451/illustrations - /ajax/user/102985451/profile/illusts (works)
+! -- https://www.pixiv.net/en/tags/ai/illustrations - /ajax/search/illustrations/ai (data, popular)
+www.pixiv.net##+js(json-edit-fetch-response, "$..['body','data','illusts','popular','userIllusts','works'].*[?.aiType==2]", propsToMatch, /ajax/)
+! -- https://www.pixiv.net/bookmark_new_illust.php - /ajax/follow_latest/illust (body.thumbnails)
+www.pixiv.net##+js(json-edit-fetch-response, "$..body.thumbnails.*.[?.aiType==2]", propsToMatch, /ajax/)
+! -- https://www.pixiv.net/discovery?mode=all - /ajax/discovery/artworks
+www.pixiv.net##+js(json-edit-fetch-response, "$..illust[?.aiType==2]", propsToMatch, /ajax/)
+! -- https://www.pixiv.net/en/
+! * /ajax/street/latest (latest works)
+www.pixiv.net##+js(json-edit-fetch-response, $..content.thumbnails.[?.aiType==2], propsToMatch, /ajax/)
+! * "latest works" when page is loaded directly via url
+www.pixiv.net##+js(json-edit, $..data.thumbnails[?.aiType==2])
+! * /ajax/street/for_you (recommended works)
 www.pixiv.net##+js(json-edit, $..contents.[?.thumbnails.[?.aiType==2]])
-www.pixiv.net##+js(json-edit-fetch-response, $..contents.[?.thumbnails.[?.aiType==2]])
-www.pixiv.net##+js(json-edit-fetch-response, $..content.thumbnails[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, $..contents.[?.thumbnails.[?.aiType==2]], propsToMatch, /ajax/)
 !#else
+www.pixiv.net##+js(json-prune-fetch-response, "$..['body','data','illusts','popular','userIllusts','works'].*[?.aiType==2]", propsToMatch, /ajax/)
+www.pixiv.net##+js(json-prune-fetch-response, "$..body.thumbnails.*.[?.aiType==2]", propsToMatch, /ajax/)
+www.pixiv.net##+js(json-prune-fetch-response, "$..illust[?.aiType==2]", propsToMatch, /ajax/)
+www.pixiv.net##+js(json-prune-fetch-response, $..content.thumbnails.[?.aiType==2], propsToMatch, /ajax/)
+www.pixiv.net##+js(json-prune, $..data.thumbnails[?.aiType==2])
 www.pixiv.net##+js(json-prune, $..contents.[?.thumbnails.[?.aiType==2]])
-www.pixiv.net##+js(json-prune-fetch-response, $..content.thumbnails[?.aiType==2])
-!#endif
-
-! -- https://www.pixiv.net/bookmark_new_illust.php (logged in)
-!#if ext_ublock
-www.pixiv.net##+js(json-edit-fetch-response, $..illust.[?.aiType==2])
-www.pixiv.net##+js(json-edit-fetch-response, $..novel.[?.aiType==2])
-!#else
-www.pixiv.net##+js(json-prune-fetch-response, $..illust.[?.aiType==2])
-www.pixiv.net##+js(json-prune-fetch-response, $..novel.[?.aiType==2])
 !#endif
 
 ! -- https://www.pixiv.net/en/artworks/145900548
-! Works by same author
-! * First filter also covers related & other works sections
-!#if ext_ublock
-www.pixiv.net##+js(json-edit-fetch-response, $.body.*[?.aiType==2])
-www.pixiv.net##+js(json-edit-fetch-response, $..userIllusts.*[?.aiType==2])
-www.pixiv.net##+js(json-edit-fetch-response, $..illusts.*[?.aiType==2])
-!#else
-www.pixiv.net##+js(json-prune-fetch-response, $.body.*[?.aiType==2])
-www.pixiv.net##+js(json-prune-fetch-response, $..userIllusts.*[?.aiType==2])
-www.pixiv.net##+js(json-prune-fetch-response, $..illusts.*[?.aiType==2])
-!#endif
 ! Hide image if 'AI-generated' tag is present 
 www.pixiv.net##.dIQnXc:has(.uniTI.jwpVQN > [href="https://www.pixiv.help/hc/articles/11866167926809"]) > figure
 
 ! -- https://www.pixiv.net/en/users/112965293/illustrations
-! Illustrations by user
-!#if ext_ublock
-www.pixiv.net##+js(json-edit-fetch-response, $..works.*[?.aiType==2])
-!#else
-www.pixiv.net##+js(json-prune-fetch-response, $..works.*[?.aiType==2])
-!#endif
 ! Blank space on user's page when viewing image list
 www.pixiv.net##.lptroa
 
