@@ -188,7 +188,7 @@ www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/searc
 ! * Extra sanity checks on child elements of .ULSxyf to avoid overfiltering. (Example: https://www.google.com/search?q=world+cup+standing)
 ! ** "Things to know"
 www.google.com,www.google.*##[jscontroller="Elkdbc"]
-www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > div:not([class]) > [jsname="Ypkwb"] [jscontroller="Elkdbc"] > .EyBRub)
+www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > div:not([class]) > [jsname="Ypkwb"] [jscontroller="Elkdbc"] > .EyBRub):not(:has(:not([jscontroller="Elkdbc"]) > .EyBRub))
 ! ** "People also ask" section
 www.google.com,www.google.*##[jsname="YrZdPb"][data-evn]
 www.google.com,www.google.*##.cUnQKe:has([jsname="YrZdPb"][data-evn]):not(:has([jsname="YrZdPb"]:not([data-evn])))
