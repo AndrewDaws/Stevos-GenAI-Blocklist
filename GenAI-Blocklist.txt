@@ -2825,17 +2825,6 @@ online-store-web.shopifyapps.com##.Polaris-Layout__Section:has(._generationsCont
 ! "Create a custom website with AI" promo
 www.shopify.com##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
 
-! -- https://www.shopify.com/magic (Magic AI promo)
-! Block all sections except free trial
-www.shopify.com##main#main > section.grid-cols-full#magic-hero
-www.shopify.com##main#main > section.grid-cols-full#sidekick
-www.shopify.com##main#main > section.grid-cols-full#interactive-features
-www.shopify.com##main#main > section.grid-cols-full#testimonials-section
-www.shopify.com##main#main > section.grid-cols-full#faq-section
-
-! -- https://www.shopify.com/tools/business-name-generator (AI business name generator)
-www.shopify.com##main#main > div > div.container:has-text(AI Business Name Generator):has(> div.sm\:px-14.text-center.relative > a[href="/tools"])
-
 ! ========================
 ! == Singapore Airlines ==
 ! ========================
