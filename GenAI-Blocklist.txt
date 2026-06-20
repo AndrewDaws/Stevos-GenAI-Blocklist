@@ -933,6 +933,13 @@ www.g2.com###g2-ai-chat-application
 ||chat.g4media.org^$xhr,domain=www.g4media.ro
 www.g4media.ro###g4-ai-chat-root
 
+! ===================
+! == Gadget Review ==
+! ===================
+! -- https://www.gadgetreview.com/millions-of-copyrighted-songs-were-fed-to-ai-music-generators-now-theres-proof
+! Floating rainbow AI button 
+www.gadgetreview.com##brambles-publisher
+
 ! ===============
 ! == Gigasheet ==
 ! ===============
