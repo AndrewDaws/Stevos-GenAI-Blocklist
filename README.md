@@ -99,11 +99,12 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 4. Press *Add*.
 
 ## Optional extra blocklist
-There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective or experimental blocks. They may be more prone to accidentally blocking non-AI content or content required for site functionality. These include:
-* X: Posts made by @Grok.
+There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional filters that are more subjective or experimental. They may be more prone to accidentally blocking non-AI content or content required for site functionality. These include:
 * AI category in headers on news sites.
 * Customer support chatbots that must be used before you can contact human customer support.
 * YouTube: Trusted filter to remove autodubbing when loading a video directly via URL, but causes visible page refresh even on videos without autodubbing.
+* Revisions to Google search filters
+* X: Posts made by @Grok.
 * Zoom: Highlights and automatic chapters on recorded meetings.
 
 ## FAQ
