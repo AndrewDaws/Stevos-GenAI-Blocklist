@@ -3542,6 +3542,12 @@ www.youtube.com##ytd-expandable-metadata-renderer[has-video-summary]
 ! "Ask YouTube" in video types at top of search results (Test for premium users, https://www.youtube.com/new)
 www.youtube.com##[chip-style="STYLE_AI_MODE_CHIP"]
 
+! ==================
+! == YouTube Blog ==
+! ==================
+! -- https://blog.youtube/search/?query=What+specific+tools+does+YouTube+offer+creators%3F
+blog.youtube##.page-container:has(> .yt-ai-overview)
+
 ! ====================
 ! == YouTube Studio ==
 ! ====================
