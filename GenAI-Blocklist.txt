@@ -1622,6 +1622,8 @@ www.google.com,www.google.*##.iVzeVc:has([data-attrid="VisualDigestGeneratedDesc
 ! -- https://www.google.com/search?q=tower+of+god
 ! AI generated topic overview
 www.google.com,www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
+! Remove images on desktop layout
+www.google.com,www.google.*##[data-ly="/desktop_aio_layout/GG/large_image"]:has([data-attrid="VisualDigestGeneratedDescription"])
 
 ! -- https://www.google.com/search?q=computer+repair
 ! Have AI check prices
