@@ -168,10 +168,8 @@ labs.google.com##.SzpS3d:has([href="/search/experiment/34"]):has([aria-checked="
 ! ===================
 ! -- https://www.google.com/
 ! Google labs icon in header
-! * Filter might only need .gb_L, but specifying extra class names to be safe
-! * Icon might only appear when using Chrome
 ! * May be needed to disable AI features, so it's in the extra file
-www.google.com,www.google.*##.gb_Ad.gb_6.gb_L:has([href^="https://labs.google.com/search?"])
+www.google.com,www.google.*###gb > div:has([href^="https://labs.google.com/search?"])
 ! * Mobile version
 www.google.com,www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
 ! Search autocomplete suggestion that uses AI mode
