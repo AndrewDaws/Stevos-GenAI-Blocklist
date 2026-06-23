@@ -2703,8 +2703,9 @@ www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"]:has(sea
 ! -- https://www.reddit.com/r/discordapp/comments/1prg44a/comment/orvnqfu/
 ! "Reddit Answers" sparkle icon in header (Mobile only)
 www.reddit.com###answers-nav-button
-! Summary of comments
+! Comment summary
 www.reddit.com##.grid:has(> .col-start-2 > conversation-snapshot-text-clamp)
+www.reddit.com##.grid:has(> .col-start-2 > conversation-snapshot-text-clamp) + hr
 ! "People also ask about" section (Mobile only)
 www.reddit.com###answers-suggested-queries-m3
 ! Suggestions to repost to AI subreddit (If post was by current user)
