@@ -775,8 +775,8 @@ www.ebay.com##.srp-river-answer--FAQ_KW_SRP_MODULE
 ! ============
 ! == Ecosia ==
 ! ============
-! Disable AI Overviews
-ecosia.org##+js(set-cookie, ECAIO, false)
+! AI-free searching
+www.ecosia.org##+js(set-cookie, ECNOAI, true, , reload, 1)
 
 ! -- https://www.ecosia.org/ (Homepage)
 ! "AI Chat" in search bar
