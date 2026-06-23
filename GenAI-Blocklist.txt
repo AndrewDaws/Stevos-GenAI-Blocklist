@@ -4163,7 +4163,7 @@ rule34.xxx##li:has(> [rel="sponsored"])
 ! * Only hide if option has already been enabled
 rule34.xxx###displayOptions:has(#chkFilterAI[checked])
 ! Cookie to enable "Filter AI posts"
-rule34.xxx##+js('set-cookie', 'filter_ai', '1')
+rule34.xxx##+js(set-cookie, filter_ai, 1, , reload, 1)
 
 ! -- My Account > My Favorites
 ! AI tagged images
