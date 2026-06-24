@@ -3119,6 +3119,13 @@ tripadvisor.*##.IDaDx.mvTrV.cyIij.fluiI.SMjpI.Iwmxp:has([data-test-target="trave
 ! Review summary
 www.trustpilot.com##[class^="styles_summaryContainer__"]
 
+! ================
+! == TunePocket ==
+! ================
+! -- https://www.tunepocket.com/youtube-channel-id-finder/
+www.tunepocket.com###promo_bar
+www.tunepocket.com###pageholder > #tp-main-head:style(margin-top: -5px !important)
+
 ! ==============
 ! == TurboTax ==
 ! ==============
