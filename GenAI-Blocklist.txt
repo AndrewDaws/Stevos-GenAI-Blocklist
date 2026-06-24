@@ -173,6 +173,13 @@ www.android.com###remix-any-photo-right-in-your-messages:upward(1)
 www.android.com###create-your-own-unique-android-bot
 www.android.com###ai-on-android
 
+! ========================
+! == Archive of Our Own ==
+! ========================
+! Works with AI generated tag
+! * TODO: Add tags synonymized with AI
+archiveofourown.org##.blurb:has(.tag:is([href="/tags/AI-Generated%20Text/works"],[href="/tags/Created%20Using%20Generative%20AI/works"],[href="/tags/AI-Generated%20Images/works"]))
+
 ! ====================
 ! == Automate Excel ==
 ! ====================
