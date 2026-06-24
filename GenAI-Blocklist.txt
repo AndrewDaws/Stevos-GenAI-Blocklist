@@ -3643,6 +3643,8 @@ www.zoom.com##[data-primary="ai"]
 ! AI notetaker banner
 www.zoom.com##.fdn-alert-banner[href^="https://www.zoom.com/en/products/ai-assistant/"]
 www.zoom.com##.hero__content:has(> .fdn-alert-banner[href^="https://www.zoom.com/en/products/ai-assistant/"]):style(padding-top: 60px !important)
+! Promo section for AI notetaker
+www.zoom.com##.module-columns:has(.zdcm-my-notes-showcase)
 ! Virtual Agent floating icon for support chatbot
 zoom.com,zoom.us##.livesdk__invitation
 ||zoom.us/*/web-sdk/chat-client.js$script,domain=www.zoom.com|zoom.us
