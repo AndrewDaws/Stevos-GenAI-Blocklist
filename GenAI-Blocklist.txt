@@ -1210,8 +1210,13 @@ gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
 ! ==============
 ! == GitShare ==
 ! ==============
+! Header - Artifacts
+gitshare.me##nav > [href="/artifacts"]
 ! Header banner for agent share button
 gitshare.me##.bg-brand\/5:has(>[href="/artifacts"])
+! Promo sections
+gitshare.me##section#artifacts
+gitshare.me##section.border-border:has(.text-brand[href="/readme-generator"])
 
 ! ============
 ! == Glyphy ==
