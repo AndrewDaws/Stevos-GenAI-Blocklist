@@ -1207,6 +1207,12 @@ gitlab.com##[data-testid="whats-new-article-toggle"]:has-text(GitLab Duo):upward
 ! "View summarize" button
 gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
 
+! ==============
+! == GitShare ==
+! ==============
+! Header banner for agent share button
+gitshare.me##.bg-brand\/5:has(>[href="/artifacts"])
+
 ! ============
 ! == Glyphy ==
 ! ============
