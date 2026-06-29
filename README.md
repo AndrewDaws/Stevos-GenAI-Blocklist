@@ -120,6 +120,11 @@ No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering i
 ### Can I use these filters with [Opera](https://www.opera.com/)?
 No. These filters do not work with Opera's built-in adblocker or uBlock Origin for Opera. The built-in adblocker doesn't allow importing custom filter lists via URL while uBlock Origin for Opera didn't filter correctly when testing. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
+### Ads are appearing on YouTube after adding this filter
+There is a [known issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/110) when using the Brave browser where the filters for removing auto-dubbing and AI-upscaled Super Resolution options on YouTube causes ads to appear before videos. This [has been reported to the Brave developers](https://github.com/brave/adblock-rust/issues/679).
+
+In the meantime, those specific filters can be disabled by [adding exception rules](https://gist.githubusercontent.com/Stevoisiak/4943283fece7113e590a156fd4b76d0d/raw/e569927f29d31e028fb4622f985d0ef5af031f9f/GenAI-Blocklist-Brave-Fixes.txt) to your custom filters.
+
 ### Why are AI Overviews still showing up on Google?
 If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
 
