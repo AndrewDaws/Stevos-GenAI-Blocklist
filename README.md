@@ -178,6 +178,7 @@ Commit messages use prefixes to indicate the type of change.
 * [uBlockOrigin Huge AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist): Filter list to remove sites with AI generated content from search engines.
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
 * [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list aimed at AI widgets. Used as a reference for a few of the filters on this list.
+* [Firewalla's NSFW AI Blocklist](https://github.com/firewalla/fw-public-lists/blob/main/nsfw-ai.txt): Blocklist of adult-focused AI chatbots.
 
 ### Media 
 * YouTube
@@ -195,8 +196,10 @@ Commit messages use prefixes to indicate the type of change.
   * [AI Stuff blocklist](https://bsky.app/profile/volmie.varyel.com/lists/3kkjuavrfns2z) by ‬[Volmie](https://bsky.app/profile/volmie.varyel.com)
   * [The Great AI - NFT - CRYPTO Cull blocklist](https://bsky.app/profile/did:plc:2segyv655ckqdgkvsqaiianr/lists/3jxwojift2y2n) by [RayDay](https://bsky.app/profile/rayday.bsky.social)
 * [AI warning for Steam](https://github.com/seeeeew/aiwarningforsteam): Browser extension to blur or hide Steam games with an AI content disclosure.
-* [Firewalla's NSFW AI Blocklist](https://github.com/firewalla/fw-public-lists/blob/main/nsfw-ai.txt): Blocklist of adult-focused AI chatbots.
 
+### Website admin tools
+* [Anubis](https://github.com/techaroHQ/anubis): Web firewall for blocking requests from AI companies.
+* [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt): List of AI crawlers to block as a website owner.
 
 ## Feedback
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
