@@ -406,6 +406,12 @@ www.britannica.com##.category-link-CHATBOT
 ! -- https://www.britannica.com/chatbot
 ||www.britannica.com/chat-api/$xhr,domain=www.britannica.com
 
+! -- https://www.britannica.com/science/star-astronomy
+! Buttons at top of article
+www.britannica.com##.header-topic-britannica-ai-module
+! Header after scrolling down
+www.britannica.com##.toc-sticky-header-ai-container
+
 ! ==============
 ! == Bunnings ==
 ! ==============
