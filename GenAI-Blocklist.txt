@@ -2770,6 +2770,15 @@ www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
 ! "Summarize via" box
 replug.io##.mantine-1fndqk8
 
+! ================
+! == Salesforce ==
+! ================
+! -- https://help.salesforce.com/s/articleView?id=platform.siteforce_overview.htm&type=5
+! "Ask Agentforce" in navbar
+help.salesforce.com##.contextnav__nav-items-list--cl1 > .contextnav__nav-item--cl1:first-child:has(> hgf-button)
+! Floating "Ask Agentforce" chat widget stuck on bottom right
+help.salesforce.com##[data-testid="agent-root"]
+
 ! ==============
 ! == SBT News ==
 ! ==============
