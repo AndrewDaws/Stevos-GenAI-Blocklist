@@ -1916,6 +1916,12 @@ www.ishopchangi.com###chat-wrapper
 ! "Companion AI" promo section
 www.jimdo.com###companion
 
+! ==================
+! == John Hancock ==
+! ==================
+! Floating chatbot icon
+www.johnhancock.com##.webchat
+
 ! ==============
 ! == JSFiddle ==
 ! ==============
