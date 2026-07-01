@@ -63,9 +63,10 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 10. Change the toggle for custom filters from "Disabled" to "Enabled"
 
 ### Brave (Desktop)
-1. Open _Settings → Shields → Content filtering_.
-2. Under "_Add custom filter lists_", enter [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-3. Click _Add_.
+1. Open _Settings → Extensions → Manifest V2 extensions_.
+2. Toggle "_Enable uBlock Origin_" to On.
+3. Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20AI%20Blocklist).
+4. Press "_Subscribe_" to import the filter list.
 
 ### Firefox (Android)
 1. Open Firefox
@@ -121,9 +122,9 @@ No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering i
 No. These filters do not work with Opera's built-in adblocker or uBlock Origin for Opera. The built-in adblocker doesn't allow importing custom filter lists via URL while uBlock Origin for Opera didn't filter correctly when testing. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ### Ads are appearing on YouTube after adding this filter
-There is a [known issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/110) when using the Brave browser where the filters for removing auto-dubbing and AI-upscaled Super Resolution options on YouTube causes ads to appear before videos. This [has been reported to the Brave developers](https://github.com/brave/adblock-rust/issues/679).
+There is a [known issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/110) when using the AI Blocklist with Brave's built-in adblocker where ads before YouTube videos will not be blocked. It's caused by the filters for auto-dubbing and AI-upscaled Super Resolution. This [has been reported to the Brave developers](https://github.com/brave/adblock-rust/issues/679).
 
-In the meantime, those specific filters can be disabled by [adding exception rules](https://gist.githubusercontent.com/Stevoisiak/4943283fece7113e590a156fd4b76d0d/raw/e569927f29d31e028fb4622f985d0ef5af031f9f/GenAI-Blocklist-Brave-Fixes.txt) to your custom filters.
+As a workaround, you can either use the filters with uBlock Origin instead of Brave's built-in adblocker, or you can [add exceptions for the problematic rules](https://gist.githubusercontent.com/Stevoisiak/4943283fece7113e590a156fd4b76d0d/raw/e569927f29d31e028fb4622f985d0ef5af031f9f/GenAI-Blocklist-Brave-Fixes.txt) to your custom filters list.
 
 ### Why are AI Overviews still showing up on Google?
 If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
