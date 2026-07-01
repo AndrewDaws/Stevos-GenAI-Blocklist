@@ -226,6 +226,12 @@ learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-direc
 ! Sparkle icon indicating an app has AI features (Apps tab)
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
+! ==============
+! == PC Guide ==
+! ==============
+! AI category in header
+www.pcguide.com##.menu-item-150141
+
 ! ======================
 ! == Quicken Simplifi ==
 ! ======================
