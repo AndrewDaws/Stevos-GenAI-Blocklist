@@ -641,9 +641,10 @@ www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].t
 
 ! Block images loaded when scrolling page, homepage sections, and related images.
 !#if ext_ublock
-www.deviantart.com##+js(json-edit, ..deviations.*[?.isAiGenerated==true])
+! (v2 compatible)
+www.deviantart.com##+js(json-edit, $..deviations.[?@.isAiGenerated==true])
 !#else
-www.deviantart.com##+js(json-prune, $..deviations.*[?.isAiGenerated==true])
+www.deviantart.com##+js(json-prune, $..deviations.[?@.isAiGenerated==true])
 !#endif
 
 ! -- https://www.deviantart.com/ (Homepage)
@@ -1002,9 +1003,10 @@ github.com##.dashboard-changelog .TimelineItem:has(:is([href*="claude"], [href*=
 ! Command Palette - Copilot
 ! * "Command Palette" is enabled via "Feature Preview". Opens with Ctrl+K
 !#if ext_ublock
-github.com##+js(json-edit-fetch-response, $.results.[?.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
+! (v2 compatible)
+github.com##+js(json-edit-fetch-response, $.results[?@.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
 !#else
-github.com##+js(json-prune-fetch-response, $.results.[?.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
+github.com##+js(json-prune-fetch-response, $.results[?@.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
 !#endif
 ! * Backup cosmetic filter (Won't remove from autocomplete. Uses :remove() to fix arrow key navigation)
 github.com##command-palette-item[data-item-title="Copilot"]
@@ -3492,7 +3494,8 @@ yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy
 www.yahoo.com##[aria-label="Search with Yahoo Scout"]
 ! AI search suggestion
 !#if ext_ublock
-www.yahoo.com##+js(json-edit-fetch-response, $.r.*[?.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
+! (v2 compatible)
+www.yahoo.com##+js(json-edit-fetch-response, $.r[?@.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
 !#else
 www.yahoo.com##+js(json-prune-fetch-response, $.r[?@.m==89])
 !#endif
@@ -3620,12 +3623,13 @@ www.youtube.com##.ytp-suggested-action-badge[aria-label="Ask about this video"]
 ! * Targets response from 'https://www.youtube.com/youtubei/v1/get_watch'
 ! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
 !#if ext_ublock
-youtube.com##+js(json-edit, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed])
-youtube.com##+js(json-edit-xhr-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
-youtube.com##+js(json-edit-fetch-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+! (v2 compatible)
+youtube.com##+js(json-edit, $..adaptiveFormats[?@.audioTrack.isAutoDubbed])
+youtube.com##+js(json-edit-xhr-response, $..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+youtube.com##+js(json-edit-fetch-response, $..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 !#else
 ! * Alternate filter for AdGuard support
-youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats.*[?.audioTrack.isAutoDubbed]')
+youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats[?@.audioTrack.isAutoDubbed]')
 !#endif
 ! * Backup to remove auto-dub menu options from settings menu when video loaded from URL and trusted filters are disabled.
 !   This will not prevent the auto-dubbed audio from playing as the default selection 
