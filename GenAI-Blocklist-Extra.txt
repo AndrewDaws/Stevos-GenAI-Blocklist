@@ -63,6 +63,12 @@ github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"
 ! Navbar - AI & ML category
 github.blog##li:has(> [href="https://github.blog/ai-and-ml/"])
 
+! ================
+! == GitHub Dev ==
+! ================
+! Copilot icon on status bar (Regardless of whether Copilot is enabled or not)
+github.dev###chat\.statusBarEntry
+
 ! =================
 ! == GitHub Docs ==
 ! =================
