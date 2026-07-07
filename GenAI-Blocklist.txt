@@ -534,6 +534,21 @@ platform.claude.com###aiSearchResults__Item-__ask_ai__
 ! Search bar - Toggle AI mode
 platform.claude.com##.ikp-ai-search-input-group > [data-part="view_toggle"]
 
+! ================
+! == Codecademy ==
+! ================
+! Header > Catalog
+codecademy.com##[data-testid="marketing-banner"][href="https://www.codecademy.com/ai-builder"]
+codecademy.com##li:has(> [href="/catalog/subject/artificial-intelligence"])
+! Footer
+codecademy.com##li:has(> [href="/ai-builder"])
+
+! -- https://www.codecademy.com/
+! Top subject
+codecademy.com##.gamut-1efsrtw-Box:has(> [href="/catalog/subject/artificial-intelligence"])
+! Learn with AI builder
+codecademy.com##.ex43pi30:has(> [href="/ai-builder"])
+
 ! ===================
 ! == CoinMarketCap ==
 ! ===================
