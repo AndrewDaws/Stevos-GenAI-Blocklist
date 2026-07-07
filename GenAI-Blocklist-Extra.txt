@@ -354,8 +354,13 @@ androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers
 ! ===============
 ! == X/Twitter ==
 ! ===============
-! -- Posts by or mentioning Grok
+! -- https://x.com/yee_22_/status/2068659455445873124
+! Posts by or mentioning Grok
 x.com##[data-testid="tweet"]:has([href="/grok"])
+
+! -- https://x.com/SpaceX/status/2074243929273250124
+! Tweet with AI label
+x.com##[data-testid="tweet"]:has(.r-knv0ih [d^="M12.998 1.94c.18 3.015 1.04 5.156 2.473 6.59 1.433"])
 
 ! ==========
 ! == Yahoo ==
