@@ -347,7 +347,6 @@ time.com##li:has(div > [href="#id-ai-0"])
 ! == Valnet ==
 ! ============
 ! Sites found via https://www.valnetinc.com/en/our-brands
-! * May also need to add backyardboss.net, fextralife.com, and therichest.com. Formatting was broken when initially checking
 
 ! -- https://www.howtogeek.com/repurposed-old-router-saved-20-dollars/
 ! AI Sparkle in left sidebar
