@@ -659,9 +659,9 @@ www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].t
 ! Block images loaded when scrolling page, homepage sections, and related images.
 !#if ext_ublock
 ! (v2 compatible)
-www.deviantart.com##+js(json-edit, $..deviations.[?@.isAiGenerated==true])
+www.deviantart.com##+js(json-edit, $..deviations[?@.isAiGenerated==true])
 !#else
-www.deviantart.com##+js(json-prune, $..deviations.[?@.isAiGenerated==true])
+www.deviantart.com##+js(json-prune, $..deviations[?@.isAiGenerated==true])
 !#endif
 
 ! -- https://www.deviantart.com/ (Homepage)
