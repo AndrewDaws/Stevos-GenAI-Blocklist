@@ -200,6 +200,12 @@ www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/searc
 ! * Causes error message
 ||app.kiwihealth.com/patient-server/public/klarity/llm/search$xhr,domain=www.helloklarity.com
 
+! =================
+! == How-To Geek ==
+! =================
+! AI category in header
+www.howtogeek.com##.subheader-menu-item:has(> [href="/category/ai-amp-machine-learning/"]):remove()
+
 ! ======================
 ! == Insight Software ==
 ! ======================
