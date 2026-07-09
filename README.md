@@ -107,7 +107,7 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 
 ## FAQ
 ### Which adblockers will this filter list work with?
-These filters were developed for [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html). You should also be able to use them with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), or [Brave's](https://brave.com) integrated adblocker, but issues may occur as these are not supported.
+These filters were developed for [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html). You should also be able to use them with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), or [Brave's](https://brave.com) integrated adblocker, but issues may occur as these are not fully supported.
 
 ### Will this remove sites that post AI generated content from search results?
 No. If you want to block AI sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
@@ -129,7 +129,7 @@ If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockpl
 ### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin?
 uBlock Origin is not available for Google Chrome and iOS.
 
-While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
+While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists on iOS](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4928293779). Support [was added in uBO Lite for Chrome](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4753728166), but compatibility with this filterlist has not been thoroughly tested. A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
 
 ### Will this prevent AI summaries from being generated in the background of search engines?
 Sometimes. This filter list was created with the primary goal of hiding AI elements, but some network filters have been added to prevent content generation.
