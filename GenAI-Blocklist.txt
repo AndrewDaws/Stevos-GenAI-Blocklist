@@ -3611,9 +3611,6 @@ search.yahoo.co.jp##.AnswerAiNavigation__content
 ! ============
 ! == Yandex ==
 ! ============
-! ============
-! == Yandex ==
-! ============
 ! -- https://ya.ru/
 ya.ru##.alice-ai-button__wrapper
 
