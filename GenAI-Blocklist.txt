@@ -658,7 +658,7 @@ design.dev##.sponsor-banner--coderabbit
 !   Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
 ! * Requires Javascript to be enabled
 !#if ext_ublock
-www.deviantart.com##+js(json-edit, v2:$.currentPageData;$.['@@entities'].deviation[?.isAiGenerated==true])
+www.deviantart.com##+js(json-edit, v2:$.currentPageData;$['@@entities'].deviation[?@.isAiGenerated==true])
 !#else
 www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
 !#endif
