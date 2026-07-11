@@ -2120,6 +2120,16 @@ www.macys.com##.generated-summary-main-container
 ! Ask Mailchimp Assistant
 mailchimp.com##.genAIAssistChatbotModule
 
+! ======================
+! == Manticore Search ==
+! ======================
+! -- https://manticoresearch.com/
+! Search tool
+widget.indexfox.ai##.ask-ai-button
+widget.indexfox.ai##.ask-response
+||api.indexfox.ai/api/6383989965980236728/ask$xhr,domain=widget.indexfox.ai
+widget.indexfox.ai##.no-results > .svelte-1d6gie5:has-text(" to ask AI a given question")
+
 ! =================
 ! == Mathrubhumi ==
 ! =================
