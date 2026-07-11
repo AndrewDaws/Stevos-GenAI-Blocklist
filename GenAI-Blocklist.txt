@@ -1828,6 +1828,13 @@ www.humblebundle.com##.bundle:is([href*="-ai-"], [href*="claude-code"], [href*="
 ! Floating chat bubble
 www.imb.com###ucx-symphony-webchat-host
 
+! -- https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize
+www.ibm.com##.chat-launcher-container
+
+! -- https://www.ibm.com/thought-leadership/institute-business-value/report/cdo-2023
+www.ibm.com###IBV-Insights-AI-Launch-Button
+www.ibm.com##[class^="WatsonChatBotLauncher-styled__BetaLauncherContainer-sc-"]
+
 ! ==========
 ! == IMDB ==
 ! ==========
