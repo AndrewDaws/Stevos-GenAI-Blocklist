@@ -2492,6 +2492,12 @@ www.newegg.com##.floating-robot
 ! AI Expert
 www.newegg.com##.ek-sales-content
 
+! ============
+! == News18 ==
+! ============
+! Search - AI overview
+www.news18.com##.aiovwrp
+
 ! ==========
 ! == Nike ==
 ! ==========
