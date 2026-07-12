@@ -37,7 +37,7 @@ blog.cloudflare.com##.nav-item[data-tag="ai"]
 ! -- https://www.facebook.com/profile.php?id=61588534388215
 ! Post with AI info disclaimer
 ! * Won't hide posts if linked directly
-www.facebook.com##[role="main"] .x17zd0t2 > [role="button"]:has-text(/(AI info|AI content)/):upward(.x1n2onr6.xh8yej3.x1ja2u2z)
+www.facebook.com##[role="main"] .x17zd0t2 > [role="button"]:has-text(/(AI info|AI content)/):upward(.x1n2onr6.xh8yej3.x1ja2u2z):upward(3)
 
 ! ==================
 ! == Fox Business ==
