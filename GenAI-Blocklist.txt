@@ -3349,6 +3349,13 @@ education.illinois.edu##ilw-back-to-top:style(--ilw-back-to-top--right: 40px !im
 ups.com###digital-assistant-launcher
 ups.com###WACContainer
 
+! =============
+! == US News ==
+! =============
+! -- https://www.usnews.com/banking/articles/what-is-a-credit-union
+! Floating Ask AI button
+www.usnews.com##.MuiBox-root:has(> [aria-label="Ask U.S. News AI"])
+
 ! ============
 ! == Valnet ==
 ! ============
