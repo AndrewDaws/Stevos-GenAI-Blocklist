@@ -615,6 +615,13 @@ www.crateandbarrel.com##.swat-review-summary-container-border
 cybernews.com##.key-takeaway-editorial:has(> .key-takeaway-editorial__disclaimer)
 
 ! ==============
+! == DataCamp ==
+! ==============
+! -- https://www.datacamp.com/tutorial/sql-union-union-all
+! Explain code button below code block
+www.datacamp.com##.code-block-footer:has(> .ai-explain-code-button)
+
+! ==============
 ! == DeepWiki ==
 ! ==============
 ! -- https://deepwiki.com/microsoft/vscode
