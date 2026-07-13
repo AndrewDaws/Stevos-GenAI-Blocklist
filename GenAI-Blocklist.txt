@@ -3695,17 +3695,19 @@ ya.ru##.alice-ai-button__wrapper
 
 ! -- https://yandex.com/search/?text=test&lr=202
 ! Navbar - yandex ai
+ya.ru,yandex.com,yandex.ru##.HeaderNav-Tab[href$="&promo=force_neuro"]
 ya.ru##.HeaderNav-Tab[href^="//ya.ru/alice?"]
-yandex.com##.HeaderNav-Tab[href$="&promo=force_neuro"]
 yandex.ru##.HeaderNav-Tab[href^="//yandex.ru/alice?"]
 ! AI summary
 ! * class/attribute names can vary between sites and mobile/desktop
-ya.ru,yandex.com,yandex.ru##[class*="__futuris-snippet"]
-ya.ru,yandex.com,yandex.ru##[data-fast-name="neuro_answer"]
 ||ya.ru/search/generative_answer$xhr,1p
 ||yandex.com/search/generative_answer$xhr,1p
 ||yandex.ru/search/generative_answer$xhr,1p
-
+ya.ru,yandex.com,yandex.ru##[class*="__futuris-snippet"]
+ya.ru,yandex.com,yandex.ru##[data-fast-name="neuro_answer"]
+ya.ru,yandex.com,yandex.ru##[class$="__card "]:has(> .Root-FuturisSearchOuter)
+! * Summary after clicking AI button on desktop english site
+ya.ru,yandex.com,yandex.ru##.Root-FuturisSearchOuter
 
 ! =========
 ! == Yep ==
