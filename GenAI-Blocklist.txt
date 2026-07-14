@@ -2687,6 +2687,10 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ||pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
 
 !#if ext_ublock
+! -- https://www.pixiv.net/en/artworks/134862651
+! -- https://www.pixiv.net/en/tags/ai/illustrations
+! -- https://www.pixiv.net/en/users/25493535
+! -- https://www.pixiv.net/collections/37988473650868967380
 ! User profile (illusts, works) & image page "other works" (userIllusts)
 www.pixiv.net##+js(json-edit-fetch-response, "v2:$.body['illusts','novels','userIllusts','works'][?@.aiType==2]")
 ! Image page "Works by all users" when logged out
