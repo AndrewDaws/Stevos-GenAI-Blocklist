@@ -2687,22 +2687,29 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ||pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
 
 !#if ext_ublock
-! -- https://www.pixiv.net/en/artworks/145900548 - /ajax/user/112965293/illusts (body, illusts, userIllusts)
-! -- https://www.pixiv.net/en/users/102985451/illustrations - /ajax/user/102985451/profile/illusts (works)
-! -- https://www.pixiv.net/en/tags/ai/illustrations - /ajax/search/illustrations/ai (data, popular)
-www.pixiv.net##+js(json-edit-fetch-response, "$..['body','data','illusts','popular','userIllusts','works'].*[?.aiType==2]", propsToMatch, /ajax/)
-! -- https://www.pixiv.net/bookmark_new_illust.php - /ajax/follow_latest/illust (body.thumbnails)
-www.pixiv.net##+js(json-edit-fetch-response, "$..body.thumbnails.*.[?.aiType==2]", propsToMatch, /ajax/)
-! -- https://www.pixiv.net/discovery?mode=all - /ajax/discovery/artworks
-www.pixiv.net##+js(json-edit-fetch-response, "$..illust[?.aiType==2]", propsToMatch, /ajax/)
-! -- https://www.pixiv.net/en/
-! * /ajax/street/latest (latest works)
-www.pixiv.net##+js(json-edit-fetch-response, $..content.thumbnails.[?.aiType==2], propsToMatch, /ajax/)
-! * "latest works" when page is loaded directly via url
-www.pixiv.net##+js(json-edit, $..data.thumbnails[?.aiType==2])
-! * /ajax/street/for_you (recommended works)
-www.pixiv.net##+js(json-edit, $..contents.[?.thumbnails.[?.aiType==2]])
-www.pixiv.net##+js(json-edit-fetch-response, $..contents.[?.thumbnails.[?.aiType==2]], propsToMatch, /ajax/)
+! User profile (illusts, works) & image page "other works" (userIllusts)
+www.pixiv.net##+js(json-edit-fetch-response, "v2:$.body['illusts','novels','userIllusts','works'][?@.aiType==2]")
+! Image page "Works by all users" when logged out
+www.pixiv.net##+js(json-edit-fetch-response, v2:$.body.noLoginData.zengoIdWorks[?@.aiType==2])
+! Image page - Works by author
+www.pixiv.net##+js(json-edit-fetch-response, v2:$.body[?@.aiType==2])
+! Logged out tag search - Results
+www.pixiv.net##+js(json-edit, "v2:$.props.pageProps.dehydratedState.queries[*].state.data['illust','manga','novel'].data[?@.aiType==2]")
+www.pixiv.net##+js(json-edit-fetch-response, "v2:$.body['illust','manga','novel'].data[?@.aiType==2]")
+! Logged out tag search - Premium promo
+www.pixiv.net##+js(json-edit, "v2:$.props.pageProps.dehydratedState.queries[*].state.data.popular['permanent','recent'][?@.aiType==2]")
+www.pixiv.net##+js(json-edit-fetch-response, "v2:$.body.popular['permanent','recent'][?@.aiType==2]")
+! Collection page - included items
+! * Blocked items are shown as a question mark icon. Hiding these with
+!   a cosmetic rule leaves blank space in the image grid.
+www.pixiv.net##+js(json-edit, "v2:$.thumbnail['illust','novel'][?@.aiType==2]")
+www.pixiv.net##+js(json-edit-fetch-response, "v2:$.body.thumbnails['illust','novel'][?@.aiType==2]")
+! Homepage - Latest works for you
+www.pixiv.net##+js(json-edit, v2:$.street.latest.data.thumbnails[?@.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, v2:$.body.content.thumbnails[?@.aiType==2])
+! Homepage - Recommended works
+www.pixiv.net##+js(json-edit, v2:$.street.forYou.contents[?@.thumbnails.*.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, v2:$.body.contents[?@.thumbnails.*.aiType==2])
 !#else
 www.pixiv.net##+js(json-prune-fetch-response, "$..['body','data','illusts','popular','userIllusts','works'].*[?.aiType==2]", propsToMatch, /ajax/)
 www.pixiv.net##+js(json-prune-fetch-response, "$..body.thumbnails.*.[?.aiType==2]", propsToMatch, /ajax/)
