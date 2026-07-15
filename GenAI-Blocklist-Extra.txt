@@ -106,6 +106,13 @@ gizmodo.com##.giz-bg-main [href="https://gizmodo.com/tech/artificial-intelligenc
 ! "Generative AI" reports in left sidebar
 admin.google.com###node-N19-47803731
 
+! ==================
+! == Google Cloud ==
+! ==================
+! -- https://console.cloud.google.com/home/dashboard (shutting down in 2027)
+! Sidebar - Agent Platform
+console.cloud.google.com##.cfc-console-nav-section-AGENT_PLATFORM_SECTION
+
 ! ===================
 ! == Google Design ==
 ! ===================
