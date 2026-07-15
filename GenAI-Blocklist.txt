@@ -1649,15 +1649,18 @@ one.google.com##.aTVMOe.RLyrIe.KGSMie
 ! Search bar > "AI Mode" button
 www.google.*##.plR5qb
 ! Remove AI hyperlinks from Google Logo (Added during Olympics) (Separate filters for uBlock and AdGuard compatability)
+!#if ext_ublock
 ! * Desktop
 www.google.*##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
-www.google.*#%#//scriptlet('remove-attr', 'href', '.k1zIA.kKvsb > a[href*="&udm=50"]')
 ! * Mobile
 www.google.*###hplogoo a[href*="&udm=50"]:remove-attr(href)
-www.google.*#%#//scriptlet('remove-attr', 'href', '#hplogoo a[href*="&udm=50"]')
 ! * Mobile search results page
 www.google.*###mlogo[href*="&udm=50"]:remove-attr(href)
+!#else
+www.google.*#%#//scriptlet('remove-attr', 'href', '.k1zIA.kKvsb > a[href*="&udm=50"]')
+www.google.*#%#//scriptlet('remove-attr', 'href', '#hplogoo a[href*="&udm=50"]')
 www.google.*#%#//scriptlet('remove-attr', 'href', '#mlogo[href*="&udm=50"]')
+!#endif
 ! Promo text below search bar mentioning AI
 www.google.*##promo-middle-slot:has-text("/\bAI\b/")
 www.google.*##promo-middle-slot:has-text(Gemini)
