@@ -3771,18 +3771,35 @@ www.youdao.com##.product-item:has([src="https://ydlunacommon-cdn.nosdn.127.net/c
 ! =============
 ! == YouTube ==
 ! =============
+! -- General
 ! Experiment flags (part of A/B testing)
-! * Remove "or ask a question" from search bar placeholder
-www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_searchbox_ux, false)
-! * Autocomplete search suggestions
-www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_mode_suggest_client, false)
-! * Ask YouTube button
+! * Hide Ask YouTube button
 www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_mode_searchbox_entrypoint, false)
-! * Don't shift searchbox upwards when focused
+! * Remove "Search or ask a question" searchbar placeholder text
+www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_searchbox_ux, false)
+! * Remove autocomplete search suggestions
+www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_mode_suggest_client, false)
+! * Don't shift searchbar upwards when focused
 www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_searchbox_client_changes, false)
 ! * Don't darken background when search bar is focused
-www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_search_ui, false)
 www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_search_web_m0_fixes, false)
+! * Unknown purpose
+www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_search_ui, false)
+!www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_search_innertube_m0_fixes, false)
+!www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_search_insert_section_operation, false)
+!www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_search_sticky_chips, false)
+!www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_search_web_m1_features, false)
+!www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_searchbox_hidden_state, false)
+!www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_searchbox_suggest_jumping_fix, false)
+!www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_suggest_chip_ui, false)
+
+! Backup cosmetic filters for search
+! * Ask YouTube button in search bar
+www.youtube.com##.ytSearchboxComponentInputBox > [client-ve-type]
+! * Focus search bar, Ask YouTube button
+www.youtube.com##.ytSearchboxComponentActions > .ytSearchboxComponentActionsButton[client-ve-type]
+! * Focus search bar, Ask YouTube search suggestions
+www.youtube.com##.ytSearchboxComponentAiSuggestionsContainer
 
 ! -- https://www.youtube.com/ (Homepage - logged in)
 ! "Your custom home" chip
@@ -3791,13 +3808,6 @@ www.youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:h
 www.youtube.com###chip-shape-container:has-text(Your custom feed)
 ! "Ask for videos any way you like"
 www.youtube.com##ytd-talk-to-recs-flow-renderer
-! Ask YouTube
-! * Ask YouTube button in search bar
-www.youtube.com##.ytSearchboxComponentInputBox > [client-ve-type]
-! * Focus search bar, Ask YouTube button
-www.youtube.com##.ytSearchboxComponentActions > .ytSearchboxComponentActionsButton[client-ve-type]
-! * Focus search bar, Ask YouTube search suggestions
-www.youtube.com##.ytSearchboxComponentAiSuggestionsContainer
 
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! "Ask Questions" in description
