@@ -4302,6 +4302,12 @@ hentairun.com,imhentai.xxx##[data-tags~="17861"]
 ! ======================
 hentaivox.com##.affil-in-content:has([data-value*="AI Porn Video"])
 
+! =====================
+! == Its.PORN (NSFW) ==
+! =====================
+! Navbar - AI Undress Porn
+www.its.porn##.item:has(> [href="https://wittered-mainging.com/0e230fe3-ff83-4040-a8ae-d137617c5f58"])
+
 ! ===================
 ! == JComic (NSFW) ==
 ! ===================
@@ -4426,6 +4432,12 @@ www.porn.com##.nav-main__item:has(> [href="https://www.tckcandy.com/cmp/7XJHR8/2
 ! ====================
 ! "AI Jerkoff" in navbar
 www.porndig.com##.main_menu_item:has(.icon-ic_16_ai_stars)
+
+! ====================
+! == Porndos (NSFW) == 
+! ====================
+! Navbar - Undress AI Porn
+www.porndos.com##li:has(> [href="https://www.cmonbae.com/?union_id=MzUy"])
 
 ! =====================
 ! == PornHits (NSFW) ==
