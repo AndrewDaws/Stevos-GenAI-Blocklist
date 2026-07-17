@@ -1695,6 +1695,7 @@ www.google.*##[role="listitem"]:has(.olrp5b)
 !   Without this, a small blank space can get added to the top of search results.
 www.google.com#@#div[role="navigation"] span:has-text(AI Mode):upward(5):remove()
 ! Main AI Overview
+||www.google.*/async/folsrch$xhr,domain=www.google.*
 www.google.*##[data-attnms]
 ! * Blank space for AI Overview at top of search results
 www.google.*##.Kevs9.SLPe5b:has([data-attnms])
