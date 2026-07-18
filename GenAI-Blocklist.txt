@@ -3164,6 +3164,19 @@ webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 
+! =============
+! == Studocu ==
+! =============
+! -- https://www.studocu.com/en-au/document/kaplan-business-school-australia/master-of-accounting/accm4000-subject-outline-t2-2023-kbs/75698044?sid=713dfc49-c8c7-4574-a82d-f07fd900c9461784388252
+! Header - Take Notes button
+www.studocu.com##.HeaderLayout_desktop-only__WncR0:has(.WebRecordingButton_wrapper__SltOh)
+! Sidebar
+www.studocu.com##.SidebarClickableItem_wrapper__vQRrT:has(#content-sidebar-ai-notes)
+www.studocu.com##.SidebarClickableItem_wrapper__vQRrT:has(#content-sidebar-ask-ai)
+www.studocu.com##.SidebarClickableItem_wrapper__vQRrT:has(#content-sidebar-quiz-creation)
+! AI question bar
+www.studocu.com##[aria-label="AI toolbar"]
+
 ! ==================
 ! == SuperSummary ==
 ! ==================
