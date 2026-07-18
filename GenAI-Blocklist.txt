@@ -2342,6 +2342,10 @@ learn.microsoft.com##[data-id="ai-summary"]
 ! AI search summary (no longer used?)
 learn.microsoft.com###search-answer
 
+! -- https://learn.microsoft.com/en-us/answers/questions/5825218/any-impact-if-secure-boot-is-on-but-secure-boot-ce
+! AI generated post answering a question
+learn.microsoft.com##[id^="ai-answer-"]
+
 ! ==========================
 ! == Microsoft Office/365 ==
 ! ==========================
