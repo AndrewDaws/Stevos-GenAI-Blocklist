@@ -1,7 +1,7 @@
 ---
 name: Site-specific issue
 about: Report an AI widget that should be blocked, or an issue with the existing filters
-title: 'SITE: '
+title: 'SITE: DESCRIPTION'
 labels: ''
 assignees: ''
 
