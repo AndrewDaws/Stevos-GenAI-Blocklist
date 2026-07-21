@@ -8,11 +8,11 @@ Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-o
 * Google's AI Overviews
 * YouTube's Ask button, video summaries, auto-dubbing, and 'Super Resolution' upscaling
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
-* Images on Pixiv and DeviantArt with AI-generated label
+* Pixiv and DeviantArt images with AI-generated label
 * Amazon Rufus's product and review summaries
 * Reddit Answers and recommended posts from AI subreddits
 * Facebook's AI chat
-* TikTok videos tagged as AI generated
+* TikTok videos tagged as AI-generated
 * X/Twitter's Grok buttons, posts from Grok, and posts with "made with AI" label
 
 ## Image comparison
@@ -120,8 +120,8 @@ No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering i
 ### Can I use these filters with [Opera](https://www.opera.com/)?
 No. These filters do not work with Opera's built-in adblocker or uBlock Origin for Opera. The built-in adblocker doesn't allow importing custom filter lists via URL while uBlock Origin for Opera didn't filter correctly when testing. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
-### Ads are appearing on YouTube after adding this filter
-This was a [known issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/110) when using the AI Blocklist with Brave that [should be resolved](https://github.com/brave/adblock-rust/issues/679#issuecomment-4869440121). If you are still seeing YouTube ads and have confirmed it *only* occurs when the AI blocklist is installed, please [open an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
+### How many websites have filters for AI features?
+Over 300.
 
 ### Why are AI Overviews still showing up on Google?
 If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
@@ -131,32 +131,27 @@ uBlock Origin is not available for Google Chrome and iOS.
 
 While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists on iOS](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4928293779). Support [was added in uBO Lite for Chrome](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4753728166), but compatibility with this filterlist has not been thoroughly tested. A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
 
-### Will this prevent AI summaries from being generated in the background of search engines?
+### Will this prevent AI summaries from being generated in the background?
 Sometimes. This filter list was created with the primary goal of hiding AI elements, but some network filters have been added to prevent content generation.
-
-### How many websites have filters for AI features?
-Over 300.
 
 ### Where can I find a full list of filtered items?
 Check [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist.txt) and [`GenAI-Blocklist-Extra.txt`](https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist-Extra.txt).
 
-### Why do some filters show "*Invalid filter: Filter requires trusted source*" in uBlock Origin?
-A small number of filters use features that require trusted origin filters in uBlock Origin. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
-
-This list requires trust to:
-* Replace "Search or ask a question" text on GitHub Docs and YouTube.
-* Remove the "[AI sparkle](https://design.google/library/ai-sparkle-icon-research-pozos-schmidt)" from search icons.
-* Remove automatic audio dubbing on YouTube videos if they were directly loaded from a URL. (in Extra filters, [see below FAQ entry](#why-do-youtube-videos-still-sometimes-play-ai-dubbed-audio-tracks)).
-
-To be clear, ***if you use uBlock Origin, you do not need to mark this list as trusted to use a majority of the AI filters***. However, if you want to use the filters listed above, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes).
-
 ### Why are trusted filters recommended in AdGuard but not uBlock Origin?
-Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) to block AI items. (YouTube autodubbing, TikTok videos with AI, etc). In uBlock Origin, trusted filters are only needed for scriptlets that start with `trusted-`. However, in AdGuard trusted filters [are required for all scriptlets](https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3522#issuecomment-4441812031). Also, it's easier to enable trusted filters in AdGuard compared to uBlock Origin. 
+Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) to block AI items. (DeviantArt & Pixiv image filters, YouTube autodubbing, TikTok videos, etc). Unlike uBlock Origin, AdGuard [requires trusted filters for all scriptlets](https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3522#issuecomment-4441812031). Additionally, enabling trusted filters is easier in AdGuard compared to uBlock Origin.
+
+### Why do some filters show "*Invalid filter: Filter requires trusted source*" in uBlock Origin?
+A small number of filters require trusted filters in uBlock Origin. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
+
+To be clear, ***if you use uBlock Origin, you do not need to mark this list as trusted to use a majority of the AI filters***. However, if you do want these extra filters, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes).
 
 ### Why do YouTube videos still sometimes play AI dubbed audio tracks?
 The filter for automatic dubbing on YouTube does not work when opening a video via direct URL. (IE: Entering the address directly in your browser's URL bar). It will work when clicking a video while already on YouTube, such as on YouTube's homepage, search results, or suggested videos.
 
 The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](#why-do-some-filters-show-invalid-filter-filter-requires-trusted-source-in-ublock-origin)), and causes a visible page refresh whenever a video is loaded directly via URL.
+
+### Ads are appearing on YouTube after adding this filter
+This was a [known issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/110) when using the AI Blocklist with Brave that [should be resolved](https://github.com/brave/adblock-rust/issues/679#issuecomment-4869440121). If you are still seeing YouTube ads and have confirmed it *only* occurs when the AI blocklist is installed, please [open an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
 
 ## Contributing guidelines
 If you want to [report an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
