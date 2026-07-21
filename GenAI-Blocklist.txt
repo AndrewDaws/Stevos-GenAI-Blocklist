@@ -1803,6 +1803,12 @@ workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:ha
 ! "Works with Gemini" app section
 workspace.google.com##.ORSkHc:has([data-appset-type="49"])
 
+! -- https://workspace.google.com/search/?q=What+AI+features+are+included+in+Workspace+plans%3F%3F
+! Removes AI followup question suggestions, slighly faster page loading speed
+||ai-search-dot-gsuite-staging.appspot.com/api/answer$xhr,domain=workspace.google.com
+! AI search summary
+workspace.google.com##.summary
+
 ! ============
 ! == Healio ==
 ! ============
