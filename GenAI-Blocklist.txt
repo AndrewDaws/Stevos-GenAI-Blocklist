@@ -918,8 +918,9 @@ www.facebook.com##[role="listitem"]:has([href*="www.meta.ai"], [href^="https://a
 ! Top navbar > Messenger > Meta AI
 www.facebook.com##[role="link"][href="/messages/t/156025504001094/"]
 ! Left sidebar > "Meta AI" & "Chat with AIs" buttons
-www.facebook.com##[role="link"][href*="www.meta.ai"]
-www.facebook.com##[role="link"][href^="https://aistudio.facebook.com/"]
+www.facebook.com##.html-li [role="link"][href^="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.ai%2F%3Futm_source%3Dfacebook_bookmarks"]
+www.facebook.com##.html-li [role="link"][href^="https://www.meta.ai/?utm_source=facebook_bookmarks"]
+www.facebook.com##.html-li [role="link"][href^="https://aistudio.facebook.com/?entry_point=bookmark"]
 ! Right Sidebar > Contacts > Meta AI
 www.facebook.com##[role="link"][href="/messages/t/36327,2227039302/"]
 ! Compose post > Generate images button
