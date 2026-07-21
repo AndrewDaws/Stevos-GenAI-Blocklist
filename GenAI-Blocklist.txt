@@ -3897,8 +3897,8 @@ www.youtube.com##+js(json-edit-fetch-response, v2:$..adaptiveFormats[?@.audioTra
 ! * Alternate filter for AdGuard support
 www.youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats[?@.audioTrack.isAutoDubbed]')
 !#endif
-! * Backup to remove auto-dub menu options from settings menu when video loaded from URL and trusted filters are disabled.
-!   This will not prevent the auto-dubbed audio from playing as the default selection 
+! * Backup to remove auto-dub menu options when video loaded directly via URL or trusted filters are disabled in AdGuard.
+!   This will not prevent the auto-dubbed audio from playing as the default selection.
 www.youtube.com##.ytp-menuitem-section-header
 www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 
