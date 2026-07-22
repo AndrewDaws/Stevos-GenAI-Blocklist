@@ -2353,6 +2353,8 @@ learn.microsoft.com###search-answer
 
 ! -- https://learn.microsoft.com/en-us/answers/questions/5825218/any-impact-if-secure-boot-is-on-but-secure-boot-ce
 ! AI generated post answering a question
+! * .card checks for accepted answer (example: https://learn.microsoft.com/en-us/answers/questions/5874162/release-date-of-msodbc-for-ubuntu-26-04) 
+learn.microsoft.com##.card:has([id^="ai-answer-"])
 learn.microsoft.com##[id^="ai-answer-"]
 
 ! ==========================
