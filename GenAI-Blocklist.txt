@@ -1349,7 +1349,7 @@ mail.google.com##.JLWipf
 ! "Gemini" & "NotebookLLM" App Selector (⋮⋮⋮)
 ! * Applies to most Google apps (Calendar, Docs, Drive, Gmail, Maps, Search, Wallet, etc.)
 ! * Don't filter if app is in "Your Favorites" section to avoid leaving a blank space that can't be replaced with another app.
-google.com,www.google.*##.LVal7b:not(.nq7pOb) .j1ei8c:has(> [data-pid="658"], > [data-pid="666"])
+ogs.google.*##.LVal7b:not(.nq7pOb) .j1ei8c:has(> [data-pid="658"], > [data-pid="666"])
 
 ! -- https://drive.google.com/drive/
 ! "Try Gemini" button in header
