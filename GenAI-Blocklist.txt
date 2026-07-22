@@ -3577,6 +3577,13 @@ webshapedesign.co.uk##.wsai-toggle-wrapper
 ! Floating support chatbot
 ||api.prod.whoop.com/ai-conversation-service/$xhr,domain=support.whoop.com
 
+! ==========================
+! == Wiley Online Library ==
+! ==========================
+! -- https://onlinelibrary.wiley.com/doi/10.1002/agr.70142
+! Floating AI Companion
+||onlinelibrary.wiley.com/pb/widgets/article-assistant/initiate$xhr,domain=onlinelibrary.wiley.com
+
 ! =========
 ! == Wix ==
 ! =========
