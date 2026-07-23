@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 #### Website URL:
-<!-- URL for where the issue occurs. -->
+<!-- URL where the issue occurs. -->
 
 #### Description:
 <!-- Describe the item that needs to be blocked or the issue you have on the website. -->
