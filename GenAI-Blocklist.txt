@@ -835,7 +835,11 @@ www.ebay.com##.srp-river-answer--FAQ_KW_SRP_MODULE
 ! == Ecosia ==
 ! ============
 ! AI-free searching
+!#if ext_ublock
 www.ecosia.org##+js(set-cookie, ECNOAI, true, , reload, 1)
+!#else
+www.ecosia.org#%#//scriptlet('set-cookie-reload', 'ECNOAI', 'true')
+!#endif
 
 ! -- https://www.ecosia.org/ (Homepage)
 ! "AI Chat" in search bar
@@ -4568,7 +4572,11 @@ rule34.xxx##li:has(> [rel="sponsored"])
 ! * Only hide if option has already been enabled
 rule34.xxx###displayOptions:has(#chkFilterAI[checked])
 ! Cookie to enable "Filter AI posts"
+!#if ext_ublock
 rule34.xxx##+js(set-cookie, filter_ai, 1, , reload, 1)
+!#else
+rule34.xxx#%#//scriptlet('set-cookie-reload', 'filter_ai', '1')
+!#endif
 
 ! -- My Account > My Favorites
 ! AI tagged images
