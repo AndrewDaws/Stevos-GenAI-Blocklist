@@ -255,6 +255,12 @@ teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 ! AI category in header
 www.pcguide.com##.menu-item-150141
 
+! ==================
+! == Pureinfotech ==
+! ==================
+! Header - AI Category
+pureinfotech.com###menu-item-153857
+
 ! ======================
 ! == Quicken Simplifi ==
 ! ======================
