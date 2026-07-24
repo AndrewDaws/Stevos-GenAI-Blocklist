@@ -804,8 +804,8 @@ duckduckgo.com##+js(set-cookie, bj, 1)
 duckduckgo.com##.ai-searchbox_modeSelectorWrapper__yKK7S
 ! Header > "Duck.ai"
 duckduckgo.com##.header_aiChatButton__e_9yJ
-! Right sidebar > "More from DuckDuckGo" > "Duck.ai"
-duckduckgo.com##.sideMenu_sectionLink__2zUPb[href="https://duck.ai/?origin=funnel_home_website"]
+! ≡ menu > "More from DuckDuckGo" > "Duck.ai"
+duckduckgo.com##[class^="sideMenu_sectionLink__"][href^="https://duck.ai/"]
 ! Search autocomplete > "Ask Duck.ai"
 ! * This element mentions that pressing Alt+Enter searches with Duck.ai. I am unsure if this behavior can be
 !   blocked, so users may get redirected if they unknowingly press the key combo.
@@ -825,6 +825,10 @@ duckduckgo.com##.nav-menu__item:has(> a[href="https://duck.ai"])
 ! * Sometimes the search assist can appear on the side instead of on top.
 !   For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
 duckduckgo.com##[data-layout="wikinlp"]
+
+! -- https://noai.duckduckgo.com/
+! ≡ menu > Duck AI
+noai.duckduckgo.com##[class^="side-menu-module-scss-module__"][href="https://duck.ai"]
 
 ! =============
 ! == Dummies ==
