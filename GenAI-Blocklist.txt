@@ -3453,7 +3453,7 @@ tutorbin.com##section:has([href="/ai-homework-helper"] > [class^="Aisection_tryA
 ! ===========
 ! == Udemy ==
 ! ===========
--- https://www.udemy.com/
+! -- https://www.udemy.com/
 ! Footer - ChatGPT course
 www.udemy.com##.link[href="/topic/chatgpt/"]
 ! Recommended courses about AI
