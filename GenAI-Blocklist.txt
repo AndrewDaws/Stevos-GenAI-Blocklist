@@ -2164,6 +2164,18 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
+! ===================
+! == LINUXMIND.DEV ==
+! ===================
+! -- https://linuxmind.dev/2025/09/04/complete-os-guide-linux-mint-how-it-works-orientation-and-curiosities/
+! AI chatbox
+linuxmind.dev##.aipkit_chat_container
+linuxmind.dev##.aipkit_chat_container + .wp-block-spacer
+||linuxmind.dev/wp-content/plugins/gpt3-ai-content-generator/dist/js/public-main.bundle.js$script,1p
+! G2A ad
+||linuxmind.dev/wp-content/uploads/2026/04/ChatGPT-Image-$image,1p
+linuxmind.dev##[src^="https://linuxmind.dev/wp-content/uploads/2026/04/ChatGPT-Image-"]
+
 ! ===============
 ! == LogRocket ==
 ! ===============
