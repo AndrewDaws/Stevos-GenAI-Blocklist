@@ -3463,6 +3463,11 @@ www.udemy.com###course-recommendations-section .course-card-title_course-title__
 ! AI Assistant tab
 www.udemy.com##.ud-nav-button-container:has(svg.ud-icon.ud-icon-small.ud-icon-color-info)
 
+! -- https://www.udemy.com/courses/search/?src=ukw&q=testing
+! AI Overview
+||www.udemy.com/chatbot-realtime-gateway/api/v1/core/chats/stream?chat_name=agentic-search$xhr,domain=www.udemy.com
+www.udemy.com##[data-purpose="ai-summary"]
+
 ! =================
 ! == Ulta Beauty ==
 ! =================
