@@ -170,7 +170,6 @@ Commit messages use prefixes to indicate the type of change.
 * [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows.
 * [uBlockOrigin Huge AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist): Filter list to remove sites with AI generated content from search engines.
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
-* [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list aimed at AI widgets. Used as a reference for a few of the filters on this list.
 * [Firewalla's NSFW AI Blocklist](https://github.com/firewalla/fw-public-lists/blob/main/nsfw-ai.txt): Blocklist of adult-focused AI chatbots.
 
 ### Media 
