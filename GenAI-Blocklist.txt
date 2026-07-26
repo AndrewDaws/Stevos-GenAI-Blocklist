@@ -2755,6 +2755,13 @@ www.pcmag.com##[data-element="Maggie-Product-Picker-Launcher"]
 ! AI Product Finder QA box
 www.pcmag.com##div:has(> [data-element="embedded-unit"] > form[\@submit\.prevent*="'product-picker-init'"])
 
+! ==============
+! == Phys.org ==
+! ==============
+! -- https://phys.org/news/2026-07-rare-blue-optical-transient-class.html
+! "The GIST" article summary
+medicalxpress.com,phys.org,techxplore.com##[data-target="#summary-modal"]
+
 ! =============
 ! == Pictory ==
 ! =============
