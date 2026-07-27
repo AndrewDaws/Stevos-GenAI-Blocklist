@@ -272,20 +272,19 @@ www.bestbuy.com##[data-component-name="AiReviewSummary"]
 ! ==========
 ! == Bing ==
 ! ==========
-! Microsoft Rewards → Try Bing Image Creator
-www.bing.com##.gbfo_c_bsic_variant:has(> [href^="https://www.bing.com/images/create"])
-
 ! -- https://www.bing.com/ (Homepage)
-! "Copilot" tab in header on the left
+! Header - "Copilot" button
 www.bing.com###codex
+! Header - Microsoft Rewards → Try Bing Image Creator
+www.bing.com##.gbfo_c_bsic_variant:has(> [href^="https://www.bing.com/images/create"])
+! Header - ... → Microsoft 365 → M365 Copilot
+www.bing.com###m365copilot_overflow
 ! "M365" button to the right of search bar
 www.bing.com##.cdxCopilotIconBg
 ! "Image creator" and "Video creator" buttons below search bar
 www.bing.com###aitools
 ! AI tools search suggestions (mobile only)
 www.bing.com###sa_ai_block
-! ... → Microsoft 365 → M365 Copilot
-www.bing.com###m365copilot_overflow
 
 ! -- https://www.bing.com/search?q=test (generic search page)
 ! Navbar tabs for "Search" and "Copilot"
