@@ -297,11 +297,16 @@ www.bing.com##[data-viewname="VerticalHeaderFlyout"]:has([href^="https://bing.co
 
 ! -- https://www.bing.com/search?q=mario+last+name
 ! "Copilot Search" summary
+! * Don't filter on .b_topw, can have sponsored results
 www.bing.com##.b_ans:has(.with_ai)
+! * TODO: Re-check when this is used
 ||www.bing.com/cmc/fetch$xhr,domain=www.bing.com
 
 ! -- https://www.bing.com/search?q=best+companies
-! "Copilot Search" summary (again)
+! List of companies with AI info disclaimer
+! * Don't filter on .b_topw, can have sponsored results
+www.bing.com##.b_ans:has(> .utilAns)
+! Copilot summary (again)
 ! * Hiding .b_ans instead of .cht_container removes extra space
 www.bing.com##.b_ans.b_top:has(> .cht_container)
 
