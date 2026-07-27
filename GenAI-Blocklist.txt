@@ -3925,6 +3925,10 @@ search.yahoo.co.jp##.AnswerAiNavigation__content
 ! ============
 ! == Yandex ==
 ! ============
+! -- https://yandex.com/
+! "Search with Yandex AI" placeholder text 
+yandex.com##.search3__placeholder-label
+
 ! -- https://ya.ru/
 ! (no longer used?)
 ya.ru##.alice-ai-button__wrapper
