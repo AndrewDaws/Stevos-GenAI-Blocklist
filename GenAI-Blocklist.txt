@@ -301,6 +301,8 @@ www.bing.com##[data-viewname="VerticalHeaderFlyout"]:has([href^="https://bing.co
 www.bing.com##.b_ans:has(.with_ai)
 ! * TODO: Re-check when this is used
 ||www.bing.com/cmc/fetch$xhr,domain=www.bing.com
+! Thumbs up/down for feedback
+||www.bing.com/feedback/entry/acfthumbsupdown?*&scenario=QnATuringGen$xhr,domain=www.bing.com
 
 ! -- https://www.bing.com/search?q=best+companies
 ! List of companies with AI info disclaimer
@@ -314,6 +316,8 @@ www.bing.com##.b_ans.b_top:has(> .cht_container)
 ! Seemingly used for "header-style" AI answer if there no cached AI answer.
 ! Makes answer fallback to a simplified version.
 ||www.bing.com/qna/fetchCodexQnA$xhr,domain=www.bing.com
+! Thumbs up/down for feedback
+||www.bing.com/feedback/entry/acfthumbsupdown?*&scenario=QnATuringGen$xhr,domain=www.bing.com
 
 ! -- https://www.bing.com/search?q=docker+for+windows+install
 ! AI summary in slide
