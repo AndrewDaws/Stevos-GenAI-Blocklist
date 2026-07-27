@@ -317,7 +317,7 @@ www.bing.com##.b_ans.b_top:has(> .cht_container)
 ! Makes answer fallback to a simplified version.
 ||www.bing.com/qna/fetchCodexQnA$xhr,domain=www.bing.com
 ! Thumbs up/down for feedback
-||www.bing.com/feedback/entry/acfthumbsupdown?*&scenario=QnATuringGen$xhr,domain=www.bing.com
+||www.bing.com/feedback/entry/acfthumbsupdown?*&scenario=QnACodexContainer$xhr,domain=www.bing.com
 
 ! -- https://www.bing.com/search?q=docker+for+windows+install
 ! AI summary in slide
