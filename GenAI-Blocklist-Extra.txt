@@ -31,6 +31,13 @@ arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
 ! AI category in navbar
 blog.cloudflare.com##.nav-item[data-tag="ai"]
 
+! ============
+! == Docker ==
+! ============
+! -- https://docs.docker.com/desktop/setup/install/windows-install/
+! AI article category in sidebar
+docs.docker.com##.navbar-group-font-title:has-text(AI and agents):upward(1)
+
 ! ==================
 ! == Fox Business ==
 ! ==================

@@ -773,6 +773,19 @@ www.diffchecker.com##button.bg-surface-purple:has([clip-path="url(#sparkle_svg__
 ! Floating AI Assistant
 ||api.livechatinc.com^$script,domain=www.diskgenius.com
 
+! ============
+! == Docker ==
+! ============
+! -- https://docs.docker.com/
+! Navbar - Gordon button
+docs.docker.com##[data-tooltip-wrapper]:has(> [aria-describedby="gordon-tooltip"])
+! "Ask anything about docker" chatbox
+docs.docker.com##section:has(input[placeholder="Ask anything about Docker and get instant answers…"])
+
+! -- https://docs.docker.com/desktop/setup/install/windows-install/
+! "Ask Gordon" below article title
+docs.docker.com##[onclick="askGordon()"]
+
 ! ===============
 ! == Drinkmate ==
 ! ===============
