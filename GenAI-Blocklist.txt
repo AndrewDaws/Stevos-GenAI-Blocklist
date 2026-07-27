@@ -272,6 +272,9 @@ www.bestbuy.com##[data-component-name="AiReviewSummary"]
 ! ==========
 ! == Bing ==
 ! ==========
+! Microsoft Rewards → Try Bing Image Creator
+www.bing.com##.gbfo_c_bsic_variant:has(> [href^="https://www.bing.com/images/create"])
+
 ! -- https://www.bing.com/ (Homepage)
 ! "Copilot" tab in header on the left
 www.bing.com###codex
@@ -281,23 +284,22 @@ www.bing.com##.cdxCopilotIconBg
 www.bing.com###aitools
 ! AI tools search suggestions (mobile only)
 www.bing.com###sa_ai_block
-! Microsoft Rewards → Try Bing Image Creator
-www.bing.com##.gbfo_c_bsic_variant:has(> [href^="https://www.bing.com/images/create"])
 ! ... → Microsoft 365 → M365 Copilot
 www.bing.com###m365copilot_overflow
 
-! -- https://www.bing.com/search?q=mario+last+name
-! "Search" tab in navbar below search bar
+! -- https://www.bing.com/search?q=test (generic search page)
+! Navbar tabs for "Search" and "Copilot"
 www.bing.com###b-scopeListItem-copilotsearch
-! "Copilot" tab in navbar below search bar
 www.bing.com###b-scopeListItem-conv
+! "Ask a follow-up" at bottom of page
+www.bing.com###b_copilot_search_container
+! Popout promo for AI soccer (During world series)
+www.bing.com##[data-viewname="VerticalHeaderFlyout"]:has([href^="https://bing.com/tools/ai/"])
+
+! -- https://www.bing.com/search?q=mario+last+name
 ! "Copilot Search" summary
 www.bing.com##.b_ans:has(.with_ai)
 ||www.bing.com/cmc/fetch$xhr,domain=www.bing.com
-! "Ask a follow-up" at bottom of page
-www.bing.com###b_copilot_search_container
-! Popout promo for AI soccer
-www.bing.com##[data-viewname="VerticalHeaderFlyout"]:has([href^="https://bing.com/tools/ai/"])
 
 ! -- https://www.bing.com/search?q=best+companies
 ! "Copilot Search" summary (again)
