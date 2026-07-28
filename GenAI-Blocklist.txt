@@ -777,6 +777,14 @@ docs.docker.com##section:has(input[placeholder="Ask anything about Docker and ge
 ! "Ask Gordon" below article title
 docs.docker.com##[onclick="askGordon()"]
 
+! -- https://hub.docker.com/
+! Navbar - Gordon AI button
+hub.docker.com##div:has(> .MuiButtonBase-root > [data-testid="GordonIcon"])
+! Left sidebar - Generative AI
+hub.docker.com##.MuiAccordion-root:has([id="Generative AI-content"])
+! Machine Learning & AI section category
+hub.docker.com##.MuiTypography-h4:has-text("Machine Learning & AI"):upward(.MuiStack-root.css-1hqz9cp)
+
 ! ===============
 ! == Drinkmate ==
 ! ===============
