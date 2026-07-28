@@ -3511,6 +3511,8 @@ www.udemy.com##.ud-nav-button-container:has(svg.ud-icon.ud-icon-small.ud-icon-co
 www.udemy.com##.banner-module--banner--Pcx17:has(.qa-banner--ai-banner-content--od98Q)
 ! Q&A tab - Instant answer button at bottom
 www.udemy.com##.question-overview--questions-block--vLXJq > button:has(svg.ud-icon.ud-icon-xsmall.m)
+! Q&A tab → Ask a new question - Tip for AI Assistant
+www.udemy.com##.new-question--alert-banner--OOMck li:has-text(Ask the AI Assistant for instant answers)
 
 ! -- https://www.udemy.com/courses/search/?src=ukw&q=testing
 ! AI Overview
