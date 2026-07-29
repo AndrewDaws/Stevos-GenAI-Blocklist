@@ -24,8 +24,9 @@
 ! * Button potentially present on hundreds of child sites.
 !   See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/74
 ##.js--show.gen-ai
-! Floating Ask AI button
+! Floating AI buttons
 ||widget.kapa.ai/kapa-widget.bundle.js$script,domain=developer.vonage.com|developers.reddit.com|docs.posit.co|kapa.ai|sentry.zendesk.com
+||widget.molin.ai/shop-ai.js$script,domain=benu.hu|euronics.hu|www.decathlon.hu
 
 ! ===============
 ! == 1Password ==
@@ -2113,6 +2114,12 @@ www.investing.com##[data-test="contextual-subscription-hook"]
 ! Investopedia Answers box
 www.investopedia.com##.askmiso-ask-query
 www.investopedia.com##.askmiso-ask-query-secondary
+
+! ==========
+! == iPon ==
+! ==========
+! Floating AI button
+||chat.ipon.hu/widget.js$script,1p
 
 ! =================
 ! == iShopChangi ==
