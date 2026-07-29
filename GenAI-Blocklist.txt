@@ -3819,7 +3819,7 @@ wordpress.com##.icon-list-item:has(.components-button[href="https://wordpress.co
 ! ===============
 ! -- https://x.com/ (logged out)
 ! Grok in footer
-x.com##[role="navigation"] > .r-o59np7:has(> [href="https://grok.com/"])
+x.com##footer span.items-center:has(> [href="https://grok.com/"])
 
 ! -- https://x.com/home
 ! Sidebar - Grok
