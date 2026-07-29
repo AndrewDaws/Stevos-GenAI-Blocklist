@@ -1253,6 +1253,10 @@ github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBl
 github.com##.Link--secondary[href="/features/copilot"]
 github.com##.Link--secondary[href="/features/ai"]
 
+! -- https://github.com/apps/desktop
+! Header banner for GitHub Copilot app
+github.com##global-banner#desktop_copilot_app
+
 ! -- https://support.github.com/
 ! Header - Copilot button
 support.github.com##[data-fs="copilot_chat_nav"]
