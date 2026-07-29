@@ -1085,8 +1085,16 @@ www.g2.com###g2-ai-chat-application
 ! =========
 ! == G2A ==
 ! =========
+! Header banner for Gemini Bestsellers
+www.g2a.com##[data-testid="trust-banner"]:has([href^="https://www.g2a.com/search?query=Google%20AI%20Gemini"])
 ! Floating "Chat with Buddy" box
-www.g2a.com##.group:has(> [href="https://www.g2a.com/buddy"])
+www.g2a.com##[data-testid="buddy-ribbon"]
+! AI subscriptions category
+www.g2a.com##[data-locator="ai"]
+
+! -- https://www.g2a.com/category/games-c189
+! Chat with Buddy banner
+www.g2a.com##[data-testid="buddy-banner"]
 
 ! =============
 ! == G4Media ==
