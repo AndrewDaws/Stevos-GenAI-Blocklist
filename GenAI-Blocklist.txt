@@ -3366,6 +3366,13 @@ www.techbloat.com##.dyn-jilx6y-modal-offer-item:has([data-ym-p3-product="chipps"
 ! In-article promos
 www.techbloat.com##[data-ym-p3-product="chipps"]
 
+! ================
+! == Tecnoblog ==
+! ================
+! -- https://tecnoblog.net/noticias/youtube-aperta-o-cerco-contra-videos-ruins-feitos-com-ia/
+! Ask Tecnochat at bottom of article
+tecnoblog.net##.tb-single-tecnochat
+
 ! =============
 ! == Telerik ==
 ! =============
