@@ -1787,12 +1787,14 @@ www.google.*##[jscontroller="DyTeib"]
 www.google.*##.pHiOh[href^="https://ai.google/"]
 ! Search bar - AI button (magnifying glass icon, mobile only)
 www.google.*##.xOchs
-! Autocomplete suggestions - AI Mode
+! Autocomplete suggestions
 !#if ext_ublock
 www.google.*##+js(json-edit, v2:$..[?@.zp.udm=="50"])
+www.google.*##+js(json-edit, v2:$..[?@[?@.zf==86]])
 !#endif
 !#if adguard
 www.google.*##+js(json-prune, $.*.*[?@.zp.udm=="50"])
+www.google.*##+js(json-prune, $.*[?@[?@.zf==86]])
 !#endif
 ! * Backup cosmetic filter for mobile
 www.google.*##.CKtgbd[role="listbox"] > .sbct:has(.cuyMBe:has-text(AI Mode))
