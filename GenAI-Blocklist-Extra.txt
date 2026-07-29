@@ -52,6 +52,12 @@ www.foxbusiness.com##.nav-item--ai
 ! AI category in header
 futurism.com##.menu-item:has([href="https://futurism.com/category/artificial-intelligence"])
 
+! ===================
+! == Geeky Gadgets ==
+! ===================
+! AI header category
+www.geeky-gadgets.com##.menu-item:has(> [href="https://www.geeky-gadgets.com/category/artificial-intelligence/"])
+
 ! ============
 ! == GitHub ==
 ! ============
