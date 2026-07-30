@@ -615,6 +615,13 @@ www.crateandbarrel.com##.swat-review-summary-container-border
 ! Key takeaways with AI disclaimer
 cybernews.com##.key-takeaway-editorial:has(> .key-takeaway-editorial__disclaimer)
 
+! ================
+! == Databricks ==
+! ================
+! -- https://www.databricks.com/blog/what-is-parquet
+! "Agentic AI playbook" promo
+www.databricks.com##[data-promo-id="87eda153-219a-46c6-828a-9d54503f5adc"]
+
 ! ==============
 ! == DataCamp ==
 ! ==============
