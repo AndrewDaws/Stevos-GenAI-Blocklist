@@ -628,6 +628,8 @@ www.databricks.com##[data-promo-id="87eda153-219a-46c6-828a-9d54503f5adc"]
 ! == DataCamp ==
 ! ==============
 ! -- https://www.datacamp.com/tutorial/sql-union-union-all
+! Explore with AI buttons at top of article
+www.datacamp.com##[aria-labelledby="explore-with-ai-heading"]
 ! Explain code button & DataLab AI promo below code blocks
 www.datacamp.com##.code-block-footer
 
