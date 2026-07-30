@@ -1,17 +1,17 @@
 # Stevo's AI Blocklist
 
-A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features which use Generative AI and content labeled as AI-Generated.
+A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features which use Generative AI and content labeled as AI-generated.
 
 Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-or-microsoft-edge), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-or-microsoft-edge), [Chrome](#google-chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
 
 ## Examples of filtered content
-* Google's AI Overviews
+* Google's AI Overviews & AI Mode
 * YouTube's Ask button, video summaries, auto-dubbing, and 'Super Resolution' upscaling
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
-* Pixiv and DeviantArt images with AI-generated label
-* Amazon Rufus's product and review summaries
+* Pixiv and DeviantArt images labeled as AI-generated
+* Amazon Rufus and review summaries
 * Reddit Answers and recommended posts from AI subreddits
-* Facebook's AI chat
+* Facebook's AI chat & posts with AI info label
 * TikTok videos tagged as AI-generated
 * X/Twitter's Grok buttons, posts from Grok, and posts with "made with AI" label
 
