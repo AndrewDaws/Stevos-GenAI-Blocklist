@@ -619,6 +619,8 @@ cybernews.com##.key-takeaway-editorial:has(> .key-takeaway-editorial__disclaimer
 ! == Databricks ==
 ! ================
 ! -- https://www.databricks.com/blog/what-is-parquet
+! Article summary
+www.databricks.com##[data-cy="AiSummary"]
 ! "Agentic AI playbook" promo
 www.databricks.com##[data-promo-id="87eda153-219a-46c6-828a-9d54503f5adc"]
 
