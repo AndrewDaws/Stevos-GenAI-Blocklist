@@ -339,6 +339,13 @@ www.semrush.com##[data-test="toc-widget-custom"]
 ! Floating chatbot
 support.smartbear.com###embedded-messaging
 
+! =================
+! == SourceForge ==
+! =================
+! -- https://sourceforge.net/projects/crystaldiskinfo/
+! Sidebar - Featured app (Gemini Enterprise Agent)
+sourceforge.net##.m-sidebar-widget:has(.main-image:is([alt="Build Agents and Models on One Platform Icon"], [alt="Ship Agents Faster Icon"]))
+
 ! ============
 ! == Square ==
 ! ============
