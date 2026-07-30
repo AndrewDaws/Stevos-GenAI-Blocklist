@@ -409,6 +409,10 @@ tech.yahoo.com##.group\/subItem[href="https://tech.yahoo.com/ai/"]
 ! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
 www.youtube.com##+js(trusted-replace-node-text, script, (function serverContract(), if("object"===typeof window.ytInitialPlayerResponse){window.ytInitialPlayerResponse=JSON.parse(JSON.stringify(window.ytInitialPlayerResponse));}(function serverContract(), sedCount, 1)
 
+! -- https://www.youtube.com/watch?v=l5NntXg1zOg
+! Add "Made with AI" notice if AI label is present
+www.youtube.com##ytd-watch-flexy:has([aria-label="AI: Content was made with AI"]) #movie_player::after:style(content:"Made with AI"; position:absolute; top:12px; right:12px; background:#ff0033; color:#fff; padding:8px 12px; border-radius:6px; font-size:50px; font-weight:700; letter-spacing:0.5px; font-family:Roboto,Arial,sans-serif; z-index:9999; pointer-events:none; box-shadow:0 2px 10px rgba(0,0,0,0.6); border:2px solid #fff;)
+
 ! ====================
 ! == YouTube Studio ==
 ! ====================
