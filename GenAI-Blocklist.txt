@@ -2164,6 +2164,12 @@ jsfiddle.net###flash-messages > .error:has-text("Can't complete code. Error code
 ! AI Code completion button in sidebar
 jsfiddle.net##.si_ai
 
+! ====================
+! == Jumping Rivers ==
+! ====================
+! Header banner - AI in production tickets
+www.jumpingrivers.com###banner[data-name="aip-2027-eb"]
+
 ! ==========
 ! == Kagi ==
 ! ==========
