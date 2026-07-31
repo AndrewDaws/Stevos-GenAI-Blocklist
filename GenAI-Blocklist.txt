@@ -3257,6 +3257,14 @@ www.singaporeair.com##chat-bot-button + .dwc--SiaHeader__WhiteSeparator
 sleepopolis.com###art-chat-launcher
 sleepopolis.com###art-chat-widget
 
+! ================
+! == Slickdeals ==
+! ================
+! -- https://slickdeals.net/f/19716039-new-eligible-former-subscribers-2-months-paramount-premium-no-ads-streaming-service-0-99-month-renews-at-13-99-mo-after-2-months
+! Comment summary
+slickdeals.net##.commentsSummaryModuleV2 > .commentsSummaryModuleV2__header
+slickdeals.net##.commentsSummaryModuleV2 > .commentsSummaryModuleV2__card:has(> .commentsSummaryModuleV2__summary)
+
 ! ===========
 ! == Sogou ==
 ! ===========
