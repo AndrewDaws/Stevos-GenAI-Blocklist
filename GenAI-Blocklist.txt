@@ -2991,6 +2991,13 @@ www.priceline.com###penny-icon-module
 www.priceline.com##[data-testid="penny-fab-button"]
 www.priceline.com##[data-testid="poptip"]
 
+! =================
+! == Prime Video ==
+! =================
+! -- https://www.primevideo.com/search?ie=UTF8&ref_=atv_nb_sug&phrase=Avatar
+! AI beta recommendations
+www.primevideo.com##[data-testid="navigation-carousel-wrapper"]:has(.iodfd3.cljaZL)
+
 ! =============
 ! == Privacy ==
 ! =============
