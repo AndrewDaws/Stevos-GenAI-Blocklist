@@ -185,6 +185,12 @@ Commit messages use prefixes to indicate the type of change.
 * [Anubis](https://github.com/techaroHQ/anubis): Web firewall for blocking requests from AI companies.
 * [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt): List of AI crawlers to block as a website owner.
 
+## Special thanks
+* **gorhill**: For creating uBlock Origin and answering my questions about `json-edit` filters
+* **paintboth1234**: Wrote the filter for [disabling YouTube auto-dubbing](https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/).
+* **ryanbr**: For maintaining [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
+* **AchernarB, paintboth1234, & RraaLL**: For moderating r/uBlockOrigin and answering questions as I learned how to create filters. 
+
 ## Feedback
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
 
