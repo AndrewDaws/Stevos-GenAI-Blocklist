@@ -237,7 +237,7 @@ www.livescience.com##.meganav-item__link[data-before-rewrite-localise="/technolo
 ! ===========
 ! Floating Mylow button in bottom right
 ! * Needed to contact human customer support. 
-www.lowes.com##.sc-coJMku.ChatInviteButton
+www.lowes.com##.ChatInviteButton
 
 ! ====================
 ! == Microsoft Blog ==
