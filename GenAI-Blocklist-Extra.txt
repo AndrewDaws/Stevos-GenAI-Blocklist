@@ -405,7 +405,7 @@ androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers
 ! == Yahoo ==
 ! ===========
 ! Navbar - AI topic
-tech.yahoo.com##.group\/subItem[href="https://tech.yahoo.com/ai/"]
+tech.yahoo.com##.group\/mega-nav-item:has([aria-controls="submenu-ai"])
 
 ! =============
 ! == YouTube ==
