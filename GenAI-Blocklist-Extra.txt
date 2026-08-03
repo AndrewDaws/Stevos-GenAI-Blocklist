@@ -112,6 +112,13 @@ gizmodo.com##[cmp-ltrk="fly-menu"][href="https://gizmodo.com/tech/artificial-int
 ! Navbar AI category
 gizmodo.com##.giz-bg-main [href="https://gizmodo.com/tech/artificial-intelligence"]
 
+! ===========
+! == Gmail ==
+! ===========
+! AI grammar suggestions
+! * Also seemingly disables spellchecking
+||appsgenaiserver-pa.clients6.google.com/v1/genai/generate$xhr,domain=mail.google.com
+
 ! ==========================
 ! == Google Admin Console ==
 ! ==========================

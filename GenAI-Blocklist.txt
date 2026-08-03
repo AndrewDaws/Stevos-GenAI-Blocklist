@@ -1456,8 +1456,6 @@ mail.google.com##.bDl[command="sdt"]
 ! * The "remove" filter blocks the keyboard hotkey when typing '/' as the first letter of an email if prompt has appeard. (Typing '/' will have no input, rather than opening the AI menu.)
 mail.google.com##.jKzJCd
 mail.google.com##.eLNZDd[command="sdt"]:remove()
-! AI grammar suggestions
-||appsgenaiserver-pa.clients6.google.com/v1/genai/generate$xhr,domain=mail.google.com
 
 ! -- Reading an email
 ! "Summarize this email"/"AI Overview"
