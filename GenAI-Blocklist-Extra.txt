@@ -117,7 +117,7 @@ gizmodo.com##.giz-bg-main [href="https://gizmodo.com/tech/artificial-intelligenc
 ! ===========
 ! AI grammar suggestions
 ! * Also seemingly disables spellchecking
-||appsgenaiserver-pa.clients6.google.com/v1/genai/generate$xhr,domain=mail.google.com
+||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=mail.google.com
 
 ! ==========================
 ! == Google Admin Console ==
