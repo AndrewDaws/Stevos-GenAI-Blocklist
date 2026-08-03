@@ -122,6 +122,10 @@ admin.google.com###node-N19-47803731
 ! ==================
 ! == Google Cloud ==
 ! ==================
+! -- https://console.cloud.google.com/welcome
+! Create Gemini API Key
+console.cloud.google.com##.mdc-button[href^="/agent-platform/studio/settings/api-keys?project="]
+
 ! -- https://console.cloud.google.com/home/dashboard (shutting down in 2027)
 ! Sidebar - Agent Platform
 console.cloud.google.com##.cfc-console-nav-section-AGENT_PLATFORM_SECTION
