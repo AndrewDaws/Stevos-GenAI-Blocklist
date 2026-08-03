@@ -412,6 +412,13 @@ time.com##li:has(div > [href="#id-ai-0"])
 ! AI Sparkle in left sidebar
 androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.i-sensa
 
+! ========================
+! == Visual Studio Code ==
+! ========================
+! -- https://code.visualstudio.com/docs/remote/wsl
+! View as markdown
+code.visualstudio.com##.docs-markdown-actions
+
 ! ==========
 ! == Yahoo ==
 ! ===========
