@@ -190,7 +190,8 @@ Commit messages use prefixes to indicate the type of change.
 * **gorhill**: For creating uBlock Origin and answering my questions about `json-edit` filters
 * **paintboth1234**: Wrote the filter for [disabling YouTube auto-dubbing](https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/).
 * **ryanbr**: For maintaining [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
-* **AchernarB, paintboth1234, & RraaLL**: For moderating r/uBlockOrigin and answering questions as I learned how to create filters. 
+* **AchernarB, paintboth1234, & RraaLL**: For moderating [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) and answering questions as I learned how to create filters.
+* **inwiring**: Provided [Google AI Overview filters](https://inwiring.com/google-ai-overviews/) used in earlier versions of this blocklist.
 
 ## Feedback
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
