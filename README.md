@@ -161,6 +161,7 @@ Commit messages use prefixes to indicate the type of change.
 * M: Modified an existing filter
 * R: Removed a filter
 * C: Cosmetic "meta" change like editing comments or rearranging filters
+* T: Transfer filter between extra and main list.
 * F: Fixed a filter (not working, blocking too much, typo, etc.)
 * +: Filter applied to the "extra" list
 
