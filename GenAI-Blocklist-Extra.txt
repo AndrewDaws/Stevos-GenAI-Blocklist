@@ -37,6 +37,8 @@ blog.cloudflare.com##.nav-item[data-tag="ai"]
 ! -- https://docs.docker.com/desktop/setup/install/windows-install/
 ! AI article category in sidebar
 docs.docker.com##.navbar-group-font-title:has-text(AI and agents):upward(1)
+! Gordon & Markdown buttons
+docs.docker.com##article > .lg\:block > .not-prose > .flex
 
 ! ==================
 ! == Fox Business ==
