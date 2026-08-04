@@ -87,6 +87,15 @@ photoshop.adobe.com##sp-action-button.quick-edit-button[label="Generate an image
 photoshop.adobe.com##[data-testid="quick-actions-title-gen-ai"]
 photoshop.adobe.com##.genAICards
 
+! =============
+! == Alibaba ==
+! =============
+! -- https://www.alibaba.com/
+! Header - Accio Work
+www.alibaba.com###icbu-buyer-pc-top-banner
+! Sidebar - Accio Work
+www.alibaba.com##.accio-wrapper
+
 ! ==================
 ! == Alpha Coders ==
 ! ==================
