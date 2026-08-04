@@ -1485,9 +1485,18 @@ mail.google.com##.JLWipf
 ! =============
 ! == GoDaddy ==
 ! =============
-! -- https://www.godaddy.com/resources/skills/uri-vs-url-vs-urn
+! Header > Websites
+www.godaddy.com##.ux-text-title:has-text("AI Builder"):upward([data-cy="primary-nav-tray-panel-list"])
+! Header > Marketing
+www.godaddy.com##[data-cy="list-item"][aria-label="Logo Maker"]
+www.godaddy.com##.ux-text-title:has-text("GoDaddy Airo"):upward([data-cy="primary-nav-tray-panel-list"])
 ! Header > Airo AI Builder
 www.godaddy.com##li:has(> [data-track-name="hcs_airo_ai_builder"])
+! Footer
+www.godaddy.com##[data-cy="footer-menu-item-link"]:has(> [href="https://www.godaddy.com/websites/ai-website-builder"])
+www.godaddy.com##[data-cy="footer-menu-item-link"]:has(> [href="https://www.godaddy.com/logo-maker"])
+
+! -- https://www.godaddy.com/resources/skills/uri-vs-url-vs-urn
 ! Sidebar promo for AI domain search
 www.godaddy.com##.block-promo-banner:has-text("Let AI help you find the perfect domain name")
 
