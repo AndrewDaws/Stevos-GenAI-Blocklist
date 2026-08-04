@@ -3082,6 +3082,15 @@ www.qwant.com##._1xQVj.G-2qb.xsF9p.KC1qb:has(#llmMode)
 ! AI news overview
 www.rambler.ru##.rc__788yz.rc__U-mRx.r-vvrm5f4e
 
+! =================
+! == Real Python ==
+! =================
+! -- https://realpython.com/
+! Navbar > Learn Python > Code Mentor
+realpython.com##.dropdown-item[href="/mentor/"]
+! Explore Real Python section > Code Mentor
+realpython.com##.card:has([href="/mentor/"]):style(visibility: hidden)
+
 ! ============
 ! == Reddit ==
 ! ============
