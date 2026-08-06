@@ -635,6 +635,15 @@ www.consumerreports.org##.cda-gnav__main-search-hints-semantic-askCR
 ! "AskCR" tab
 www.consumerreports.org###ask-cr-search-tab
 
+! =============
+! == Coolors ==
+! =============
+! -- https://coolors.co/
+! AI tools on the main toolbar
+coolors.co###generator_ai-btn
+! "Color Bot" button on the front page
+coolors.co##a[href$="/color-bot"]
+
 ! ====================
 ! == Crate & Barrel ==
 ! ====================
