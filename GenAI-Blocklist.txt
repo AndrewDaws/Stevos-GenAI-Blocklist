@@ -3731,6 +3731,13 @@ www.ulta.com##chat-messenger[service*="commerce-ai"]
 member.uhc.com##[data-test-id="global-nav-ask-ai"]
 
 ! ============================
+! == University of Aberdeen ==
+! ============================
+! -- https://www.abdn.ac.uk/study/undergraduate/degree-programmes/?q=example&view=detailed
+! Floating chat widget when searching for courses
+abdn.ac.uk##.gecko-chat-widget-app
+
+! ============================
 ! == University of Illinois ==
 ! ============================
 ! -- https://education.illinois.edu/about/news-events/news/article/2024/11/11/what-is-generative-ai-vs-ai
