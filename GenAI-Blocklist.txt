@@ -4050,6 +4050,13 @@ wordpress.com##.dashboard-add-new-site__menu-item[href="https://wordpress.com/se
 ! Sites - "Build with AI"
 wordpress.com##.icon-list-item:has(.components-button[href="https://wordpress.com/setup/ai-site-builder?source=dashboard-sites&ref=dashboard-sites-empty-state"])
 
+! ====================
+! == World of Books ==
+! ====================
+! -- https://www.worldofbooks.com
+! AI reviews
+worldofbooks.com##.ai-recommendation-block
+
 ! ===============
 ! == X/Twitter ==
 ! ===============
