@@ -102,6 +102,7 @@ www.alibaba.com##.accio-wrapper
 ! -- https://www.aliexpress.us/item/3256808332164347.html
 ! AI Overview
 www.aliexpress.us##div:has(> [class^="seo-sellpoints--title--"])
+www.aliexpress.us##div:has(> [class^="seo-sellpoints--title--"]) + [class^="split-line--wrap--"]
 
 ! ==================
 ! == Alpha Coders ==
