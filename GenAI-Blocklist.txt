@@ -2492,6 +2492,14 @@ www.merriam-webster.com##.chatbot-nav-item
 ! - Chats - Meta AI
 www.messenger.com##div[role="gridcell"] > div > a[role="link"][href="/t/156025504001094/"]
 
+! ===========
+! == Metro ==
+! ===========
+! -- https://metro.co.uk/
+! - Odd AI bubble in middle of certain articles.
+metro.co.uk##.metro-answers
+
+
 ! ===============
 ! == Microsoft ==
 ! ===============
