@@ -240,6 +240,13 @@ www.asus.com##.Header__menuOuter__xBkro:has(> #aiMenu) + .Header__spaceForMenuIt
 ! Floating chatbot button
 www.asus.com###brandAssistant-root
 
+! =========
+! == B&Q ==
+! =========
+! https://www.diy.com/
+! "Hello B&Q" AI assistant button on toolbar
+diy.com##a[data-testid="hello-bq"]
+
 ! ==============
 ! == Backbone ==
 ! ==============
