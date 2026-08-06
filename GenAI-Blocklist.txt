@@ -1910,6 +1910,7 @@ www.google.*##.oGdvd
 ! "Things to know" and "People also ask" sections
 ! * First filter hides list items, .cUnQKe hides header if all items are AI, .ULSxyf hides extra space if needed
 ! * Extra sanity checks on child elements of .ULSxyf to avoid overfiltering. (Example: https://www.google.com/search?q=world+cup+standing)
+! * Adapted from this thread (https://www.reddit.com/r/uBlockOrigin/comments/1u2k877/hiding_googles_things_to_know_section_if_all/)
 ! ** "Things to know"
 www.google.*##[jscontroller="Elkdbc"]
 www.google.*##.ULSxyf:has(> .MjjYud > div:not([class]) > [jsname="Ypkwb"] [jscontroller="Elkdbc"] > .EyBRub):not(:has(:not([jscontroller="Elkdbc"]) > .EyBRub))
