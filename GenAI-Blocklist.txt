@@ -3404,6 +3404,15 @@ sogou.com##.searchnav > li:has(> #sogou_aimode)
 www.sogou.com##.reactResult
 ||wenda.sogou.com/produce_ai_answer$xhr,domain=www.sogou.com
 
+! =======================
+! == Spaceship Domains ==
+! =======================
+! -- https://www.spaceship.com/
+! 'AI Website Builder' button on home screen (not logged in)
+spaceship.com##.hp-ai-website-builder-card
+! 'Ask Alf' AI Assistant Button
+spaceship.com##[aria-label="Ask Alf"]
+
 ! =============
 ! == Spotify ==
 ! =============
