@@ -3704,6 +3704,17 @@ www.udemy.com##.mc-quiz-answer--answer-inner--Uz9E8 > .ud-text-sm:has(svg.ud-ico
 ||www.udemy.com/chatbot-realtime-gateway/api/v1/core/chats/stream?chat_name=agentic-search$xhr,domain=www.udemy.com
 www.udemy.com##[data-purpose="ai-summary"]
 
+! ============
+! == uhomes ==
+! ============
+! -- https://en.uhomes.com/
+! Chat window when clicking floating AI button
+||sdk.uhzcdn.com/uhomes-ai-chat/$script,domain=uhomes.com
+! Floating chat bubble
+uhomes.com##.list-chat-icon-container
+! Footer > Support > uhomesAI
+uhomes.com##.ai-chat
+
 ! =================
 ! == Ulta Beauty ==
 ! =================
