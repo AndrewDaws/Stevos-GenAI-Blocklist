@@ -558,6 +558,15 @@ developer.cisco.com##.wrapper-dwc-notification:has([href="/codeexchange/ai/"])
 ! IRS AI chatbot assistant
 claimyr.com##.chat-container-container
 
+! =============================
+! == Clarence Medical Centre ==
+! =============================
+! -- https://clarencemedicalrhyl.wales/
+! Floating AI chatbot
+clarencemedicalrhyl.wales###druidWebchatRoot_v2
+! * can also be blocked with network filter, but am unsure if this would break other elements on the site
+! ||druidapi.druidplatform.com/api/services/app/Bot/LoadConfiguration$xhr,domain=clarencemedicalrhyl.wales
+
 ! =================
 ! == Claude Docs ==
 ! =================
