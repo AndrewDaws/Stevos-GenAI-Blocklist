@@ -133,6 +133,7 @@ www.amazon.*##.ahi-health-ai-content > .banner-pills-container
 www.amazon.*##+js(json-prune, suggestions.[-].widgetId)
 ! Rufus chatbot in sidebar 
 ! * Requires trusted filters in AdGuard
+! * Source: https://www.reddit.com/r/uBlockOrigin/comments/1pod2g6/comment/nuelobn/
 www.amazon.*##+js(set-session-storage-item, rufus:panel:dockedState, null)
 www.amazon.*##+js(set-session-storage-item, rufus:panel, null)
 
