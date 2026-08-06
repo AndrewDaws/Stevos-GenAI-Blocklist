@@ -3729,6 +3729,8 @@ www.udemy.com##[data-purpose="ai-summary"]
 ||sdk.uhzcdn.com/uhomes-ai-chat/$script,domain=uhomes.com
 ! Floating chat bubble
 uhomes.com##.list-chat-icon-container
+! Search toggle for AI mode
+uhomes.com##.ai-search-toggle.mode-search > .toggle-pill
 ! Footer > Support > uhomesAI
 uhomes.com##.ai-chat
 
