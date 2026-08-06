@@ -2400,6 +2400,19 @@ blog.logrocket.com##.code-block:has(> .blog-plug)
 ! AI translation in navbar
 lokalise.com##li.border-b-2:has(> [href="/blog/category/ai-translation/"])
 
+! =======================
+! == L'Oréal Paris USA ==
+! =======================
+! -- https://www.lorealparisusa.com/
+! 'Beauty Genius' AI assistant button on toolbar (Desktop Only)
+lorealparisusa.com##.oap-beauty-genius
+! 'Beauty Genius' AI floating chat bubble
+lorealparisusa.com##.oap-beauty-genius-wrapper
+! 'Beauty Genius' AI assistant button at the footer of the page
+lorealparisusa.com##.oap-beauty-genius-footer-module
+! 'Beauty Genius' floating AI assistant button at top-left of page
+lorealparisusa.com##.oap-beauty-genius-header-icon
+
 ! ===========
 ! == Lowes ==
 ! ===========
