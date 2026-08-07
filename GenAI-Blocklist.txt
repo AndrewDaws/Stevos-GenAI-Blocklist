@@ -3881,6 +3881,8 @@ www.washingtonpost.com##[data-testid="subscribe-promo-button"][href="https://www
 www.washingtonpost.com##.wpds-c-kSOqLF-ijwAmXJ-css
 ! Comment summary
 www.washingtonpost.com##.wpds-c-bHXelH-igoXVOL-css
+! Comments > Conversation summary
+www.washingtonpost.com##.Highlights-singleCardContent-538a5c6f07095c4d6aed9dbfbed465fa
 
 ! -- https://www.washingtonpost.com/opinions/2026/04/15/will-connecticut-crackdown-self-checkout-lanes/
 ! Replace "Ask a question or search" text in search bar
