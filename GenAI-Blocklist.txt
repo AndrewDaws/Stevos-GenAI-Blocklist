@@ -1227,9 +1227,9 @@ github.com##.CtaForm-secondaryAction[href="/github-copilot/pro"]
 github.com##[data-testid="top-bar-actions"] > .hide-md:has(> .CopilotItems-module__Wrapper__BFG9q)
 ! Header - left hamburger menu (≡) - "Copilot" button
 github.com##[data-testid="side-nav-menu-item-COPILOT"]
-! Header - Search bar - "Copilot" section in auto-complete suggestions
-github.com##.ActionList-sectionDivider:has([data-command-name="search-copilot-chat"])
-github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider [data-command-name="search-copilot-chat"])
+! Header - Search bar - Copilot autocomplete suggestion
+github.com##[data-component="ActionList.Group"]:has([data-testid="quick-search-suggestion"][href="/copilot"])
+github.com##[data-component="ActionList.Divider"]:has(+ [data-component="ActionList.Group"] [data-testid="quick-search-suggestion"][href="/copilot"])
 ! Header - Profile icon - Feature Preview - Organization Custom Instructions
 ! * Only applies if feature is already disabled
 github.com##[id$="-tab-copilot_chat_custom_instructions"]:has(.octicon-eye-closed)
