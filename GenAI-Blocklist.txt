@@ -245,7 +245,7 @@ www.asus.com###brandAssistant-root
 ! =========
 ! https://www.diy.com/
 ! "Hello B&Q" AI assistant button on toolbar
-diy.com##[data-testid="hello-bq"]
+www.diy.com##[data-testid="hello-bq"]
 
 ! ==============
 ! == Backbone ==
@@ -650,9 +650,9 @@ www.consumerreports.org###ask-cr-search-tab
 coolors.co###megamenu [href="/color-bot"]
 ! Color Bot in mobile menu
 coolors.co###mobile-menu li:has(> [href="/color-bot"])
-! "Color Bot" button on the front page
+! Color Bot button on the front page
 coolors.co##.homepage_tool[href="/color-bot"]
-! "Color Bot" in footer
+! Color Bot in footer
 coolors.co###footer_menu [href="/color-bot"]
 
 ! -- https://coolors.co/generate
@@ -2413,14 +2413,14 @@ lokalise.com##li.border-b-2:has(> [href="/blog/category/ai-translation/"])
 ! == L'Oréal Paris USA ==
 ! =======================
 ! -- https://www.lorealparisusa.com/
-! 'Beauty Genius' AI assistant button on toolbar (Desktop Only)
-lorealparisusa.com##.oap-beauty-genius
-! 'Beauty Genius' AI floating chat bubble
-lorealparisusa.com##.oap-beauty-genius-wrapper
-! 'Beauty Genius' AI assistant button at the footer of the page
-lorealparisusa.com##.oap-beauty-genius-footer-module
-! 'Beauty Genius' floating AI assistant button at top-left of page
-lorealparisusa.com##.oap-beauty-genius-header-icon
+! Header - 'Beauty Genius' floating AI assistant button at top-left of page
+www.lorealparisusa.com##.oap-beauty-genius-header-icon
+! Header - Virtual Beauty Tools > 'Beauty Genius' AI assistant
+www.lorealparisusa.com##.oap-beauty-genius
+! 'Beauty Genius' AI floating chat modal
+www.lorealparisusa.com##.oap-beauty-genius-wrapper
+! Footer - 'Beauty Genius' AI assistant button
+www.lorealparisusa.com##.oap-beauty-genius-footer-module
 
 ! ===========
 ! == Lowes ==
@@ -2504,10 +2504,9 @@ www.messenger.com##div[role="gridcell"] > div > a[role="link"][href="/t/15602550
 ! ===========
 ! == Metro ==
 ! ===========
-! -- https://metro.co.uk/
-! - Odd AI bubble in middle of certain articles.
+! -- https://metro.co.uk/2023/06/02/do-you-get-charged-if-you-tap-in-and-out-of-the-same-station-18887918/
+! "Ask Metro" bubble in the middle of certain articles.
 metro.co.uk##.metro-answers
-
 
 ! ===============
 ! == Microsoft ==
@@ -3417,10 +3416,10 @@ www.sogou.com##.reactResult
 ! == Spaceship Domains ==
 ! =======================
 ! -- https://www.spaceship.com/
+! Header - 'Ask Alf' AI Assistant Button
+www.spaceship.com##[aria-label="Ask Alf"]
 ! 'AI Website Builder' button on home screen (not logged in)
-spaceship.com##.hp-ai-website-builder-card
-! 'Ask Alf' AI Assistant Button
-spaceship.com##[aria-label="Ask Alf"]
+www.spaceship.com##.hp-ai-website-builder-card
 
 ! =============
 ! == Spotify ==
@@ -3790,9 +3789,9 @@ member.uhc.com##[data-test-id="global-nav-ask-ai"]
 ! ============================
 ! == University of Aberdeen ==
 ! ============================
-! -- https://www.abdn.ac.uk/study/undergraduate/degree-programmes/?q=example&view=detailed
+! -- https://www.abdn.ac.uk/study/undergraduate/degree-programmes/
 ! Floating chat widget when searching for courses
-abdn.ac.uk##.gecko-chat-widget-app
+www.abdn.ac.uk##.gecko-chat-widget-app
 
 ! ============================
 ! == University of Illinois ==
@@ -4065,7 +4064,7 @@ wordpress.com##.icon-list-item:has(.components-button[href="https://wordpress.co
 ! == World of Books ==
 ! ====================
 ! -- https://www.worldofbooks.com
-! AI reviews
+! AI recommendation snippets (Non-US users only)
 worldofbooks.com##.ai-recommendation-block
 
 ! ===============
