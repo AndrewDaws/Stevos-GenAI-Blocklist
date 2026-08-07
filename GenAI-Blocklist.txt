@@ -245,7 +245,7 @@ www.asus.com###brandAssistant-root
 ! =========
 ! https://www.diy.com/
 ! "Hello B&Q" AI assistant button on toolbar
-diy.com##a[data-testid="hello-bq"]
+diy.com##[data-testid="hello-bq"]
 
 ! ==============
 ! == Backbone ==
@@ -646,10 +646,19 @@ www.consumerreports.org###ask-cr-search-tab
 ! == Coolors ==
 ! =============
 ! -- https://coolors.co/
-! AI tools on the main toolbar
-coolors.co###generator_ai-btn
+! Color Bot in navbar Tools menu
+coolors.co###megamenu [href="/color-bot"]
+! Color Bot in mobile menu
+coolors.co###mobile-menu li:has(> [href="/color-bot"])
 ! "Color Bot" button on the front page
-coolors.co##a[href$="/color-bot"]
+coolors.co##.homepage_tool[href="/color-bot"]
+! "Color Bot" in footer
+coolors.co###footer_menu [href="/color-bot"]
+
+! -- https://coolors.co/generate
+! Toolbar - AI tools button
+coolors.co###generator_ai-btn
+coolors.co###popover-hint:has(.icon-ai-sparkles-18px)
 
 ! ====================
 ! == Crate & Barrel ==
@@ -3758,6 +3767,8 @@ www.udemy.com##[data-purpose="ai-summary"]
 ||sdk.uhzcdn.com/uhomes-ai-chat/$script,domain=uhomes.com
 ! Floating chat bubble
 uhomes.com##.list-chat-icon-container
+! Search toggle for AI mode
+uhomes.com##.ai-search-toggle.mode-search > .toggle-pill
 ! Footer > Support > uhomesAI
 uhomes.com##.ai-chat
 
