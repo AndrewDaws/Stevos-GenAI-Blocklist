@@ -1286,8 +1286,9 @@ github.com##[data-testid="copilot-free-user-checklist"]
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/
 ! "Agents" tab in repository navbar (desktop & mobile)
-! * Currently leaves whitespace. See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/167
-github.com##[data-tab-item="agents"]
+! * Via https://www.reddit.com/r/uBlockOrigin/comments/1vkxr0j/comment/p2xake5/
+github.com##li:has(> [data-tab-item="agents"]):style(max-width: 0px !important; margin-left: calc(0px - var(--stack-gap-condensed,.5rem)) !important; visibility: hidden !important;)
+github.com##[data-component="ActionList.Item"]:has(> [data-tab-item="agents"])
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist.txt (File view)
 ! File header - "Ask Copilot about this file" button
