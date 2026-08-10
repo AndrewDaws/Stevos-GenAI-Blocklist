@@ -2794,6 +2794,8 @@ www.mixscan.me##div.fixed:has(h2.font-pixel)
 ! ==============
 ! == Mockaroo ==
 ! ==============
+! Header - Databases (Promo for Fabricate)
+mockaroo.com##header [href="/databases"]
 ! Promo for Tonic Fabricate
 mockaroo.com##.jss239[href="/rest/links/fabricate"]
 ! "Generate fields using AI" button
