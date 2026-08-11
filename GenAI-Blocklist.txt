@@ -1393,7 +1393,7 @@ support.github.com##.icXpMNcCnhao54vzcHSi:has(.prc-Flash-Flash-q6HW0)
 ! -- https://github.blog/
 ! Header - "Try Copilot" button
 github.blog##.Button[href^="https://github.com/features/copilot"]
-github.blog##.Button[href="https://github.com/features/ai/github-app"]
+github.blog##.Button[href^="https://github.com/features/ai/github-app"]
 
 ! ================
 ! == GitHub Dev ==
