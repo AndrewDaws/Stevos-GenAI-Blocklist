@@ -25,6 +25,15 @@ www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://
 ! AI category in header
 arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
 
+! ================
+! == Astronomer ==
+! ================
+! -- https://www.astronomer.io/docs/learn/overview
+! Sidebar learning guide for "Data engineering with AI"
+www.astronomer.io##li[data-title="Data engineering with AI"]
+! Copy markdown button
+www.astronomer.io###page-context-menu-button[aria-label="Copy page"]
+
 ! =====================
 ! == Cloudflare Blog ==
 ! =====================
