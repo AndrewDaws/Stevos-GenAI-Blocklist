@@ -374,6 +374,10 @@ www.bing.com##.b_ans.b_top:has(> .cht_container)
 ! Makes answer fallback to a simplified version.
 ||www.bing.com/qna/fetchCodexQnA$xhr,domain=www.bing.com
 
+! -- https://www.bing.com/search?q=apache+airflow+dag
+! AI summary
+www.bing.com##.b_ans:has(> #b_wpt_container_ml)
+
 ! -- https://www.bing.com/search?q=linux (mobile, user-specific?)
 www.bing.com##.b_ans:has(> #copans_container)
 
