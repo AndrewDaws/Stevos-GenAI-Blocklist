@@ -32,7 +32,7 @@ arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
 ! Sidebar learning guide for "Data engineering with AI"
 www.astronomer.io##li[data-title="Data engineering with AI"]
 ! Copy markdown button
-www.astronomer.io###page-context-menu-button[aria-label="Copy page"]
+www.astronomer.io###page-context-menu
 
 ! =====================
 ! == Cloudflare Blog ==
