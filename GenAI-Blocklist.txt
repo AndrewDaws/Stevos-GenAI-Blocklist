@@ -2672,8 +2672,8 @@ officeapps.live.com###CopilotDABContainer
 
 ! -- https://word.cloud.microsoft/en-us/ (logged out)
 ! Promo section for Copilot
-! * TODO: Leaves empty space. Adjust min-height on parent element
 word.cloud.microsoft##.___142hl50:has([alt="Write faster with Copilot"])
+word.cloud.microsoft##.f187e7yg:has(.___142hl50 [alt="Write faster with Copilot"]):style(min-height: calc(92.857rem - 317.297px) !important)
 
 ! -- https://word.cloud.microsoft/ (logged in)
 ! Explore Copilot section
@@ -2696,6 +2696,7 @@ usc-onenote.officeapps.live.com,usc-word-edit.officeapps.live.com###CopilotChat-
 ! -- https://excel.cloud.microsoft/en-us/ (logged out)
 ! Copilot promo section
 excel.cloud.microsoft##.___142hl50:has([alt="Work smarter with Copilot"])
+excel.cloud.microsoft##.f187e7yg:has(.___142hl50 [alt="Work smarter with Copilot"]):style(min-height: calc(92.857rem - 317.297px) !important)
 
 ! -- https://excel.cloud.microsoft/ (logged in)
 ! "Copilot in Excel" recomended template (No longer used?)
@@ -2710,6 +2711,7 @@ usc-excel.officeapps.live.com###Copilot-group:upward(2)
 ! -- https://powerpoint.cloud.microsoft/en-us/ (logged out)
 ! Copilot promo section
 powerpoint.cloud.microsoft##.___142hl50:has([alt="Edit brilliantly with Copilot"])
+powerpoint.cloud.microsoft##.f187e7yg:has(.___142hl50 [alt="Edit brilliantly with Copilot"]):style(min-height: calc(92.857rem - 317.297px) !important)
 
 ! -- https://powerpoint.cloud.microsoft/ (logged in)
 ! "Create with Copilot" button
