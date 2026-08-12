@@ -700,6 +700,17 @@ coolors.co###popover-hint:has(.icon-ai-sparkles-18px)
 ! Review summary
 www.crateandbarrel.com##.swat-review-summary-container-border
 
+! ================
+! == Cribl Docs ==
+! ================
+! -- https://docs.cribl.io/stream/destinations-s3/
+! Copy for LLM menu options
+docs.cribl.io##[data-action="chatgpt"]
+docs.cribl.io##[data-action="claude"]
+docs.cribl.io##[data-action="copilot"]
+! Floating AI button
+docs.cribl.io###copilot
+
 ! ===============
 ! == Cybernews ==
 ! ===============

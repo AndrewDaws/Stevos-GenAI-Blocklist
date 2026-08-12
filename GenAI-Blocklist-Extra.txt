@@ -36,6 +36,13 @@ www.astronomer.io##[data-title="GenAI"]
 ! Copy markdown button
 www.astronomer.io###page-context-menu
 
+! ================
+! == Cribl Docs ==
+! ================
+! -- https://docs.cribl.io/stream/destinations-s3/
+! Copy as markdown button
+docs.cribl.io##.markdown-view-toggle__container
+
 ! =====================
 ! == Cloudflare Blog ==
 ! =====================
