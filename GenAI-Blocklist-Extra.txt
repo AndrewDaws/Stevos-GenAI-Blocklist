@@ -167,6 +167,14 @@ design.google##[data-testid="search-bar"]:has(> [name="ai"])
 docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
 docs.google.com###content-library-rail-convert-to-video-element
 
+! ==================
+! == Google Drive ==
+! ==================
+! -- https://drive.google.com/drive/my-drive
+! "Type" filter > Gemini files
+drive.google.com##[role="menuitemcheckbox"][name="gem"]
+drive.google.com##[role="menuitemcheckbox"][name="conversation"]
+
 ! =================
 ! == Google Labs ==
 ! =================
