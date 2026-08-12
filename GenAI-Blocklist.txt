@@ -3225,6 +3225,13 @@ www.primevideo.com##[data-testid="navigation-carousel-wrapper"]:has(.iodfd3.clja
 ! Header banner for AI Agents
 www.privacy.com##.click-promo-banner[href="https://agents.privacy.com"]
 
+! =============================
+! == ProProfs Knowledge Base ==
+! =============================
+! -- https://www.proprofskb.com/blog/developer-documentation/
+! AI Summary
+www.proprofskb.com##.quick_read_container
+
 ! ==============
 ! == ProQuest ==
 ! ==============
