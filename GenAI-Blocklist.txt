@@ -886,12 +886,14 @@ www.diffchecker.com##button.bg-surface-purple:has([clip-path="url(#sparkle_svg__
 ! == Docker ==
 ! ============
 ! -- https://docs.docker.com/
+! Header - State of AI Agents report
+docs.docker.com###docker-announcement-bar:has([href="https://www.docker.com/resources/the-state-of-agentic-ai-white-paper/"])
 ! Navbar - Gordon button
 docs.docker.com##[data-tooltip-wrapper]:has(> [aria-describedby="gordon-tooltip"])
 ! "Ask anything about docker" chatbox
 docs.docker.com##section:has(input[placeholder="Ask anything about Docker and get instant answers…"])
 
-! -- https://docs.docker.com/desktop/setup/install/windows-install/
+! -- https://docs.docker.com/get-started/docker-overview/
 ! "Ask Gordon" below article title
 docs.docker.com##[onclick="askGordon()"]
 
