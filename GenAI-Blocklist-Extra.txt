@@ -241,6 +241,13 @@ www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 ! * Causes error message
 ||app.kiwihealth.com/patient-server/public/klarity/llm/search$xhr,domain=www.helloklarity.com
 
+! ==========
+! == Hevo ==
+! ==========
+! -- https://hevodata.com/learn/airflow-sql-server/
+! Article summary (Unsure if this is actually AI)
+hevodata.com##.post-summary
+
 ! =================
 ! == How-To Geek ==
 ! =================

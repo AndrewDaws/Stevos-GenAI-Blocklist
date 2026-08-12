@@ -2078,6 +2078,13 @@ www.healio.com##body:style(padding-top: 0px !important)
 ! "Healio AI" in navbar
 www.healio.com##.ai-link
 
+! ==========
+! == Hevo ==
+! ==========
+! -- https://hevodata.com/learn/airflow-sql-server/
+! Explain code button
+hevodata.com##.code-example-wrapper
+
 ! ==============
 ! == HiNative ==
 ! ==============
