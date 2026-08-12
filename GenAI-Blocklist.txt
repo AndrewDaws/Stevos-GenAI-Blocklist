@@ -3362,6 +3362,16 @@ www.reddit.com##shreddit-sidebar-ad:is(#t3_1tqih0v, #t3_1tr5maz)
 www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
 
 ! ============
+! == Render ==
+! ============
+! -- https://render.com/docs/your-first-deploy
+! Ask button
+render.com##button:has([d^="M10 3.99707C9.80222 3.99707 9.60888 4.05572 9.44443 4.1656C9.27998 4.27548 9.15181"])
+! Copy page > AI options
+render.com##.px-15[href^="https://chat.openai.com/?hints=search&prompt=Read%20from"]
+render.com##.px-15[href^="https://claude.ai/new?q=Read%20from"]
+
+! ============
 ! == Replug ==
 ! ============
 ! -- https://replug.io/blog/cta-in-marketing
