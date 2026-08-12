@@ -285,6 +285,13 @@ www.livescience.com##.meganav-item__link[data-before-rewrite-localise="/technolo
 ! * Needed to contact human customer support. 
 www.lowes.com##.ChatInviteButton
 
+! =========================
+! == Meta for Developers ==
+! =========================
+! -- https://developers.facebook.com/documentation/instagram-platform
+! View as Markdown buttons
+developers.facebook.com##[class="x1xmf6yo"]
+
 ! ====================
 ! == Microsoft Blog ==
 ! ====================
