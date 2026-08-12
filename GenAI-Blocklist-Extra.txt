@@ -10,6 +10,13 @@
 ! * Posts from subreddits that focus on AI generated content
 ! * Filters that may catch non-ai content
 
+! ===============
+! == 1Password ==
+! ===============
+! -- https://www.1password.dev/ssh
+! Copy Page button
+www.1password.dev###page-context-menu
+
 ! ===========
 ! == Adobe ==
 ! ============

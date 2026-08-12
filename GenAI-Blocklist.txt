@@ -37,6 +37,13 @@
 ! AI promo
 1password.com##[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text(Secure access for every human and AI agent)
 
+! -- https://www.1password.dev/ssh
+! Copy Page > LLM options
+www.1password.dev##[role="menuitem"]:has-text(Copy page as Markdown for LLMs)
+www.1password.dev##[role="menuitem"]:has-text(Copy MCP Server URL to clipboard)
+www.1password.dev##[role="menuitem"]:has-text(Install MCP Server)
+www.1password.dev##[role="menuitem"]:has-text(Ask questions about this page)
+
 ! ===========================
 ! == Aberdeen City Council ==
 ! ===========================
