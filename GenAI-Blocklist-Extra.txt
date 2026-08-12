@@ -29,8 +29,10 @@ arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
 ! == Astronomer ==
 ! ================
 ! -- https://www.astronomer.io/docs/learn/overview
-! Sidebar learning guide for "Data engineering with AI"
-www.astronomer.io##li[data-title="Data engineering with AI"]
+! Sidebar items
+www.astronomer.io##[data-title="Common AI"]
+www.astronomer.io##[data-title="Data engineering with AI"]
+www.astronomer.io##[data-title="GenAI"]
 ! Copy markdown button
 www.astronomer.io###page-context-menu
 
