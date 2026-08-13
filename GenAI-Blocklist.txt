@@ -258,6 +258,18 @@ www.asus.com##.Header__menuOuter__xBkro:has(> #aiMenu) + .Header__spaceForMenuIt
 ! Floating chatbot button
 www.asus.com###brandAssistant-root
 
+! =======================
+! == AWS Documentation ==
+! =======================
+! -- https://docs.aws.amazon.com/
+! "Docs AI" button when search bar is focused
+! * TODO: Remove search bar glow and sparkle icon, as seen on non-English language pages
+docs.aws.amazon.com##button[aria-label="Search with Docs AI"]
+
+! -- https://docs.aws.amazon.com/search/doc-search.html?searchQuery=test
+! "Docs AI" tab on search results page
+docs.aws.amazon.com##.awsui_tabs-tab_14rmt_1cc6a_216:has([data-testid="ai"])
+
 ! =========
 ! == B&Q ==
 ! =========

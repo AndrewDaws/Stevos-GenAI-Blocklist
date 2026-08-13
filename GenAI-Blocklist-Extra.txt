@@ -45,6 +45,16 @@ www.astronomer.io##[data-title="GenAI"]
 ! Copy markdown button
 www.astronomer.io###page-context-menu
 
+! =======================
+! == AWS Documentation ==
+! =======================
+! -- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+! Navbar - AI resources
+docs.aws.amazon.com##.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
+! Related & highly rated pages
+! * Seemingly only the article descriptions are AI. Should look into more targeted filter for main list.
+docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
+
 ! ================
 ! == Cribl Docs ==
 ! ================
