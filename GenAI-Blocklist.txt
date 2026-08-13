@@ -749,6 +749,10 @@ www.databricks.com##[data-promo-id="87eda153-219a-46c6-828a-9d54503f5adc"]
 ! ==============
 ! == DataCamp ==
 ! ==============
+! -- https://www.datacamp.com/
+! Banner for "Build your ultimate AI agent" event
+www.datacamp.com##.dc-ps-banner[data-trackid="claws-out-2026-banner"]
+
 ! -- https://www.datacamp.com/tutorial/sql-union-union-all
 ! Explore with AI buttons at top of article
 www.datacamp.com##[aria-labelledby="explore-with-ai-heading"]
