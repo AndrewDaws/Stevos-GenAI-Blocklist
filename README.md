@@ -121,7 +121,7 @@ No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering i
 No. These filters do not work with Opera's built-in adblocker or uBlock Origin for Opera. The built-in adblocker doesn't allow importing custom filter lists via URL while uBlock Origin for Opera didn't filter correctly when testing. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ### How many websites have filters for AI features?
-Over 300.
+Over 400.
 
 ### Why are AI Overviews still showing up on Google?
 If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
