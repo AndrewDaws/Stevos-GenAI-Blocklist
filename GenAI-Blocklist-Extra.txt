@@ -509,6 +509,7 @@ androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers
 code.visualstudio.com##.docs-get-started-card[href="/docs/agents/agents-tutorial"]
 code.visualstudio.com##[role="listitem"]:has(> .feature-card[href^="/docs/agents/"])
 code.visualstudio.com##[role="listitem"]:has(> .feature-card[href^="/docs/agent-customization/"])
+code.visualstudio.com##.docs-latest-item[href^="/docs/agents/"]
 ! Sidebar topic
 code.visualstudio.com###main-nav [href="#agentic-articles"]
 
