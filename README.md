@@ -58,8 +58,9 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 5. Click the "AdGuard for Safari" extension, and click "*Always Allow on Every Website...*"
 6. In the notification that appears, click "*Always Allow on Every Website...*" again.
 7. Open the AdGuard Mini app and go to *Settings → Filters → Custom filters*
-8. Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-9. Click *Next → Add*
+8. Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) and click *Next*
+    - (_Recommended_) Check the "Trusted" box.
+9. Click *Add*.
 10. Change the toggle for custom filters from "Disabled" to "Enabled"
 
 ### Brave (Desktop)
