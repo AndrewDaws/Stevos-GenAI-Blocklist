@@ -451,6 +451,12 @@ sourceforge.net##.m-sidebar-widget:has(.main-image:is([alt="Build Agents and Mod
 ! * Allows booking an appointment, so may be needed to contact a human
 squareup.com###q-messenger-frame[title="Qualified Messenger"]
 
+! ====================
+! == Stack Overflow ==
+! ====================
+! AI Assist requests
+||stackoverflow.com/ai-assist/$xhr,1p
+
 ! =========================
 ! == Stack Overflow Blog ==
 ! =========================
