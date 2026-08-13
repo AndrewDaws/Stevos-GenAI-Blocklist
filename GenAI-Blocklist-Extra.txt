@@ -504,6 +504,14 @@ androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers
 ! ========================
 ! == Visual Studio Code ==
 ! ========================
+! -- https://code.visualstudio.com/docs
+! AI related topic boxes
+code.visualstudio.com##.docs-get-started-card[href="/docs/agents/agents-tutorial"]
+code.visualstudio.com##[role="listitem"]:has(> .feature-card[href^="/docs/agents/"])
+code.visualstudio.com##[role="listitem"]:has(> .feature-card[href^="/docs/agent-customization/"])
+! Sidebar topic
+code.visualstudio.com###main-nav [href="#agentic-articles"]
+
 ! -- https://code.visualstudio.com/docs/remote/wsl
 ! View as markdown
 code.visualstudio.com##.docs-markdown-actions
