@@ -2778,6 +2778,9 @@ excel.cloud.microsoft##.___142hl50:has([alt="Work smarter with Copilot"])
 excel.cloud.microsoft##.f187e7yg:has(.___142hl50 [alt="Work smarter with Copilot"]):style(min-height: calc(92.857rem - 317.297px) !important)
 
 ! -- https://excel.cloud.microsoft/ (logged in)
+! Copilot section
+excel.cloud.microsoft##[role="region"][aria-label="Explore Copilot section."]
+excel.cloud.microsoft##.___qeeaaj0:has([role="region"][aria-label="Explore Copilot section."]:only-child)
 ! "Copilot in Excel" recomended template (No longer used?)
 excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
 
