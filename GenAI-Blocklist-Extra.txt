@@ -435,6 +435,13 @@ squareup.com###q-messenger-frame[title="Qualified Messenger"]
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
 
+! ============
+! == Stripe ==
+! ============
+! -- https://docs.stripe.com/api
+! View as markdown buttons
+docs.stripe.com##.⚙x1uodc[role="toolbar"]
+
 ! ================
 ! == TechCrunch ==
 ! ================

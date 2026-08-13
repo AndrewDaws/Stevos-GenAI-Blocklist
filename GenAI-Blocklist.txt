@@ -3654,6 +3654,16 @@ docs.stripe.com##[data-testid="StripeAssistant--Header-AskAI"]
 ! AI search suggestions
 docs.stripe.com##[data-section-ask="true"]
 
+! -- https://docs.stripe.com/api
+! Ask AI button
+docs.stripe.com##.⚙19ugdnr
+! Ask about this section & Copy for LLM
+docs.stripe.com##.⚙19wy2gp
+docs.stripe.com##.⚙ld2wwb
+docs.stripe.com##.⚙ld2wwb + [role="separator"]
+! Explain code block with AI
+docs.stripe.com##.tooltip-trigger-isolate:has(.⚙872f44)
+
 ! =============
 ! == Studocu ==
 ! =============
