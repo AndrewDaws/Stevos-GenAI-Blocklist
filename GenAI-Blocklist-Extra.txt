@@ -341,6 +341,9 @@ teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 min.io##.new-section:has-text(Every enterprise AI depends on trusted data and long-term memory.)
 min.io##.new-section-title-wrapper:has-text(Built for Enterprise AI Workloads.)
 min.io##.new-section:has-text(One Foundation. Every AI Workflow.)
+! -- https://docs.min.io/aistor/
+! Unknown
+||cloud.google.com/ai/gen-app-builder/client$script,domain=docs.min.io
 
 ! ==============
 ! == PC Guide ==
