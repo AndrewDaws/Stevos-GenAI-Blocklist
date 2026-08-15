@@ -34,8 +34,6 @@
 ! -- https://1password.com/
 ! Unified Access AI agent banner
 1password.com##.header-navigation__nav-banner-link[href="/product/unified-access"] > .box-decoration-clone
-! AI promo
-1password.com##[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text(Secure access for every human and AI agent)
 
 ! -- https://www.1password.dev/ssh
 ! Copy Page > LLM options

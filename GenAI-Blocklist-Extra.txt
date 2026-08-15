@@ -13,6 +13,10 @@
 ! ===============
 ! == 1Password ==
 ! ===============
+! -- https://1password.com/
+! AI promo
+1password.com##[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text(Secure access for every human and AI agent)
+
 ! -- https://www.1password.dev/ssh
 ! Navbar - Security for AI
 www.1password.dev##.nav-tabs-item[href="/security-for-ai"]
