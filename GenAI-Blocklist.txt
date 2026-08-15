@@ -4272,7 +4272,7 @@ x.com##nav > [href="/i/grok"]
 ! Compose post - Grok
 x.com##[data-testid="grokImgGen"]
 ! Tweet - Explain this post
-x.com##button[aria-label*="Grok"]:has(.css-175oi2r.r-xoduu5.r-bnwqim)
+x.com##button[aria-label="Grok actions"]
 ! Floating Grok chat button in bottom right
 x.com##[data-testid="GrokDrawer"]
 ! - Promos
