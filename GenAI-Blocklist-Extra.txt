@@ -25,12 +25,14 @@ www.1password.dev###page-context-menu
 
 ! ===========
 ! == Adobe ==
-! ============
-! -- https://www.adobe.com/home (Adobe Home - logged in)
+! ===========
+! -- https://www.adobe.com/apps/all/all-platforms (logged in)
 ! "Chat with us" icon to open "Adobe Virtual Assistant"
 www.adobe.com###adbmsgCta
 ! "Adobe Virtual Asssistant" chatbox
 www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://cdn.prod.assistant.adobe.com/production/static/"])
+! Adobe Firefly card
+www.adobe.com##.appCard.FFC_FIREFLY_1\.0
 
 ! ==================
 ! == Ars Technica ==
