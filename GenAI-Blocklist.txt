@@ -2138,14 +2138,6 @@ www.homedepot.com###magic-apron-review-summary
 virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Chat with HP's SupportGPT for AI Answers"]
 virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Get an AI Answer"]
 
-! ===================
-! == Humble Bundle ==
-! ===================
-! -- https://www.humblebundle.com/bundles
-! Bundles involving AI
-! * Exclude the "The Cybersecurity & AI Defense" bundle
-www.humblebundle.com##.bundle:is([href*="/ai-"], [href*="-ai-"], [href*="claude-code"], [href*="genai-"]):not([href*="cybersecurity"])
-
 ! =========
 ! == IBM ==
 ! =========
