@@ -3592,6 +3592,13 @@ sogou.com##.searchnav > li:has(> #sogou_aimode)
 www.sogou.com##.reactResult
 ||wenda.sogou.com/produce_ai_answer$xhr,domain=www.sogou.com
 
+! =================
+! == SourceForge ==
+! =================
+! -- https://sourceforge.net/
+! Google Cloud header promo
+sourceforge.net###google-cloud
+
 ! =======================
 ! == Spaceship Domains ==
 ! =======================
