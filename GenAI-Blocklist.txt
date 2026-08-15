@@ -182,17 +182,6 @@ www.americanbanker.com##.miso-hybrid-search-combo__grid-answer
 ! Remove sparkle from search icon
 www.americanbanker.com#%#//scriptlet('trusted-set-attr', 'use[href="#miso-arizent-icon-ai-search"]', 'href', '#icon-magnify')
 
-! =============
-! == Android ==
-! =============
-! -- https://www.android.com/
-! AI promos in carousel
-www.android.com###create-and-share-jaw-dropping-images-straight-from-your-phone-4:upward(1)
-www.android.com###remix-any-photo-right-in-your-messages:upward(1)
-! AI Promo sections
-www.android.com###create-your-own-unique-android-bot
-www.android.com###ai-on-android
-
 ! ========================
 ! == Archive of Our Own ==
 ! ========================
