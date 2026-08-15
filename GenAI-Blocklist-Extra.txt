@@ -551,6 +551,7 @@ www.youtube.com##+js(trusted-replace-node-text, script, (function serverContract
 
 ! -- https://www.youtube.com/watch?v=l5NntXg1zOg
 ! Add "Made with AI" notice if AI disclaimer is in description
+! * Based on https://www.reddit.com/r/uBlockOrigin/comments/1umdeuf/comment/ovgtopr/
 www.youtube.com##.ytwHowThisWasMadeSectionViewModelBodyHeader:has-text("Made with AI"):upward(ytd-watch-flexy):style(--new-text-1:"Made with AI")
 www.youtube.com##.ytwHowThisWasMadeSectionViewModelBodyHeader:has-text("Made with AI"):upward(ytd-watch-flexy):style(--new-text-2:"Disclosed in video description")
 www.youtube.com###movie_player::before:style(content:var(--new-text-1); position:absolute; top:12px; right:12px; background:#ff0033; color:#fff; padding:6px 12px 15px; border-radius:6px; font-size:40px; font-weight:700; z-index:999; box-shadow:0 2px 10px rgba(0,0,0,0.6); border:2px solid #fff;)
