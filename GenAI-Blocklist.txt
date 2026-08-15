@@ -4753,9 +4753,9 @@ www.drtuber.com##.header_premium_bar[href^="https://go.xliiirdr.com/ls"]
 ! == E-Hentai (NSFW) ==
 ! =====================
 ! Minimal/Minimal+/Compact/Extended view by title
-e-hentai.org,exhentai.org##.itg > tbody > tr:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
+e-hentai.org,exhentai.org##.itg > tbody > tr:has(img:is([title*="[ai]" i], [title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
 ! Thumbnail view by title
-e-hentai.org,exhentai.org##.itg > div.gl1t:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
+e-hentai.org,exhentai.org##.itg > div.gl1t:has(img:is([title*="[ai]" i], [title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
 
 ! Compact/Extended view by tag
 e-hentai.org,exhentai.org##.itg > tbody > tr:has(:is(.gt, gtl)[title="other:ai generated"])
