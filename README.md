@@ -125,7 +125,7 @@ No. These filters do not work with Opera's built-in adblocker or uBlock Origin f
 Over 400.
 
 ### Why are AI Overviews still showing up on Google?
-If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
+If you use AdBlock Plus, make sure "Show acceptable ads" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
 
 ### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin?
 uBlock Origin is not available for Google Chrome and iOS.
