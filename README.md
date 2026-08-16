@@ -2,7 +2,7 @@
 
 A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features which use Generative AI and content labeled as AI-generated.
 
-Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-or-microsoft-edge), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-or-microsoft-edge), [Chrome](#google-chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
+Available for PC/Linux ([Firefox](#firefox-desktop), [Edge](#microsoft-edge-desktop), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-desktop), [Edge](#microsoft-edge-desktop), [Chrome](#google-chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
 
 ## Examples of filtered content
 * Google's AI Overviews & AI Mode
@@ -26,7 +26,7 @@ After:
 <img width="687" height="359" alt="Google homepage without AI" src="https://github.com/user-attachments/assets/e9c84390-6702-4d9e-9e01-c18f4893c5fe" />
 
 ## Installation
-### Firefox or Microsoft Edge
+### Firefox (Desktop)
 1. Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
 2. Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20AI%20Blocklist).
 3. Press "_Subscribe_" to import the filter list.
@@ -41,9 +41,20 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 
 ### Google Chrome (Desktop)
 1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
-2. Click the green AdGuard icon in Chrome then click the gear icon.
-3. Open the Filters tab, go to "Custom", and click the "extension settings" link.
-4. Enable "Allow User Scripts".
+2. Click the extensions button (puzzle piece icon) in the toolbar
+3. Click the green AdGuard icon then click the gear icon.
+4. Open the Filters tab, go to "Custom", and click the "extension settings" link.
+5. Enable "Allow User Scripts".
+6. Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20AI%20Blocklist).
+7. Under "Add custom filter", hit "Next".
+    - (_Recommended_) Check the "Trusted" box.
+8. Click "Add".
+
+### Microsoft Edge (Desktop)
+1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
+2. Click the extensions button (puzzle piece icon) in the toolbar
+3. Click the green AdGuard icon then click the gear icon.
+4. Open the Filters tab, go to "Custom", and click the "extension settings" link.
 5. Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20AI%20Blocklist).
 6. Under "Add custom filter", hit "Next".
     - (_Recommended_) Check the "Trusted" box.
