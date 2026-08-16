@@ -116,7 +116,7 @@ These filters were developed for [uBlock Origin](https://github.com/gorhill/ublo
 No. If you want to block AI sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
 
 ### Can I use these filters with [Pi-hole](https://pi-hole.net/)?
-No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
+No. Pi-hole works differently from traditional adblockers. Adblockers allow filtering individual elements on pages, while Pi-hole blocks entire domains.
 
 ### Can I use these filters with [Opera](https://www.opera.com/)?
 No. These filters do not work with Opera's built-in adblocker or uBlock Origin for Opera. The built-in adblocker doesn't allow importing custom filter lists via URL while uBlock Origin for Opera didn't filter correctly when testing. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
