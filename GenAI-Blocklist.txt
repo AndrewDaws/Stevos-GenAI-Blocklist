@@ -1516,6 +1516,12 @@ docs.github.com##[data-component="ActionList.Divider"]:has(+[data-testid="ai-aut
 ! "Ask Copilot" answer after hitting "enter" to submit search
 docs.github.com##[data-testid="ask-ai"]
 
+! ===================
+! == GitHub Status ==
+! ===================
+! Copilot in footer
+www.githubstatus.com##.link-gray[href="https://github.com/features/copilot"]
+
 ! ============
 ! == GitLab ==
 ! ============
