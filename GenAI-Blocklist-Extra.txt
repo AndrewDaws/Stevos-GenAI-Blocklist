@@ -62,6 +62,14 @@ www.astronomer.io##[data-title="GenAI"]
 ! Copy markdown button
 www.astronomer.io###page-context-menu
 
+! ===============
+! == Atlassian ==
+! ===============
+! -- https://yourdomain.atlassian.net/browse/SUP-1 (Support - Task)
+! Right sidebar - Suggestions
+! * Needs more testing before going in main filters
+||*.atlassian.net/gateway/api/graphql/pq/*?operation=graphqlContextPanelQuery
+
 ! =======================
 ! == AWS Documentation ==
 ! =======================
