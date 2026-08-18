@@ -65,10 +65,16 @@ www.astronomer.io###page-context-menu
 ! ===============
 ! == Atlassian ==
 ! ===============
-! -- https://yourdomain.atlassian.net/browse/SUP-1 (Support - Task)
+! -- https://<yourdomain>.atlassian.net/browse/SUP-1 (Support - Task)
 ! Right sidebar - Suggestions
 ! * Needs more testing before going in main filters
 ||*.atlassian.net/gateway/api/graphql/pq/*?operation=graphqlContextPanelQuery
+
+! -- https://<yourdomain>.atlassian.net/jira/software/projects/KAN/development
+! -- Spaces - Development
+! Spaces - Development - Buttons to connect AI coding tools
+atlassian.net##._1e0c1txw._vchhusvi._gy1pu2gc._1p57u2gc._4cvrv2br._2lx2vrvc._1n261g80:has(> ._2rko1qi0._12ji1l7x._1cwg1n1a._1qu2nqa1._12y3t94y._1e0c116y._kqswh2mm._4cvr1h6o._o5721q9c):has-text(GitHub Copilot):has-text(Cursor):has-text(Claude for Jira)
+atlassian.net##._ymio1r31._ypr0glyw._zcxs1o36._mizu194a._1ah3dkaa._ra3xnqa1._128mdkaa._1cvmnqa1._4davt94y._19itglyw._vchhusvi._r06hglyw._80omtlke._2rko1qi0._11c8fhey._v5649dqc._189eidpf._1rjc12x7._1e0c116y._1bsb1wug._p12f1osq._kqswh2mm._4cvr1q9y._1bah1h6o._gy1p12x7._1o9zidpf._4t3iviql._k48p1wq8._y4tiutpp._bozgutpp._y3gn1h6o._s7n4nkob._14mj1kw7._9v7aze3t._1tv3nqa1._39yqe4h9._11fnglyw._18postnw._bfhk1w7a._syazazsu._8l3m1l7x._aetrb3bt._1053azsu._f8pjazsu._30l3azsu._9h8hazsu._irr31dpa._1di6fcek._4bfu18uv._1hmsglyw._ajmmnqa1._1a3b18uv._4fprglyw._5goinqa1._9oik18uv._1bnxglyw._jf4cnqa1._1nrm18uv._c2waglyw._1iohnqa1:has-text(Atlassian Rovo MCP)
 
 ! =======================
 ! == AWS Documentation ==
