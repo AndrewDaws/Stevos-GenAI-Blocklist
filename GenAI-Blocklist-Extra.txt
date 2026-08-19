@@ -87,6 +87,15 @@ atlassian.net##[data-testid="page-layout.main"] div:has(> div > button [fill="ur
 atlassian.net##[data-testid="page-layout.main"] div:has(> div > button [d^="M9.92107 20.9249L13.8523 18.7189L13.918 18.5267L13.8523 18.4205H13.66L13.0023 18.3799L10.7559"])
 atlassian.net##[data-testid="page-layout.main"] button:has([d="m4.28 4.72 2.75 2.75a.75.75 0 0 1 0 1.06l-2.75 2.75-1.06-1.06L5.44 8 3.22 5.78zM12.5 9.5V11H8V9.5z"])
 
+! -- https://<yourdomain>.atlassian.net/wiki/admin/automation
+! Popup modal "Exciting changes have come to automation"
+atlassian.net##.atlaskit-portal:has([role="dialog"][aria-label="New features in Automation"])
+
+! -- https://<yourdomain>.atlassian.net/wiki/admin/automation#/tab/rule-library
+! Automation - Templates - Rovio AI Agents
+atlassian.net##[data-testid="rule-categories-grid"] > [class^="rule-library-category-list__CategoryHeader"]:has-text(Rovo AI Agents)
+atlassian.net##[data-testid="rule-categories-grid"] > [class^="rule-library-category-list__CategoryHeader"]:has-text(Rovo AI Agents) + [class^="rule-library-card-list__CategoriesListWrapper"]
+
 ! =======================
 ! == AWS Documentation ==
 ! =======================
