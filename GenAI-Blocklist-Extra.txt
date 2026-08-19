@@ -171,6 +171,14 @@ github.blog##li:has(> [href="https://github.blog/ai-and-ml/"])
 ! ================
 ! Copilot icon on status bar (Regardless of whether Copilot is enabled or not)
 github.dev###chat\.statusBarEntry
+! Part of user authentication for Copilot. Affects login status shown via Copilot icon in bottom status bar.
+||api.github.com/copilot_internal/$xhr,domain=github.dev
+! Unsure. Returns list of AI chat models.
+! Initially thoought this would break sidebar chat.
+||main.vscode-cdn.net/extensions/chat.json$xhr,domain=github.dev
+! Not sure what this does ¯\_(ツ)_/¯
+! It gets called when codespace page is opened. Copilot Chat is still listed in extensions list.
+||marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/$xhr,domain=github.dev
 
 ! =================
 ! == GitHub Docs ==
