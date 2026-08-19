@@ -1093,6 +1093,13 @@ emojicombos.com###introEl > [href="https://perchance.org/ai-chat"]
 ! Tip for AI icon generator
 emojicombos.com##.step-body > div:has(> [href="https://perchance.org/ai-icon-generator"])
 
+! ===========
+! == eVero ==
+! ===========
+! -- https://devhome.evero.net/deployments
+! Executive AI Summary tab
+devhome.evero.net##[role="tablist"] > [id$="-trigger-aisummary"]
+
 ! ================
 ! == Emojipedia ==
 ! ================
