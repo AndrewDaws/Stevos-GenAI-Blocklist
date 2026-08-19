@@ -23,6 +23,15 @@ www.1password.dev##.nav-tabs-item[href="/security-for-ai"]
 ! Copy Page button
 www.1password.dev###page-context-menu
 
+! ======================
+! == Addend Analytics ==
+! ======================
+! Header items
+addendanalytics.com##.addend-nav-list [href="https://addendanalytics.com/ai-consulting-services"]
+addendanalytics.com##.addend-nav-list [href="https://addendanalytics.com/services-applied-ai-consulting"]
+! Footer items
+addendanalytics.com##.addend-footer-grid [href="https://addendanalytics.com/services-applied-ai-consulting"]
+
 ! ===========
 ! == Adobe ==
 ! ===========
