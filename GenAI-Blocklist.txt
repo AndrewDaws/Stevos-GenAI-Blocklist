@@ -3435,7 +3435,7 @@ www.reddit.com##[data-testid="post-recovery-suggested-communities"] a:matches-at
 ! -- https://www.reddit.com/r/valve/comments/1vo1c7q/comment/p3nmcrh/
 ! AI-linked keywords in comments
 ! * Based on https://www.reddit.com/r/uBlockOrigin/comments/1vt6sgy/comment/p4rdpz2/
-www.reddit.com##[slot="comment"] p > a.border-dotted:style(border: none !important; color: inherit !important; cursor: auto !important;)
+www.reddit.com##[slot="comment"] p > a.border-dotted:style(border: none !important; color: inherit !important; cursor: auto !important; padding: 0 !important;)
 www.reddit.com##[slot="comment"] p > a.border-dotted > span:has(> [icon-name="search-sparkle"])
 !#if ext_ublock
 www.reddit.com##[slot="comment"] p > a.border-dotted:remove-attr(href)
