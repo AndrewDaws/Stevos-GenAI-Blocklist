@@ -378,6 +378,13 @@ www.lowes.com##.ChatInviteButton
 ! View as Markdown buttons
 developers.facebook.com##[class="x1xmf6yo"]
 
+! ===============
+! == Microsoft ==
+! ===============
+! -- https://www.microsoft.com/en-us/microsoft-teams/log-in
+! Partner apps - Copilot
+www.microsoft.com##.cross-sell-main .layout__col:has([data-bi-ehn="Copilot"])
+
 ! ====================
 ! == Microsoft Blog ==
 ! ====================
