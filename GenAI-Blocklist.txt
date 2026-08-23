@@ -524,6 +524,17 @@ www.britannica.com##.header-topic-britannica-ai-module
 ! Header after scrolling down
 www.britannica.com##.toc-sticky-header-ai-container
 
+! ==================
+! == BrowserStack ==
+! ==================
+! -- https://www.browserstack.com/guide/how-to-debug-on-iphone
+! Header banner for AI Leadership Summit
+www.browserstack.com###promo-notification:has([href^="https://www.browserstack.com/events/qa-leadership-summit-autumn-2026"])
+! Header nav ai agent item
+www.browserstack.com##.bstack-mm-li:has([data-title="AI Agents"])
+! Footer - AI Agents
+www.browserstack.com###menu-item-153460
+
 ! ==============
 ! == Bunnings ==
 ! ==============
