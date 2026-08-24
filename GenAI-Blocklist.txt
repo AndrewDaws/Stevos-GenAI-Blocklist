@@ -133,8 +133,11 @@ www.amazon.*##.health-ai-header
 www.amazon.*##.ask-health-ai-section 
 www.amazon.*##.ahi-health-ai-content > .banner-pills-container
 ! AI questions in autocomplete search suggestions
-! * Recieved from `https://www.amazon.com/suggestions`
+! * Received from `https://www.amazon.com/suggestions`
 www.amazon.*##+js(json-prune, suggestions.[-].widgetId)
+! Search placeholder messages
+www.amazon.com##+js(json-edit, $.suggestions[?@.text=="Ask Alexa a question"])
+www.amazon.com##+js(json-edit, $.suggestions[?@.text=="Compare products with Alexa"])
 ! Rufus chatbot in sidebar 
 ! * Requires trusted filters in AdGuard
 ! * Source: https://www.reddit.com/r/uBlockOrigin/comments/1pod2g6/comment/nuelobn/
