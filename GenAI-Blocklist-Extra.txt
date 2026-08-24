@@ -132,6 +132,13 @@ docs.docker.com##.navbar-group-font-title:has-text(AI and agents):upward(1)
 ! Copy as Markdown buttons
 docs.docker.com##article > .lg\:block:has([marlin-action="copy-markdown-button"])
 
+! ===========
+! == eVero ==
+! ===========
+! -- https://www.evero.com/
+! Homepage AI promo section
+www.evero.com##.giving:has([src="https://www.evero.com/wp-content/uploads/2025/10/AI-ASSIST.png"])
+
 ! ==================
 ! == Fox Business ==
 ! ==================
