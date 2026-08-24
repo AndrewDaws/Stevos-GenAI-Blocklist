@@ -99,6 +99,10 @@ atlassian.net##[data-testid="rule-categories-grid"] > [class^="rule-library-cate
 ! =======================
 ! == AWS Documentation ==
 ! =======================
+! -- https://docs.aws.amazon.com/
+! Kiro AI documentation
+docs.aws.amazon.com##.fLDVpm2fNtOFGVs9hPFgMA\=\=:has(> [alt="Kiro icon"])
+
 ! -- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 ! Navbar - AI resources
 docs.aws.amazon.com##.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
