@@ -2669,6 +2669,16 @@ developers.facebook.com##div:has(> .x1i10hfl.xjbqb8w.xjqpnuy.xc5r6h4.xqeqjp1.x1p
 ! "Ask Metro" bubble in the middle of certain articles.
 metro.co.uk##.metro-answers
 
+! ==============
+! == Michaels ==
+! ==============
+! Header - Ask Mike
+www.michaels.com##div:has(> span > [aria-label="Open Ask Mike chat"])
+
+! -- https://www.michaels.com/product/bead-landing-earring-clip-on-rhodium-10443069
+! Review summary
+www.michaels.com##[data-bv-show="review-summaries"]
+
 ! ===============
 ! == Microsoft ==
 ! ===============
