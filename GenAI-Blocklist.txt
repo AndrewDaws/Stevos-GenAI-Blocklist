@@ -535,6 +535,14 @@ www.britannica.com##.header-topic-britannica-ai-module
 ! Header after scrolling down
 www.britannica.com##.toc-sticky-header-ai-container
 
+! -- https://www.britannica.com/plant/Bothrodendron
+! Quick Summary
+www.britannica.com##.ai-index-page-summary-module
+
+! -- https://www.britannica.com/plant/lower-vascular-plant
+! AI generated Top Questions
+www.britannica.com##.ai-qna-module
+
 ! ==================
 ! == BrowserStack ==
 ! ==================
