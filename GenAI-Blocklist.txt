@@ -4547,6 +4547,12 @@ ya.ru,yandex.com,yandex.ru##[class$="__card "]:has(> .Root-FuturisSearchOuter)
 ! * Summary after clicking AI button on desktop english site
 ya.ru,yandex.com,yandex.ru##.Root-FuturisSearchOuter
 
+! ==========
+! == Yelp ==
+! ==========
+! Footer - Agentic AI
+www.yelp.com##li:has([href="https://business.yelp.com/data/products/fusion-ai/?utm_source=footer&utm_medium=www"])
+
 ! =========
 ! == Yep ==
 ! =========
