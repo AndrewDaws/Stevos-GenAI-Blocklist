@@ -203,6 +203,10 @@ docs.github.com##[data-container="toc"] > .mb-3.ml-3:has([class*="ViewMarkdownBu
 ! ============
 ! == GitLab ==
 ! ============
+! -- https://gitlab.com/malware-filter/urlhaus-filter
+! Sidebar - Deploy - Model Registry
+gitlab.com##[data-track-label="model_registry"]
+
 ! -- https://gitlab.com/universalamateur1/reclaim-mcp-server/-/merge_requests/1
 ! Reviewer is GitLab Duo (right sidebar)
 gitlab.com##.reviewer-grid:has(> [data-username="GitLabDuo"])
