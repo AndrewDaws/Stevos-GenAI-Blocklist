@@ -452,6 +452,14 @@ www.pcguide.com##.menu-item-150141
 ! Header - AI Category
 pureinfotech.com###menu-item-153857
 
+! ==============
+! == Pydantic ==
+! ==============
+! -- https://pydantic.dev/docs/
+! Topic cards
+pydantic.dev##.library-card--pydantic-ai
+pydantic.dev##.library-card--logfire
+
 ! ======================
 ! == Quicken Simplifi ==
 ! ======================

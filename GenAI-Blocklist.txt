@@ -3379,6 +3379,14 @@ account.proton.me##.lumo-troubleshoot-launcher
 ! Lumo app
 account.proton.me##.explore-apps-list-item:has(> [data-testid="explore-lumo"])
 
+! ==============
+! == Pydantic ==
+! ==============
+! -- https://pydantic.dev/docs/
+! Header navbar items
+pydantic.dev##.library-nav > [href="/docs/ai/"]
+pydantic.dev##.library-nav > [href="/docs/logfire/"]
+
 ! ===============
 ! == Pyrfecter ==
 ! ===============
