@@ -2099,6 +2099,10 @@ www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
 ! Remove images on desktop layout
 www.google.*##[data-ly="/desktop_aio_layout/GG/large_image"]:has([data-attrid="VisualDigestGeneratedDescription"])
 
+! -- https://www.google.com/search?q=spider+man+brand+new+day
+! Floating "Catch me up" button after activating Spiderman easter egg
+www.google.*##[jsname="s70iq"]:has([src="https://www.gstatic.com/delight/common/buttons/search_spark.png"])
+
 ! -- https://www.google.com/search?q=computer+repair
 ! Have AI check prices
 www.google.*##[jsname="lHCI7d"]
