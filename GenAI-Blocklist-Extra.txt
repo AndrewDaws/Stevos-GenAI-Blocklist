@@ -203,6 +203,12 @@ docs.github.com##[data-container="toc"] > .mb-3.ml-3:has([class*="ViewMarkdownBu
 ! ============
 ! == GitLab ==
 ! ============
+! -- https://about.gitlab.com/ (About page)
+! Header banner promoting GitLab Duo
+about.gitlab.com##.banner:has(> [href="https://about.gitlab.com/blog/gitlab-duo-agent-platform-delivers-400-percent-roi/"])
+! Promo card for "GitLab Duo Agent Platform"
+about.gitlab.com##.stacking-cards__card:has([data-ga-name="gitlab-duo"])
+
 ! -- https://gitlab.com/malware-filter/urlhaus-filter
 ! Sidebar - Deploy - Model Registry
 gitlab.com##[data-track-label="model_registry"]
