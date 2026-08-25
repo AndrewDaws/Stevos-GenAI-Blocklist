@@ -2109,6 +2109,10 @@ www.google.*##.ULSxyf:has(> .MjjYud > .A6K0A > .cUnQKe [jsname="YrZdPb"][data-ev
 ! * May not appear when reloading page multiple times in a row
 www.google.*##[role="presentation"][data-md="50"]:has(.eaNXV[style*="animation-delay"])
 
+! -- https://www.google.com/search?q=staples
+! Right sidebar - Shopping/Ask button for store
+www.google.*##[data-id="SALES_ASSISTANT_BRAND_PROFILE_ENTRY_POINT"]
+
 ! -- https://www.google.com/search?q=tie (mobile only)
 ! AI generated overview container
 www.google.*##.iVzeVc:has([data-attrid="VisualDigestGeneratedDescription"])
