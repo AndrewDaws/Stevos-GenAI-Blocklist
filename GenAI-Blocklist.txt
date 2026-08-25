@@ -2211,6 +2211,13 @@ workspace.google.com##.ORSkHc:has([data-appset-type="49"])
 ! AI search summary
 workspace.google.com##.summary
 
+! ======================
+! == Hardware Busters ==
+! ======================
+! -- https://hwbusters.com/news/comma-ai-egpu-dock-runs-open-source-firmware-249-bare-799-with-an-rx-9060/
+! Floating "Ask Buster" button
+hwbusters.com##.hwb-ai-root
+
 ! ============
 ! == Healio ==
 ! ============
