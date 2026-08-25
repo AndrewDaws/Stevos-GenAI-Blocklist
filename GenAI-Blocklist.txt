@@ -653,6 +653,13 @@ www.canva.com##[role="tabpanel"] .BMOCzQ.EC2pjw.LuBWVA > .sGm5Vw.ID9zAA > .nJVq1
 www.canva.com##.SymshQ.BMOCzQ.LuBWVA:has([src="https://template.canva.com/EAHBDm46r7A/3/0/450w-4uCHha18X_U.jpg"])
 
 ! ==============
+! == CBC News ==
+! ==============
+! -- https://www.cbc.ca/news/politics/canada-united-states-trade-negotiations-tariffs-9.7309218
+! Listen to this article
+cbc.ca##[class^="textToSpeech-"]
+
+! ==============
 ! == CGTrader ==
 ! ==============
 ! -- https://www.cgtrader.com/
