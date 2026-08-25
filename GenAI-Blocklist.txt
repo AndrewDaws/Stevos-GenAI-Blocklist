@@ -666,6 +666,13 @@ cbc.ca##[class^="textToSpeech-"]
 ! Header - Create with AI
 www.cgtrader.com##[aria-controls="navigation-create-ai-panel"]
 
+! =================
+! == Chalet Farm ==
+! =================
+! Floating "AI Sales Associate" button
+||server.myrepai.com/web/load$xhr,domain=chaletnursery.com
+chaletnursery.com###repWebClientContainer
+
 ! ==================
 ! == Cisco DevNet ==
 ! ==================
