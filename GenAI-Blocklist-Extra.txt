@@ -440,6 +440,13 @@ min.io##.new-section:has-text(One Foundation. Every AI Workflow.)
 ! Unknown
 ||cloud.google.com/ai/gen-app-builder/client$script,domain=docs.min.io
 
+! ===========
+! == Mixam ==
+! ===========
+! Floating chat icon
+! * Is also used for chatting with human support
+mixam.com###front-chat-iframe
+
 ! ==============
 ! == PC Guide ==
 ! ==============

@@ -3008,6 +3008,16 @@ docs.min.io##ucs-search-toolbar
 ! Floating "Ask a question" chat box
 ##.chat-assistant-floating-input
 
+! ===========
+! == Mixam ==
+! ===========
+! Header sparkle button
+mixam.com##[data-controller="header--mixie"]
+
+! -- https://mixam.com/
+! "Get an Instant Quote" button
+mixam.com##[data-action="click->ai--mixie-banner#openHomepagePanel"]
+
 ! =============
 ! == Mixscan ==
 ! =============
