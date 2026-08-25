@@ -1286,6 +1286,12 @@ fandom.com##section.trfc161
 ! Floating AI button
 fightthenewdrug.org###askFTND_button
 
+! ===============
+! == Firstpost ==
+! ===============
+! ≡ menu > "First AI" button
+firstpost.com###ia-search
+
 ! ==================
 ! == Food Network ==
 ! ==================
