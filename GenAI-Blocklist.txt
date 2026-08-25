@@ -2112,6 +2112,8 @@ www.google.*##[role="presentation"][data-md="50"]:has(.eaNXV[style*="animation-d
 ! -- https://www.google.com/search?q=staples
 ! Right sidebar - Shopping/Ask button for store
 www.google.*##[data-id="SALES_ASSISTANT_BRAND_PROFILE_ENTRY_POINT"]
+! Right sidebar - Trending products - AI chip suggestions
+www.google.*##[data-id="PRODUCT_SHELF_SALES_ASSISTANT_ENTRY_CONTAINER"]
 
 ! -- https://www.google.com/search?q=tie (mobile only)
 ! AI generated overview container
