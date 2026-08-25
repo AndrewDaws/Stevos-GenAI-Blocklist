@@ -183,6 +183,7 @@ Commit messages use prefixes to indicate the type of change.
 * [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows.
 * [just_a_husk's image-search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist): Removes AI-generated images from search engine results. Forked from [laylavish's blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/).
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
+* [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list for AI widgets. Used as reference for some filters on this list.  
 
 ### Media 
 * [CevvalYoutubeAIBlocklist](https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist): Filter list for AI Music channels on YouTube for uBlock Origin.
@@ -204,6 +205,7 @@ Commit messages use prefixes to indicate the type of change.
 * **ryanbr**: For maintaining [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
 * **AchernarB, paintboth1234, & RraaLL**: For moderating [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) and answering questions as I learned how to create filters.
 * **inwiring**: Provided [Google AI Overview filters](https://inwiring.com/google-ai-overviews/) used in earlier versions of this blocklist.
+* **Fanboy (a.k.a. ryanbr)**: Maintainer for [Fanboy's Anti-AI Suggestion list](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt).
 
 ## Feedback
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
