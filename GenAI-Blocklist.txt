@@ -1638,6 +1638,17 @@ gitshare.me##.bg-brand\/5:has(>[href="/artifacts"])
 gitshare.me##section#artifacts
 gitshare.me##section.border-border:has(.text-brand[href="/readme-generator"])
 
+! ===============
+! == Glassdoor ==
+! ===============
+! -- https://www.glassdoor.com/Job/test-jobs-SRCH_KO0,4.htm
+! "Tailor my resume" button
+glassdoor.com##[class^="ResumeTailor_coachmarkWrapper__"]
+! "Is your resume a good match?" notice to tailor resume
+glassdoor.com##[class^="AIRecruiterIntro_aiRecruiterIntroContainer__"]
+! AI questions below job sections
+glassdoor.com##[class^="ModernSection_footerWrapper__"]
+
 ! ============
 ! == Glyphy ==
 ! ============
