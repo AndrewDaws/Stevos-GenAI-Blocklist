@@ -3083,6 +3083,14 @@ www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Mi
 ! Floating Chatbot button
 ||www.chatbase.co/embed.min.js$script,domain=www.myonlinetraininghub.com
 
+! =========================
+! == Mydrivers (驱动之家) ==
+! =========================
+! -- https://news.mydrivers.com/1/1087/1087428.htm
+! Article summary
+news.mydrivers.com###AiSummaryLink
+||passport.mydrivers.com//V2/pc/AISummaryHandler.ashx$xhr,domain=news.mydrivers.com
+
 ! ==========
 ! == Nate ==
 ! ==========
