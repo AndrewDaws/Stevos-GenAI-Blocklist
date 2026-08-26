@@ -616,6 +616,19 @@ time.com##li:has(div > [href="#id-ai-0"])
 ! Copy as markdown
 www.twilio.com##.css-11p3jof[data-paste-element="BUTTON_GROUP"]
 
+! ===========
+! == Udemy ==
+! ===========
+! -- https://www.udemy.com/
+! Navbar > Explore > New & Featured > Google AI
+! * Hide section if there are no other items
+www.udemy.com###header-browse-nav-google_certificates--2
+www.udemy.com##.ud-unstyled-list:has(> li:only-child > #header-browse-nav-google_certificates--2)
+www.udemy.com##.ud-heading-sm:has(+ .ud-unstyled-list > li:only-child > #header-browse-nav-google_certificates--2)
+
+! Navbar > Explore > Learn AI
+www.udemy.com###header-browse-nav-learn_ai-3
+
 ! ============
 ! == Valnet ==
 ! ============
