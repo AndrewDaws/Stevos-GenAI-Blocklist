@@ -132,6 +132,17 @@ docs.docker.com##.navbar-group-font-title:has-text(AI and agents):upward(1)
 ! Copy as Markdown buttons
 docs.docker.com##article > .lg\:block:has([marlin-action="copy-markdown-button"])
 
+! =============
+! == Dropbox ==
+! =============
+! -- https://www.dropbox.com/ (logged out)
+! "AI is coming to dropbox" promo
+www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__content-area > .dwg-box > .dwg-box > .dwg-stack > p
+! Promo video showing "Ask Dash"
+www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__media-area.dwg-flex-grid__cell.dwg-box
+! "Dash" promo section
+www.dropbox.com##._plankFrame_mrwa9_13:has(.dwg-button2[href="https://dash.dropbox.com/"])
+
 ! ===========
 ! == eVero ==
 ! ===========
