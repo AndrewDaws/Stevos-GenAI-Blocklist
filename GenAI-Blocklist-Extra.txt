@@ -140,8 +140,9 @@ docs.docker.com##article > .lg\:block:has([marlin-action="copy-markdown-button"]
 www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__content-area > .dwg-box > .dwg-box > .dwg-stack > p
 ! Promo video showing "Ask Dash"
 www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__media-area.dwg-flex-grid__cell.dwg-box
-! "Dash" promo section
-www.dropbox.com##._plankFrame_mrwa9_13:has(.dwg-button2[href="https://dash.dropbox.com/"])
+! AI Integrations section
+www.dropbox.com###dwg_headline_plank-d494ba2353
+www.dropbox.com###dwg_multi_block_plank-e97fca73ef
 
 ! ===========
 ! == eVero ==
