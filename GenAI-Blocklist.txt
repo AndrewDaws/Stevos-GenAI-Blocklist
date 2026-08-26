@@ -599,6 +599,14 @@ dictionary.cambridge.org##.lb-cm.hlh21:has(> [href$="/assistant"])
 ! ===========
 ! == Canva ==
 ! ===========
+! -- https://www.canva.com/ (logged out)
+! Footer items
+www.canva.com##[role="list"] > li:has(> [href="https://www.canva.com/canva-ai/"])
+www.canva.com##[role="list"] > li:has(> [href="https://promptedpodcast.com/"])
+www.canva.com##[role="list"] > li:has(> [href="https://www.canva.com/safe-ai-canva-shield/"])
+www.canva.com##[role="list"] > li:has(> [href="https://www.canva.com/ai-logo-generator/"])
+www.canva.com##[role="list"] > li:has(> [href="https://www.canva.com/business-name-generator/"])
+
 ! -- https://www.canva.com/ (logged in)
 ! "Sneak Peak" button in header
 www.canva.com##.q2xokA .eAUiHA:has(._5KtATA.LQzFZw.VgvqkQ._8ERLTg.MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA.j34Zww.aqbYPg._3FvZZg._zAZoQ.vH2lRg)
