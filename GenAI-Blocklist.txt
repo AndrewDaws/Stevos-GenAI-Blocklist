@@ -471,14 +471,7 @@ www.boldbi.com##.new-feature-banner.elementor-element-61515ce1
 ! Products > "AI-Powered Analytics" in navbar menu
 www.boldbi.com##.ekit-stylish-list-content-wrapper:has(> [href="/ai-analytics/"])
 
-! Animated AI demo image
-www.boldbi.com##.elementor-element-6d83d9b2
-! "Get Instant Visuals with AI-Powered Analytics" section
-www.boldbi.com##.elementor-element-3d31878
-! Powerful Features - AI Powered Anaylytics
-www.boldbi.com##.elementor-element-59cecfb8
-
-! Products - "AI Analytics" by footer
+! Footer - Products - "AI Analytics"
 www.boldbi.com##.elementor-icon-list-item:has(> [href="/ai-analytics/"])
 ! "Ask AI for a summary of Bold BI" at bottom of page
 www.boldbi.com##.elementor-element-6e4054b5
