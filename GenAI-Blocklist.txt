@@ -524,7 +524,8 @@ www.thebricks.com##.Modal_container__jm1jX
 ! ================
 ! -- https://www.britannica.com/
 ! "Ask the Chatbot" button below search bar
-www.britannica.com##.category-link-CHATBOT
+! * Use style to prevent navigation arrow from covering other options 
+www.britannica.com##.category-link-CHATBOT:style(visibility: hidden !important; height: 0 !important; width: 0 !important; padding: 0 !important; margin: 0 !important; font-size: 0 !important;)
 
 ! -- https://www.britannica.com/chatbot
 ||www.britannica.com/chat-api/$xhr,domain=www.britannica.com
