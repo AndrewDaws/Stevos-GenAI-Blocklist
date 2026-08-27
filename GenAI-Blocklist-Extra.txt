@@ -253,6 +253,17 @@ gizmodo.com##.giz-bg-main [href="https://gizmodo.com/tech/artificial-intelligenc
 ! * Also seemingly disables spellchecking
 ||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=mail.google.com
 
+! ==================
+! == Google About ==
+! ==================
+! -- https://about.google/products/
+! AI promo sections
+about.google##.glue-jumplinks__link[href="#try-ai-tools"]
+about.google###ai-technology
+about.google###try-ai-tools
+! Gemini in products list
+about.google##.product-filter__wrapper:has(> [href^="https://gemini.google.com/"])
+
 ! ==========================
 ! == Google Admin Console ==
 ! ==========================
