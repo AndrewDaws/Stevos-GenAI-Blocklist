@@ -1771,20 +1771,6 @@ artsandculture.google.com##.toZRUd.BK2CBb:has([href^="/experiment/ZgG5_uTbBgTpIQ
 ! =================
 ! == Google Blog ==
 ! =================
-! -- https://blog.google/
-! "Innovation & AI" in header nav
-blog.google##.uni-main-menu__item:has(.uni-main-menu__submenu-item[aria-labelledby="uni-main-menu__submenu-item-label-innovation-ai-1"])
-! Featured article about Gemini
-blog.google##section:has(> [aria-label="Gemini 3.1 Pro"])
-! Section on "AI Impact Summit 2026"
-blog.google##section[data-analytics-module*="\"section_header\": \"AI Impact Summit 2026\""]
-! Remove sparkle from search icon
-blog.google#%#//scriptlet('trusted-set-attr', '[icon-id="uni-search-spark"]', 'icon-id', 'mi-search')
-
-! -- https://blog.google/search/?query=Why+am+I+here
-! AI summary in search
-blog.google##uni-search-ai-summary
-
 ! -- https://blog.google/products-and-platforms/products/search/search-live-global-expansion/
 ! "Read AI-generated summary"
 blog.google##[data-component="uni-ai-generated-summary"]
