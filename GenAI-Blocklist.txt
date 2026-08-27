@@ -4341,6 +4341,10 @@ webshapedesign.co.uk##.wsai-toggle-wrapper
 ||config.gorgias.chat/bundle-loader/shopify/wigscom.myshopify.com$script,domain=www.wigs.com
 www.wigs.com###chat-button
 
+! -- https://www.wigs.com/products/nyx-synthetic-wig-rene-of-paris
+! Review summary
+www.wigs.com##.oke-w-reviewsSummaryModule
+
 ! ==========================
 ! == Wiley Online Library ==
 ! ==========================
