@@ -3588,6 +3588,9 @@ help.salesforce.com##[data-testid="agent-root"]
 ! ===================
 ! == ScienceDirect ==
 ! ===================
+! Header - LeapSpace
+www.sciencedirect.com##[aria-label="ai-links"]
+
 ! -- https://www.sciencedirect.com/science/article/pii/S0014579309010850
 ! "Reading assistant" box
 www.sciencedirect.com###reading-assistant-container
