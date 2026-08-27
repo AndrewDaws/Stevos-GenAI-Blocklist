@@ -435,6 +435,21 @@ developers.facebook.com##[class="x1xmf6yo"]
 ! ===============
 ! == Microsoft ==
 ! ===============
+!  -- https://www.microsoft.com/en-us (page specific)
+! Carousel that contains an AI promo. (no longer in use?)
+! * data-oc='ocf19c': "The apps you know go further with Copilot"
+! * data-oc='ocaeae': "Meet the computer you can talk to"
+www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is([data-oc="ocf19c"], [data-oc="ocaeae"]))
+! "For business" section > Promo cards
+! * US English site
+www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Learn more about Microsoft 365 Copilot"])
+www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Explore AI solutions"])
+! * Non-US languages (https://www.microsoft.com/zh-hk/)
+www.microsoft.com##.col:has(> [data-bi-assetid^="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-Copilot-COMMR-0625"])
+www.microsoft.com##.col:has(> [data-bi-assetid^="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Azure-AI-Bloom"])
+! "Get to know AI and Copilot" section
+www.microsoft.com##.featured:has(store-heading-block[data-en-title="Get to know AI and Copilot"])
+
 ! -- https://www.microsoft.com/en-us/microsoft-teams/log-in
 ! Partner apps - Copilot
 www.microsoft.com##.cross-sell-main .layout__col:has([data-bi-ehn="Copilot"])
