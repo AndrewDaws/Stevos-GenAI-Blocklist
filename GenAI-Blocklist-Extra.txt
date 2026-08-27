@@ -288,6 +288,13 @@ console.cloud.google.com##.cfc-console-nav-section-AGENT_PLATFORM_SECTION
 ! AI category for search
 design.google##[data-testid="search-bar"]:has(> [name="ai"])
 
+! ====================================
+! == Google Developer Documentation ==
+! ====================================
+! -- https://developer.chrome.com/docs/devtools
+! AI section
+developer.chrome.com##.devsite-landing-row:has(#span-idaidebug-with-aispan)
+
 ! =================
 ! == Google Docs ==
 ! =================

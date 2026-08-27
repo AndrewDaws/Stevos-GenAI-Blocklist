@@ -1808,8 +1808,6 @@ developer.chrome.com,developers.google.com,docs.cloud.google.com,knowledge.works
 ! Navbar categories
 developer.chrome.com##tab:has(> [track-name="ai assistance"])
 developer.chrome.com##tab:has(> [track-name="for agents"])
-! AI section
-developer.chrome.com##.devsite-landing-row:has(#span-idaidebug-with-aispan)
 
 ! -- https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart
 ! Left sidebar > "Chat" (IE: Ask About this Page)
