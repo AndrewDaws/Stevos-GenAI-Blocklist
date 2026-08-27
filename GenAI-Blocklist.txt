@@ -4146,6 +4146,13 @@ uhomes.com##.ai-chat
 ! Ulta AI floating button
 www.ulta.com##chat-messenger[service*="commerce-ai"]
 
+! =====================
+! == United Airlines ==
+! =====================
+! -- https://www.united.com/en/us
+! Search - Quick Answer
+www.united.com##[class*="app-containers-NewWebsiteSearch-components-CoveoGenAI-styles__genAIContainer--"]
+
 ! ======================
 ! == UnitedHealthCare ==
 ! ======================
