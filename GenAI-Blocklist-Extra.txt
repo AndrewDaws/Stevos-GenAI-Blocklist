@@ -577,6 +577,16 @@ render.com##.relative.inline-flex.items-stretch.mb-20:has([d="M4,18H2V4A2,2,0,0,
 ! Copy as markdown
 developer.salesforce.com##doc-content-action-toolbar
 
+! ===================
+! == ScienceDirect ==
+! ===================
+! -- https://www.sciencedirect.com/
+! LeapSpace carousel item.
+! * Checks for exactly 2 slides to avoid filtering if the layout changes in the future
+www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child:nth-child(2)) > #tabpanel-0:has(> .leapSpace-banner)
+www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child:nth-child(2)) > #tabpanel-0:has(> .leapSpace-banner) + #tabpanel-1:style(display: block !important;)
+www.sciencedirect.com###bannerCarouselContent .carousel-indicators:has(:last-child:nth-child(2)) > li:nth-child(1):has(>[aria-label="LeapSpace slide"])
+
 ! =============
 ! == Semrush ==
 ! =============
