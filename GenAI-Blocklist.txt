@@ -4334,6 +4334,13 @@ webshapedesign.co.uk##.wsai-toggle-wrapper
 ! Floating support chatbot
 ||api.prod.whoop.com/ai-conversation-service/$xhr,domain=support.whoop.com
 
+! ==========
+! == Wigs ==
+! ==========
+! Floating chat button
+||config.gorgias.chat/bundle-loader/shopify/wigscom.myshopify.com$script,domain=www.wigs.com
+www.wigs.com###chat-button
+
 ! ==========================
 ! == Wiley Online Library ==
 ! ==========================
