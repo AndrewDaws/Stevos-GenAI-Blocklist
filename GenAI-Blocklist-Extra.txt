@@ -131,6 +131,13 @@ docs.cribl.io##.markdown-view-toggle__container
 blog.cloudflare.com##.nav-item[data-tag="ai"]
 
 ! ============
+! == DBCode ==
+! ============
+! -- https://dbcode.io/docs/sql/external
+! Sidebar AI article category
+dbcode.io##.dr-areaitem[data-area="AI"]
+
+! ============
 ! == Docker ==
 ! ============
 ! -- https://docs.docker.com/get-started/docker-overview/
