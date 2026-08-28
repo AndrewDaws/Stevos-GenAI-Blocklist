@@ -5037,6 +5037,12 @@ freeuseporn.com##.friends [href="https://www.nsfwlover.com/"]
 ! AI Jerk Off
 gamcore.com##li:has(> [href="/fuckyou/713"])
 
+! ======================
+! == hanime.tv (NSFW) ==
+! ======================
+! Ourdream AI ad
+hanime.tv###LandingEventAd
+
 ! ===========================
 ! == HD Porn Comics (NSFW) ==
 ! ===========================
