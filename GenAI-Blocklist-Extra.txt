@@ -43,6 +43,13 @@ www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://
 ! Adobe Firefly card
 www.adobe.com##.appCard.FFC_FIREFLY_1\.0
 
+! =========
+! == ADP ==
+! =========
+! -- https://www.adp.com/
+! Chatbot (can be used to contact human)
+www.adp.com###embedded-messaging
+
 ! =============
 ! == Android ==
 ! =============
