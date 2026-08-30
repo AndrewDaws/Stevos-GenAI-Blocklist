@@ -3041,6 +3041,10 @@ mixam.com##[data-controller="header--mixie"]
 ! "Get an Instant Quote" button
 mixam.com##[data-action="click->ai--mixie-banner#openHomepagePanel"]
 
+! -- Order page
+! Header sparkle button
+mixam.com##[data-type="mixie-header-controls"]
+
 ! =============
 ! == Mixscan ==
 ! =============
