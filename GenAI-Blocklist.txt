@@ -755,8 +755,15 @@ collabnix.com###docker-ai-book-banner
 ! -- https://www.collinsdictionary.com/
 ! "AI Assistant" button next to search bar
 www.collinsdictionary.com##.assistantIcon
+! Header assistant button (mobile)
+www.collinsdictionary.com##.assistantMobile:remove()
 ! "Ask Collins Dictionary" in bottom-right corner
 www.collinsdictionary.com###assistant-link
+
+! -- https://www.collinsdictionary.com/dictionary/english/word
+! Footer - Ask me a question
+||www.collinsdictionary.com/external/assistant/idm-assistant.js$script,domain=www.collinsdictionary.com
+www.collinsdictionary.com##.assistant-sticky-bar
 
 ! ====================
 ! == Computer World ==
