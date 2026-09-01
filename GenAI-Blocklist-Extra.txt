@@ -446,6 +446,17 @@ www.lowes.com##.ChatInviteButton
 ! View as Markdown buttons
 developers.facebook.com##[class="x1xmf6yo"]
 
+! ======================
+! == Manticore Search ==
+! ======================
+! -- https://manticoresearch.com/
+! Floating "Search or ask AI..." button
+! * Search can also be done using search bar in top right
+manticoresearch.com###indexfox-bubble-container
+! Footer items
+manticoresearch.com##.footer-links [href="/ai-solutions/"]
+manticoresearch.com##.footer-links [href="/use-case/ai-database"]
+
 ! ===============
 ! == Microsoft ==
 ! ===============
