@@ -3421,6 +3421,13 @@ pockit.tools##[href="/ai/"]
 ! "Ask AI" in navbar
 docs.posit.co##.nav-item:has(#custom-ask-ai-button)
 
+! ===========
+! == Posta ==
+! ===========
+! -- https://www.posta.com.mx/mexico/omar-garcia-harfuch-confirma-abatimiento-del-r5-lider-del-cartel-de-los-reyes-tras-operativo-en-michoacan/vl2249654
+! AI Summary
+www.posta.com.mx###qp-ia-wrapper
+
 ! =============
 ! == Postman ==
 ! =============
