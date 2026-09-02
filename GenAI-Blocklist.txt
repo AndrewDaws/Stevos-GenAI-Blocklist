@@ -3643,6 +3643,12 @@ replug.io##.mantine-1fndqk8
 ! Header promo banner
 risingwave.com##div.bg-\[\#3a88fe\]:has(+ header):has(a[href*="interactive-ai"])
 
+! ===================
+! == Rock 30 Games ==
+! ===================
+! Floating AI assistant button
+rock30games.com##clever-search-toggler
+
 ! ==========
 ! == Rows ==
 ! ==========
