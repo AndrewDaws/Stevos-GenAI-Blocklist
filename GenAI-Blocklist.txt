@@ -3707,6 +3707,14 @@ www.scribd.com##[data-e2e="doc-actions-ask-ai-button-sticky_metadata_column"]
 ! Bottom bar (small page size) - Ask AI button
 www.scribd.com##[data-testid="mobile-actions-bottom-bar"] button:has-text(Ask AI)
 
+! ==============
+! == ScyllaDB ==
+! ==============
+! -- https://docs.scylladb.com/stable/
+! Ask AI buttons in header and body
+docs.scylladb.com##biel-button
+! TODO: Hide AI in search results. Prevent it from opening when hitting Enter.
+
 ! =============
 ! == Semrush ==
 ! =============
