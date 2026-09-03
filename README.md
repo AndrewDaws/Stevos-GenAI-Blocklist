@@ -204,7 +204,7 @@ Commit messages use prefixes to indicate the type of change.
 * **gorhill**: Created uBlock Origin and answered my questions about `json-edit` filters
 * **paintboth1234**: Wrote the filter for [disabling YouTube auto-dubbing](https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/) and moderates [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/).
 * **ryanbr**: Maintains [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
-* **AchernarB & RraaLL**: Moderate [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) and answered questions as I learned how to create filters.
+* **AchernarB & RraaLL**: Moderators for [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) who answered questions as I learned how to create filters.
 * **inwiring**: Provided [Google AI Overview filters](https://inwiring.com/google-ai-overviews/) used in earlier versions of this blocklist.
 * Everyone who has [contributed code](https://github.com/Stevoisiak/Stevos-AI-Blocklist/graphs/contributors?all=1) or filed [an issue report](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
 
