@@ -666,6 +666,13 @@ squareup.com###q-messenger-frame[title="Qualified Messenger"]
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
 
+! ==============
+! == Stackify ==
+! ==============
+! -- https://stackify.com/solid-design-liskov-substitution-principle/
+! AI tag in sidebar
+stackify.com##.sidebar [href="https://stackify.com/tag/ai/"]
+
 ! ============
 ! == Stripe ==
 ! ============
