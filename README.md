@@ -201,10 +201,10 @@ Commit messages use prefixes to indicate the type of change.
 * [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt): List of AI crawlers to block as a website owner.
 
 ## Special thanks
-* **gorhill**: For creating uBlock Origin and answering my questions about `json-edit` filters
-* **paintboth1234**: Wrote the filter for [disabling YouTube auto-dubbing](https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/).
-* **ryanbr**: For maintaining [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
-* **AchernarB, paintboth1234, & RraaLL**: For moderating [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) and answering questions as I learned how to create filters.
+* **gorhill**: Created uBlock Origin and answers my questions about `json-edit` filters
+* **paintboth1234**: Wrote the filter for [disabling YouTube auto-dubbing](https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/) and moderates [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/).
+* **ryanbr**: Maintains [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
+* **AchernarB & RraaLL**: Moderate [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) and answered questions as I learned how to create filters.
 * **inwiring**: Provided [Google AI Overview filters](https://inwiring.com/google-ai-overviews/) used in earlier versions of this blocklist.
 * Everyone who has [contributed code](https://github.com/Stevoisiak/Stevos-AI-Blocklist/graphs/contributors?all=1) or filed [an issue report](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
 
