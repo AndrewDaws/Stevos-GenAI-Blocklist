@@ -206,6 +206,7 @@ Commit messages use prefixes to indicate the type of change.
 * **ryanbr**: For maintaining [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
 * **AchernarB, paintboth1234, & RraaLL**: For moderating [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) and answering questions as I learned how to create filters.
 * **inwiring**: Provided [Google AI Overview filters](https://inwiring.com/google-ai-overviews/) used in earlier versions of this blocklist.
+* Everyone who [has contributed code](https://github.com/Stevoisiak/Stevos-AI-Blocklist/graphs/contributors?all=1) or filed [an issue report](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
 
 ## Feedback
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
