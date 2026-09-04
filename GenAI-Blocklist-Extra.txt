@@ -818,6 +818,10 @@ tech.yahoo.com##.group\/mega-nav-item:has([aria-controls="submenu-ai"])
 ! =============
 ! == YouTube ==
 ! =============
+! -- https://www.youtube.com/
+! Homepage video topic chip for AI
+www.youtube.com##yt-chip-cloud-chip-renderer[chip-style="STYLE_HOME_FILTER"]:has(.ytChipShapeHost:has-text(/^AI$/))
+
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! Trusted filter to disable auto-dubbed audio when video is loaded directly from URL.
 ! * Causes a visible page reload when any video is loaded from a URL. Auto-dubbed audio will breifly play before refresh. 
