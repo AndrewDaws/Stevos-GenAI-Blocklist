@@ -122,6 +122,13 @@ docs.aws.amazon.com##.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
 ! * Seemingly only the article descriptions are AI. Should look into more targeted filter for main list.
 docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
 
+! ===============
+! == Bitwarden ==
+! ===============
+! -- https://bitwarden.com/help/
+! Footer - For agentic AI security
+bitwarden.com##li.leading-1:has(> [href="/solutions/agentic-ai-security/"])
+
 ! ================
 ! == Cribl Docs ==
 ! ================

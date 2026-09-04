@@ -465,6 +465,18 @@ www.bing.com###ShoppingLandingPage_ShoppingEducation:has-text(Try it on Copilot)
 rewards.bing.com##mee-card:has([aria-label="Microsoft Unlocked, Stories from the heart and soul of AI innovation, Explore now"])
 
 ! ===============
+! == Bitwarden ==
+! ===============
+! -- https://bitwarden.com/products/business/
+! Header banner for securing AI agents
+bitwarden.com###landing-page > .w-full.border-deepBlue:has([href="/solutions/agentic-ai-security/"])
+! Floating AI button
+bitwarden.com##button[aria-label="Open AI chat"]
+
+! -- https://bitwarden.com/help/
+bitwarden.com##button[aria-label^="Ask AI"]
+
+! ===============
 ! == Bloomberg ==
 ! ===============
 ! -- https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users
