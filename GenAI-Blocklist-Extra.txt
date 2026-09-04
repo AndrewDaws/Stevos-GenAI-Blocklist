@@ -149,6 +149,14 @@ blog.cloudflare.com##.nav-item[data-tag="ai"]
 ! Sidebar AI article category
 dbcode.io##.dr-areaitem[data-area="AI"]
 
+! ===================
+! == DEV Community ==
+! ===================
+! Popular Tags
+dev.to###default-sidebar-element-ai
+dev.to###default-sidebar-element-llm
+dev.to###default-sidebar-element-agents
+
 ! ============
 ! == Docker ==
 ! ============
