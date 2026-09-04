@@ -515,6 +515,10 @@ learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-direc
 ! Left Sidebar - AI category
 learn.microsoft.com##.table-of-contents > .tree-item:has(> .tree-expander:has-text(/^AI$/))
 
+! -- https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information
+! Sidebar - Windows 11 - Release information for AI components
+learn.microsoft.com##.tree-item[href="https://learn.microsoft.com/en-us/windows/release-health/ai-components-release-information"]
+
 ! =====================
 ! == Microsoft Teams ==
 ! =====================
