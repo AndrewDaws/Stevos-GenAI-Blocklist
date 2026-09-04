@@ -529,6 +529,14 @@ min.io##.new-section:has-text(One Foundation. Every AI Workflow.)
 ! * Is also used for chatting with human support
 mixam.com###front-chat-iframe
 
+! ===========
+! == Opera ==
+! ===========
+! -- https://forums.opera.com/
+! Forum categories for AI
+forums.opera.com##.category-54
+forums.opera.com##.category-61
+
 ! ==============
 ! == PC Guide ==
 ! ==============
