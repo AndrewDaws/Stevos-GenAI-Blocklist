@@ -77,6 +77,11 @@ www.astronomer.io##[data-title="Data engineering with AI"]
 www.astronomer.io##[data-title="GenAI"]
 ! Copy markdown button
 www.astronomer.io###page-context-menu
+! Footer AI items
+www.astronomer.io##footer [href="https://www.astronomer.io/solutions/ai-ml"]
+www.astronomer.io##footer [href="https://www.astronomer.io/solutions/mlops"]
+www.astronomer.io##footer .flex-col.gap-4.w-full:has([href="https://www.astronomer.io/solutions/ai-ml"]):style(align-self: stretch)
+
 
 ! -- https://www.astronomer.io/ebooks/practical-guide-to-apache-airflow-3/
 ! Header banner promo for "AI Orchestration cert at Orchestrate Everything" 
