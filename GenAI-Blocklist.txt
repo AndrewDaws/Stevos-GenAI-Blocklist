@@ -3571,6 +3571,8 @@ docs.rackspace.com##.Menu-Item[href^="https://claude.ai/new?q="] + .Menu-Divider
 ! -- https://www.razer.com/
 ! Header - Razer.AI
 www.razer.com##[data-more-menu-uid="mm-razer-ai-node"]
+! Footer - AI Gaming Newsletter
+www.razer.com##li:has(> [href="https://www.razer.com/newsletter/ai"])
 
 ! =============
 ! == Rambler ==
