@@ -579,6 +579,13 @@ support.simplifi.quicken.com##[data-testid="notification-preview-container"]:has
 ! "Copy Page" as markdown button
 docs.rackspace.com##.rm-AIDropdown
 
+! =============
+! == Red Hat ==
+! =============
+! -- https://docs.redhat.com/documentation/red_hat_enterprise_linux/5/html/cluster_suite_overview/index
+! Header - AI category
+docs.redhat.com##[data-dropdown-id="main-menu__dropdown--AI"]
+
 ! ============
 ! == Reddit ==
 ! ============
