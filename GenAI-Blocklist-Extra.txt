@@ -572,6 +572,13 @@ pydantic.dev##.library-card--logfire
 ! * Appeared asking if the article I read was useful
 support.simplifi.quicken.com##[data-testid="notification-preview-container"]:has(> [aria-label*="message notification from Fin"])
 
+! ===============
+! == Rackspace ==
+! ===============
+! -- https://docs.rackspace.com/docs/clustering-concepts
+! "Copy Page" as markdown button
+docs.rackspace.com##.rm-AIDropdown
+
 ! ============
 ! == Reddit ==
 ! ============

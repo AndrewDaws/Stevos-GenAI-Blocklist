@@ -3556,6 +3556,15 @@ www.qwant.com##._1xQVj.cqvg5:has(> .B6E61)
 ! Flash Answer in search options
 www.qwant.com##._1xQVj.G-2qb.xsF9p.KC1qb:has(#llmMode)
 
+! ===============
+! == Rackspace ==
+! ===============
+! -- https://docs.rackspace.com/docs/clustering-concepts
+! Copy Page button > Open in AI options
+docs.rackspace.com##.Menu-Item[href^="https://chat.openai.com/?q="]
+docs.rackspace.com##.Menu-Item[href^="https://claude.ai/new?q="]
+docs.rackspace.com##.Menu-Item[href^="https://claude.ai/new?q="] + .Menu-Divider
+
 ! =============
 ! == Rambler ==
 ! =============
