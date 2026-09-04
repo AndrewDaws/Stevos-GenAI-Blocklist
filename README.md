@@ -130,7 +130,7 @@ No. If you want to block AI sites from search engines, try [laylavish's Huge AI 
 No. Pi-hole works differently from traditional adblockers. Adblockers allow filtering individual elements on pages, while Pi-hole blocks entire domains.
 
 ### Can I use these filters with [Opera](https://www.opera.com/)?
-No. These filters do not work with Opera's built-in adblocker or uBlock Origin for Opera. The built-in adblocker has compatibility issues, while uBlock Origin for Opera didn't filter correctly when testing. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
+No. These filters do not work properly with Opera's built-in adblocker or uBlock Origin for Opera. The exact reason why is unknown, but [this may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ### How many websites have filters for AI features?
 Over 400.
