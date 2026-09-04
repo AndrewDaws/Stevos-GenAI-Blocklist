@@ -3577,8 +3577,6 @@ www.rambler.ru##.rc__788yz.rc__U-mRx.r-vvrm5f4e
 ! -- https://realpython.com/
 ! Navbar > Learn Python > Code Mentor
 realpython.com##.dropdown-item[href="/mentor/"]
-! Sidebar > AI topic
-realpython.com##.sidebar-module > [href="/tutorials/ai/"]
 ! Explore Real Python section > Code Mentor
 realpython.com##.card:has([href="/mentor/"]):style(visibility: hidden)
 
