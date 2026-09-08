@@ -807,6 +807,9 @@ androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers
 ! ========================
 ! == Visual Studio Code ==
 ! ========================
+! Header - Resources - MCP
+code.visualstudio.com###nav-mcp
+
 ! -- https://code.visualstudio.com/docs
 ! AI related topic boxes
 code.visualstudio.com##.docs-get-started-card[href="/docs/agents/agents-tutorial"]
