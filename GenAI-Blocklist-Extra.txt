@@ -172,6 +172,10 @@ www.deviantart.com##section.Q6QePr:has-text(Create AI images and video)
 ! ============
 ! == Docker ==
 ! ============
+! Footer - LLM text files
+docs.docker.com##footer [href="/llms.txt"]
+docs.docker.com##footer [href="/llms-full.txt"]
+
 ! -- https://docs.docker.com/get-started/docker-overview/
 ! AI article category in sidebar
 docs.docker.com##.navbar-group-font-title:has-text(AI and agents):upward(1)
