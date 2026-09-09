@@ -3228,6 +3228,12 @@ www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'fill', 
 ! Shop with AI in header
 www.nordstrom.com##.j_24W
 
+! ================
+! == Northflank ==
+! ================
+! Header promo banner - AI SDLC
+northflank.com##aside:has(> [href="/blog/ai-sdlc"])
+
 ! ======================
 ! == NutraIngredients ==
 ! ======================
