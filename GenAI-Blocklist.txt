@@ -2887,6 +2887,10 @@ www.microsoft.com##.experiencefragment:has([data-component-id="01dbc0460ff412456
 ! "AI Overview"
 www.microsoft.com###ai-overview-container
 
+! -- https://azure.microsoft.com/en-us
+! Header banner for GitHub Copilot enterprise plan
+azure.microsoft.com##.ocr-announcement-banner[data-component-id="01dbc0460ff412456ec49899ac06c10e"]
+
 ! ====================
 ! == Microsoft Azure ==
 ! ====================
