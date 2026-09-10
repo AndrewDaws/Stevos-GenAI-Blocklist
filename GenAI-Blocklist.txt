@@ -2841,11 +2841,11 @@ support.microsoft.com,www.microsoft.com,www.xbox.com##li > a[href="https://www.m
 support.microsoft.com,www.xbox.com##li > a[href="https://copilot.microsoft.com/"]
 
 ! Footer
-blogs.windows.com,microsoft.com##li:has(> [href*="/microsoft-copilot/"])
-blogs.windows.com,microsoft.com##li:has(> [href$="/microsoft-365-copilot?icid=DSM_Footer_Microsoft365Copilot"])
-blogs.windows.com,microsoft.com##li:has(> [href$="/ai?icid=DSM_Footer_AI"])
-blogs.windows.com,microsoft.com##li:has(> [href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"])
-blogs.windows.com,microsoft.com##li:has(> [href$="/education/ai-in-education"])
+blogs.windows.com,developercommunity.visualstudio.com,microsoft.com##li:has(> [href*="/microsoft-copilot/"])
+blogs.windows.com,developercommunity.visualstudio.com,microsoft.com##li:has(> [href$="/microsoft-365-copilot?icid=DSM_Footer_Microsoft365Copilot"])
+blogs.windows.com,developercommunity.visualstudio.com,microsoft.com##li:has(> [href$="/ai?icid=DSM_Footer_AI"])
+blogs.windows.com,developercommunity.visualstudio.com,microsoft.com##li:has(> [href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"])
+blogs.windows.com,developercommunity.visualstudio.com,microsoft.com##li:has(> [href$="/education/ai-in-education"])
 ! * No longer used?
 microsoft.com##li:has(> [href$="/windows/ai-features?icid=DSM_Footer_WhatsNew_AIinWindows"])
 
