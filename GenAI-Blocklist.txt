@@ -2413,6 +2413,12 @@ indianstartupnews.com###nudgeai-widget
 ! * Will not filter front page. Only applies to search results.
 inkbunny.net##:is(.widget_thumbnailCompleteFromSubmission,.widget_thumbnailLargeCompleteFromSubmission,.widget_thumbnailHugeCompleteFromSubmission):has(img:is([title*="ai art"], [title*="ai assisted"], [title*="ai generated"], [title*="ai-generated"], [title*="aigenerated"], [title*="stable diffusion"]))
 
+! ================
+! == Inno Supps ==
+! ================
+! Floating chatbot
+||app.alhena.ai/ai_agents/shopify_script_tag.js$script,domain=www.innosupps.com
+
 ! =============
 ! == Insight ==
 ! =============
