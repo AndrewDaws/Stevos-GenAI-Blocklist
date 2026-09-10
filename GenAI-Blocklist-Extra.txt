@@ -119,6 +119,8 @@ atlassian.net##[data-testid="rule-categories-grid"] > [class^="rule-library-cate
 ! -- https://docs.aws.amazon.com/
 ! Kiro AI documentation
 docs.aws.amazon.com##.fLDVpm2fNtOFGVs9hPFgMA\=\=:has(> [alt="Kiro icon"])
+! Footer - "Choosing a generative AI service"
+docs.aws.amazon.com##span:has(> [href="https://docs.aws.amazon.com/decision-guides/latest/decision-guides/genai-guide.html"])
 
 ! -- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 ! Navbar - AI resources
