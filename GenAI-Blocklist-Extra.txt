@@ -794,6 +794,13 @@ time.com##li:has(div > [href="#id-ai-0"])
 ! Copy as markdown
 www.twilio.com##.css-11p3jof[data-paste-element="BUTTON_GROUP"]
 
+! ============
+! == Ubuntu ==
+! ============
+! Footer items
+ubuntu.com##.row:has([aria-controls="/ai-footer-nav"])
+ubuntu.com##.p-inline-list__item:has(> [href="https://canonical.com/solutions/ai"])
+
 ! ===========
 ! == Udemy ==
 ! ===========
