@@ -1161,6 +1161,7 @@ support-qa.eplus.jp##iframe[title="AI Chat Support"]
 ! =================================
 ! -- https://www.eastherts.gov.uk/
 ! Floating chatbot popup
+||messenger.ebiai.app/static/js/main.js$script,domain=www.eastherts.gov.uk
 www.eastherts.gov.uk###block-eastherts-chatbotebiai
 
 ! ==========
