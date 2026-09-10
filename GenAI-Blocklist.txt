@@ -2871,7 +2871,7 @@ www.microsoft.com##[data-bi-id="Button-Cta-SplitScreen-LearnWithCopilot"]
 azure.microsoft.com,www.microsoft.com##.uca-assistant-drawer-button
 azure.microsoft.com,www.microsoft.com##.uca-assistant-drawer-panel
 ! "Ask Microsoft" in middle of page
-www.microsoft.com##.chatgpt-banner
+azure.microsoft.com,www.microsoft.com##.chatgpt-banner
 ! "Ask Microsoft" chat box that appears after a delay
 www.microsoft.com###uca-proactive-chat
 
