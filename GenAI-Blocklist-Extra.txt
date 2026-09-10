@@ -61,6 +61,12 @@ www.android.com###remix-any-photo-right-in-your-messages:upward(1)
 www.android.com###create-your-own-unique-android-bot
 www.android.com###ai-on-android
 
+! ===============
+! == Anthropic ==
+! ===============
+! Header - Try Claude button
+www.anthropic.com##.nav_links_item:has([data-cta-copy="Try Claude"])
+
 ! ==================
 ! == Ars Technica ==
 ! ==================
