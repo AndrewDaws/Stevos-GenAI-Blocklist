@@ -619,6 +619,14 @@ support.simplifi.quicken.com##[data-testid="notification-preview-container"]:has
 ! "Copy Page" as markdown button
 docs.rackspace.com##.rm-AIDropdown
 
+! =============
+! == Raycast ==
+! =============
+! Navbar - AI
+www.raycast.com##[class$="__navLink"][href="/core-features/ai"]
+! Footer - AI
+www.raycast.com##[class$="__footerLink"][href="/store/category/ai"]
+
 ! =================
 ! == Real Python ==
 ! =================
