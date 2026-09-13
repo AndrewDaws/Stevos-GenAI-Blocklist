@@ -4738,7 +4738,7 @@ x.com##[data-testid="cellInnerDiv"]:has([data-testid="tweet"]:not([tabindex="-1"
 
 ! -- https://x.com/artsyomni/status/2039107622117183957
 ! Tweet - Explain this post
-x.com##[data-testid="tweet"] button[aria-label*="Grok"]
+x.com##[data-testid="tweet"] button[aria-label~="Grok"]
 ! Tweet - Actions menu - Edit image
 x.com##[role="menuitem"][href*="grok.com/imagine"]
 ! "Edit Image" when hovering over bottom right of image
