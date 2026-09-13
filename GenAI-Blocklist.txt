@@ -2248,11 +2248,22 @@ www.google.com##.GS02Vb .mLFOe > .imucI + .ozDyDd.iRPzcb
 ! ====================
 ! == Google Support ==
 ! ====================
-! Google Support - AI "Help guide" chatbox
-! * TODO: Doesn't filter full-page version used in US. See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/194
-support.google.com##body.mobile:not([style="position: fixed;"]) .helpPanelContainerRoot
+! -- https://support.google.com/chrome/answer/6098869
+! Google Support - AI "Help guide"
+! * Floating chatbox
+support.google.com##html.hcfe:not([style="overflow: hidden;"]) .helpPanelContainerRoot
+!#if ext_ublock
+! * Full-page modal used in US. Excluded from AdGuard as we can't check if trusted filters are enabled to remove 'inert' attribute.
+!   See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/194 and https://github.com/AdguardTeam/AdguardForiOS/issues/2547
+support.google.com##html.hcfe[style="overflow: hidden;"] .helpPanelContainerRoot
+support.google.com##html.hcfe[style="overflow: hidden;"]:has(.helpPanelContainerRoot):style(overflow: unset !important)
+support.google.com##html.hcfe[style="overflow: hidden;"]:has(.helpPanelContainerRoot) > body.mobile:style(position: unset !important)
+support.google.com##html.hcfe[style="overflow: hidden;"]:has(.helpPanelContainerRoot) [inert]:remove-attr(inert)
+!#endif
 
 ! -- https://support.google.com/a/users/answer/15593939
+! Navbar - Gen AI tips tab
+support.google.com##.top-nav > li:has-text("Gen AI tips")
 ! Notice promoting Workplace with Gemini
 support.google.com##.notification[data-name="Gemini_EN_RemoteWork_Covid19_NonEN"]
 
