@@ -156,6 +156,14 @@ docs.cribl.io##.markdown-view-toggle__container
 blog.cloudflare.com##.nav-item[data-tag="ai"]
 
 ! ============
+! == CodeAI ==
+! ============
+! -- https://code.org/en-US
+! AI cards in "New curriculum for a new standard"
+code.org##.container > div[data-component-wrapper="true"]:has(+ .contentful-container [data-testid="content-card"] [href="/curriculum/artificial-intelligence-discoveries"]):has(+ .contentful-container [href="/curriculum/artificial-intelligence-discoveries"]):has(+ .contentful-container [href^="https://studio.code.org/s/k5-ai-data"])
+code.org##.container > .contentful-container:has([data-testid="content-card"] [href="/curriculum/artificial-intelligence-discoveries"]):has([href="/curriculum/artificial-intelligence-discoveries"]):has([href^="https://studio.code.org/s/k5-ai-data"])
+
+! ============
 ! == DBCode ==
 ! ============
 ! -- https://dbcode.io/docs/sql/external
