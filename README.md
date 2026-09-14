@@ -138,6 +138,9 @@ Over 400.
 ### Why are AI Overviews still showing up on Google?
 If you use AdBlock Plus, make sure "Show acceptable ads" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
 
+### How do I report a bug or an AI element that wasn't blocked?
+Please submit an [issue report](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
+
 ### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin?
 uBlock Origin is not available for Google Chrome and iOS.
 
@@ -165,17 +168,8 @@ The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-B
 ### Ads are appearing on YouTube after adding this filter
 This was a [known issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/110) when using the AI Blocklist with Brave that [should be resolved](https://github.com/brave/adblock-rust/issues/679#issuecomment-4869440121). If you are still seeing YouTube ads and have confirmed it *only* occurs when the AI blocklist is installed, please [open an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
 
-## Contributing guidelines
-If you want to [report an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
-
-Commit messages use prefixes to indicate the type of change.
-* A: Added a new filter
-* M: Modified an existing filter
-* R: Removed a filter
-* C: Cosmetic "meta" change like editing comments or rearranging filters
-* T: Transfer filter between extra and main list.
-* F: Fixed a filter (not working, blocking too much, typo, etc.)
-* +: Filter applied to the "extra" list
+## Contributing
+If you want to contribute filters, please [review the contributing guide](https://github.com/Stevoisiak/Stevos-AI-Blocklist/?tab=contributing-ov-file).
 
 ## Other AI blocking tools
 ### General
