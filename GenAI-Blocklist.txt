@@ -598,7 +598,7 @@ www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
 ! ======================
 ! -- https://www.businessinsider.com/
 ! "Your briefing" content & summaries on search result pages 
-||www.businessinsider.com/ajax/$xhr,domain=www.businessinsider.com
+||www.businessinsider.com/ajax/stream-ai-search$xhr,domain=www.businessinsider.com
 ! "Your Briefing" button
 www.businessinsider.com##.catch-me-up-quickly
 
