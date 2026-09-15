@@ -180,7 +180,8 @@ health.amazon.com##[data-hcr-token-id="{{health.ai.widget.upsell.banner}}"]
 ! -- https://www.americanbanker.com/
 ! Header - Restore non-ai search button
 ! * Created by AchernarB (https://www.reddit.com/r/uBlockOrigin/comments/1te8z0m/comment/om1ap7p/)
-americanbanker.com##body[data-toggle-header="search-overlay"] .Page-header-search-overlay, .Page-header-search:style( display: flex !important; )
+americanbanker.com##body[data-toggle-header="search-overlay"] .Page-header-search-overlay {display: flex !important}
+americanbanker.com##.Page-header-search {display: flex !important}
 americanbanker.com##.miso-page-header-search
 
 ! -- https://www.americanbanker.com/search?q=test
@@ -310,7 +311,7 @@ www.asus.com###brandAssistant-root
 ! "Docs AI" button when search bar is focused
 docs.aws.amazon.com##button[aria-label="Search with Docs AI"]
 ! Remove purple glow from search bar
-docs.aws.amazon.com##div:has(> [data-testid="agentic-search-trigger"]):style(background: #bbb !important)
+docs.aws.amazon.com##div:has(> [data-testid="agentic-search-trigger"]) {background: #bbb !important}
 
 ! -- https://docs.aws.amazon.com/search/doc-search.html?searchQuery=test
 ! "Docs AI" tab on search results page
@@ -487,11 +488,8 @@ app.bitly.com##.ai-create-module
 ! Connect your account - AI tab
 app.bitly.com##.swiper-slide:has([data-testid="chatgpt"]):has([data-testid="claude"]):has([data-testid="copilot"])
 ! Chat side panel
-!#if ext_ublock
-app.bitly.com##.layout--wrapper:remove-class(chat-panel-open)
-!#else
-app.bitly.com##.layout--wrapper.chat-panel-open:style(padding-right: inherit !important)
-!#endif
+app.bitly.com##.chat-side-panel
+app.bitly.com##.layout--wrapper.chat-panel-open {padding-right: inherit !important}
 
 ! -- https://app.bitly.com/[ID]/analytics/
 ! Analyze with AI button
@@ -499,9 +497,9 @@ app.bitly.com##button[aria-label="Analyze with AI"]
 
 ! -- https://app.bitly.com/[ID]/custom-domains
 ! "Find a domain with AI"
-app.bitly.com##.domain-search-type-wrapper:style(display: none !important)
-app.bitly.com##.domain-search-container:has(.search-form-ai):style(display: none !important)
-app.bitly.com##.domain-search-container:has(.search-form):style(display: initial !important)
+app.bitly.com##.domain-search-type-wrapper
+app.bitly.com##.domain-search-container:has(.search-form-ai)
+app.bitly.com##.domain-search-container:has(.search-form) {display: initial !important}
 
 ! -- https://app.bitly.com/[ID]/links/create
 ! Generate back-half button
@@ -591,7 +589,7 @@ www.thebricks.com##.Modal_container__jm1jX
 ! -- https://www.britannica.com/
 ! "Ask the Chatbot" button below search bar
 ! * Use style to prevent navigation arrow from covering other options 
-www.britannica.com##.category-link-CHATBOT:style(visibility: hidden !important; height: 0 !important; width: 0 !important; padding: 0 !important; margin: 0 !important; font-size: 0 !important;)
+www.britannica.com##.category-link-CHATBOT {visibility: hidden !important; height: 0 !important; width: 0 !important; padding: 0 !important; margin: 0 !important; font-size: 0 !important}
 
 ! -- https://www.britannica.com/chatbot
 ||www.britannica.com/chat-api/$xhr,domain=www.britannica.com
@@ -1701,7 +1699,7 @@ github.dev###chat\.statusBarEntry:has(.codicon-copilot-unavailable)
 ! Toggle Chat button in header next to search bar
 github.dev##.agent-status-badge-section > .action-container
 ! * Fix spacing on ∨ submenu
-github.dev##.agent-status-badge-section .codicon-chevron-down:style(margin-left: 0px !important;)
+github.dev##.agent-status-badge-section .codicon-chevron-down {margin-left: 0px !important}
 ! * Loading placeholder
 github.dev##.command-center .codicon-chat-sparkle
 ! * All chat menu options other than "Learn how to hide AI Features"
@@ -2003,10 +2001,10 @@ docs.google.com##.waffleGriddySuggestionsBubbleGeminiUi
 ! Bottom bar - Canvas menu
 docs.google.com##.docs-sheet-canvas-button
 
-! - Table options (Insert > Pre-built tables)
+! - Table options (Menubar > Insert > Pre-built tables)
 ! "Help me create a table" button
 docs.google.com##.building-blocks-sidekick-entrypoint-button
-docs.google.com##.building-blocks-sidekick-scroll-top:style(top: 58px !important)
+docs.google.com##.building-blocks-sidekick-scroll-top {top: 58px !important}
 ! "AI enhanced tables" promo
 docs.google.com##.building-blocks-promo-container
 ! Table categories with AI fields
@@ -2360,7 +2358,7 @@ hwbusters.com##.hwb-ai-root
 ! -- https://www.healio.com/
 ! "Ask Healio AI" banner at top of page
 www.healio.com###healio-ai-banner
-www.healio.com##body:style(padding-top: 0px !important)
+www.healio.com##body {padding-top: 0px !important}
 ! "Healio AI" in navbar
 www.healio.com##.ai-link
 
@@ -2544,7 +2542,7 @@ www.investing.com##.quick-links_item__N8CIb:has(> [href="https://www.investing.c
 www.investing.com##.quick-links_item__N8CIb:has(> [href="https://www.investing.com/pro/propicks"])
 ! Promo banner for "AI-picked stocks" (No longer used?)
 www.investing.com###promo-strip:has([href^="https://www.investing.com/pro/propicks"])
-www.investing.com###main-header:has(promo-strip [href^="https://www.investing.com/pro/propicks"]):style(margin-bottom: 66px !important)
+www.investing.com###main-header:has(promo-strip [href^="https://www.investing.com/pro/propicks"]) {margin-bottom: 66px !important}
 ! AI buttons below InvestingPro promo
 www.investing.com##a[href="/pro/propicks"]
 www.investing.com##a[href="/warrenai"]
@@ -2850,7 +2848,7 @@ mathrubhumi.com##.summary-wrapper
 ! ==============
 ! AI Mode in search bar
 emedicine.medscape.com##.ai-mode-button
-emedicine.medscape.com##.header-row-bottom #search-input:style(width: 85% !important)
+emedicine.medscape.com##.header-row-bottom #search-input {width: 85% !important}
 
 ! -- https://emedicine.medscape.com/article/773203-overview
 ! Ask Medscape AI button
@@ -3714,7 +3712,7 @@ www.razer.com##li:has(> [href="https://www.razer.com/newsletter/ai"])
 ! Navbar > Learn Python > Code Mentor
 realpython.com##.dropdown-item[href="/mentor/"]
 ! Explore Real Python section > Code Mentor
-realpython.com##.card:has([href="/mentor/"]):style(visibility: hidden)
+realpython.com##.card:has([href="/mentor/"]) {visibility: hidden}
 
 ! =============
 ! == Real.gr ==
@@ -3771,14 +3769,14 @@ www.reddit.com##[data-testid="post-recovery-suggested-communities"] a:matches-at
 ! -- https://www.reddit.com/r/valve/comments/1vo1c7q/comment/p3nmcrh/
 ! AI-linked keywords in comments
 ! * Based on https://www.reddit.com/r/uBlockOrigin/comments/1vt6sgy/comment/p4rdpz2/
-www.reddit.com##[slot="comment"] p > a.border-dotted:style(border: none !important; color: inherit !important; cursor: auto !important; padding: 0 !important;)
+www.reddit.com##[slot="comment"] p > a.border-dotted {border: none !important; color: inherit !important; cursor: auto !important; padding: 0 !important}
 www.reddit.com##[slot="comment"] p > a.border-dotted > span:has(> [icon-name="search-sparkle"])
 !#if ext_ublock
 www.reddit.com##[slot="comment"] p > a.border-dotted:remove-attr(href)
 !#else
 www.reddit.com#%#//scriptlet('remove-attr', 'href', '[slot="comment"] p > a.border-dotted')
-! * backup if trusted filters are not enabled
-www.reddit.com##[slot="comment"] p > a.border-dotted[href^="/answers/"]:style(pointer-events: none !important;)
+! * backup for AdGuard w/o trusted filters and Adblock Plus
+www.reddit.com##[slot="comment"] p > a.border-dotted[href^="/answers/"] {pointer-events: none !important}
 !#endif
 
 ! -- Advertisements
@@ -4044,7 +4042,7 @@ support.spotify.com###ai-disclaimer
 ! * "Search with AI" half of toggle box
 support.spotify.com##.LegacyChip__LegacyChipComponent-sc-tzfq94-0:has([data-encore-id="icon"])
 ! * Make "Basic Search" fill the rest of the box
-support.spotify.com##.LegacyChip__LegacyChipComponent-sc-tzfq94-0:not(:has([data-encore-id="icon"])):style(flex-basis: 100% !important)
+support.spotify.com##.LegacyChip__LegacyChipComponent-sc-tzfq94-0:not(:has([data-encore-id="icon"])) {flex-basis: 100% !important}
 
 ! ============
 ! == Square ==
@@ -4368,7 +4366,7 @@ www.trustpilot.com##[class^="styles_summaryContainer__"]
 ! ================
 ! -- https://www.tunepocket.com/youtube-channel-id-finder/
 www.tunepocket.com###promo_bar
-www.tunepocket.com###pageholder > #tp-main-head:style(margin-top: -5px !important)
+www.tunepocket.com###pageholder > #tp-main-head {margin-top: -5px !important}
 
 ! ==============
 ! == TurboTax ==
@@ -5113,7 +5111,7 @@ www.zocdoc.com##[data-test="ai-search-hero-quick-links"]
 www.zoom.com##[data-primary="ai"]
 ! AI notetaker banner
 www.zoom.com##.fdn-alert-banner[href^="https://www.zoom.com/en/products/ai-assistant/"]
-www.zoom.com##.hero__content:has(> .fdn-alert-banner[href^="https://www.zoom.com/en/products/ai-assistant/"]):style(padding-top: 60px !important)
+www.zoom.com##.hero__content:has(> .fdn-alert-banner[href^="https://www.zoom.com/en/products/ai-assistant/"]) {padding-top: 60px !important}
 ! Promo section for AI notetaker
 www.zoom.com##.module-columns:has(.zdcm-my-notes-showcase)
 ! Virtual Agent floating icon for support chatbot
