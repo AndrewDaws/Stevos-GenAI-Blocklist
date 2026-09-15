@@ -656,6 +656,8 @@ www.buzzfeed.com##.arcade_contentWrapper__3tHoG:has([clip-path="url(#clip0_850_8
 dictionary.cambridge.org##.hdib:has(> [href$="/assistant"])
 ! "AI Assistant" in left sidebar menu (☰)
 dictionary.cambridge.org##.lb-cm.hlh21:has(> [href$="/assistant"])
+! Fixed footer - AI Assistant (mobile)
+dictionary.cambridge.org##.ai-bar
 
 ! -- https://dictionary.cambridge.org/assistant
 ||dictionary.cambridge.org/api/assistant/$xhr,domain=dictionary.cambridge.org
