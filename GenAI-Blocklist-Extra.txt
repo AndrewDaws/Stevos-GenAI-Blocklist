@@ -135,6 +135,21 @@ docs.aws.amazon.com##.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
 ! * Seemingly only the article descriptions are AI. Should look into more targeted filter for main list.
 docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
 
+! ===========
+! == Bitly ==
+! ===========
+! -- https://app.bitly.com/integrations/discover
+! AI category chip
+app.bitly.com##.integrations-discovery-page__filter-chips > .orb-pill-button:has-text(AI)
+
+! AI integration services
+app.bitly.com##.integration-card:has([alt="Bitly Model Context Protocol (MCP) logo"])
+app.bitly.com##.integration-card:has([alt="ChatGPT logo"])
+app.bitly.com##.integration-card:has([alt="Claude logo"])
+app.bitly.com##.integration-card:has([alt="Microsoft Copilot logo"])
+app.bitly.com##.integration-card:has([alt="Notion logo"])
+app.bitly.com##.integration-card:has([alt="Perplexity logo"])
+
 ! ===============
 ! == Bitwarden ==
 ! ===============

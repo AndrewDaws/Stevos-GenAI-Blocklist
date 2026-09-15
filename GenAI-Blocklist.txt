@@ -472,6 +472,25 @@ www.bing.com###ShoppingLandingPage_ShoppingEducation:has-text(Try it on Copilot)
 ! Earn > Microsoft Unlocked
 rewards.bing.com##mee-card:has([aria-label="Microsoft Unlocked, Stories from the heart and soul of AI innovation, Explore now"])
 
+! ===========
+! == Bitly ==
+! ===========
+! -- https://app.bitly.com/ (logged in - home)
+! Navbar - Chat button
+app.bitly.com##.nav-ai-assist
+! Promo for "Upgrade to Create with AI"
+app.bitly.com##.ai-create-module
+! Connect your account - AI tab
+app.bitly.com##.swiper-slide:has([data-testid="chatgpt"]):has([data-testid="claude"]):has([data-testid="copilot"])
+
+! -- https://app.bitly.com/[ID]/analytics/
+! Analyze with AI button
+app.bitly.com##button[aria-label="Analyze with AI"]
+
+! -- https://app.bitly.com/[ID]/links/create
+! Generate back-half button
+app.bitly.com##.link-info--generate-backhalf
+
 ! ===============
 ! == Bitwarden ==
 ! ===============
