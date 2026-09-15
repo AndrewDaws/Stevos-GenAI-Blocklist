@@ -482,6 +482,11 @@ app.bitly.com##.nav-ai-assist
 app.bitly.com##.ai-create-module
 ! Connect your account - AI tab
 app.bitly.com##.swiper-slide:has([data-testid="chatgpt"]):has([data-testid="claude"]):has([data-testid="copilot"])
+! Chat side panel
+!#if ext_ublock
+app.bitly.com##.chat-side-panel
+app.bitly.com##.layout--wrapper:remove-class(chat-panel-open)
+!#endif
 
 ! -- https://app.bitly.com/[ID]/analytics/
 ! Analyze with AI button
