@@ -2604,16 +2604,6 @@ www.jimdo.com###companion
 ! Floating chatbot icon
 www.johnhancock.com##.webchat
 
-! ==============
-! == JSFiddle ==
-! ==============
-! Block API requests for AI code completion
-||api.mistral.ai/v1/fim/completions$xhr,domain=jsfiddle.net
-! Error message about code completion request failing
-jsfiddle.net###flash-messages > .error:has-text("Can't complete code. Error code: Failed to fetch.")
-! AI Code completion button in sidebar
-jsfiddle.net##.si_ai
-
 ! ====================
 ! == Jumping Rivers ==
 ! ====================
