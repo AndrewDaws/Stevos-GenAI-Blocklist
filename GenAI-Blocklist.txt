@@ -484,8 +484,9 @@ app.bitly.com##.ai-create-module
 app.bitly.com##.swiper-slide:has([data-testid="chatgpt"]):has([data-testid="claude"]):has([data-testid="copilot"])
 ! Chat side panel
 !#if ext_ublock
-app.bitly.com##.chat-side-panel
 app.bitly.com##.layout--wrapper:remove-class(chat-panel-open)
+!#else
+app.bitly.com##.layout--wrapper.chat-panel-open:style(padding-right: inherit !important)
 !#endif
 
 ! -- https://app.bitly.com/[ID]/analytics/
