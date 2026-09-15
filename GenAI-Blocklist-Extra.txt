@@ -300,6 +300,10 @@ docs.github.com##.SearchOverlay_footer__45kw_
 ! All Docs - GitHub Copilot section
 docs.github.com##[class^="ProductSelectionCard_cell__"]:has([title="GitHub Copilot"])
 
+! -- https://docs.github.com/en/get-started
+! Recommended - Learn to code with GitHub Copilot
+docs.github.com##[data-testid="carousel-items"] > [class^="Primer_Brand__Card-module__Card__outer___"]:has([href="/en/free-pro-team@latest/get-started/learning-to-code"])
+
 ! -- https://docs.github.com/en/get-started/using-github/hello-world
 ! Copy as Markdown button
 docs.github.com##[data-container="toc"] > .mb-3.ml-3:has([class*="ViewMarkdownButton_button__"])
