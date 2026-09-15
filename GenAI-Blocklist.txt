@@ -49,12 +49,12 @@ www.1password.dev##[role="menuitem"]:has-text(Ask questions about this page)
 ! Floating chatbot button
 www.aberdeencity.gov.uk##a[aria-label="Open Chatbot"]
 
-! ==================
-! == Adblock Plus ==
-! ==================
+! ==========================
+! == AdBlock/Adblock Plus ==
+! ==========================
 ! -- https://help.adblockplus.org/adblock-plus-help-center/how-to-write-filters
 ! "Use with AI" button
-help.adblockplus.org##ai-actions
+help.adblockplus.org,helpcenter.getadblock.com##ai-actions
 
 ! ===========
 ! == Adobe ==
