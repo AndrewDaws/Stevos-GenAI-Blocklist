@@ -493,6 +493,12 @@ app.bitly.com##.layout--wrapper.chat-panel-open:style(padding-right: inherit !im
 ! Analyze with AI button
 app.bitly.com##button[aria-label="Analyze with AI"]
 
+! -- https://app.bitly.com/[ID]/custom-domains
+! "Find a domain with AI"
+app.bitly.com##.domain-search-type-wrapper:style(display: none !important)
+app.bitly.com##.domain-search-container:has(.search-form-ai):style(display: none !important)
+app.bitly.com##.domain-search-container:has(.search-form):style(display: initial !important)
+
 ! -- https://app.bitly.com/[ID]/links/create
 ! Generate back-half button
 app.bitly.com##.link-info--generate-backhalf
