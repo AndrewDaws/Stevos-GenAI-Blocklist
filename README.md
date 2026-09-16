@@ -158,9 +158,9 @@ Check [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-AI-Blocklist/
 Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) to block AI items. (DeviantArt & Pixiv image filters, YouTube autodubbing, TikTok videos, etc). Unlike uBlock Origin, AdGuard [requires trusted filters for all scriptlets](https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3522#issuecomment-4441812031). Additionally, enabling trusted filters is easier in AdGuard compared to uBlock Origin.
 
 ### Why do some filters show "*Invalid filter: Filter requires trusted source*" in uBlock Origin?
-A small number of filters require trusted filters in uBlock Origin. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
+Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
 
-To be clear, ***if you use uBlock Origin, you do not need to mark this list as trusted to use a majority of the AI filters***. However, if you do want these extra filters, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes).
+To be clear, a majority of these filters will work in uBlock Origin without trusted filters. However, if you want to enable them, go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes).
 
 ### Why do YouTube videos still sometimes play AI dubbed audio tracks?
 The filter for automatic dubbing on YouTube does not work when opening a video via direct URL. (IE: Entering the address directly in your browser's URL bar). It will work when clicking a video while already on YouTube, such as on YouTube's homepage, search results, or suggested videos.
