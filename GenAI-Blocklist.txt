@@ -4560,6 +4560,15 @@ www.virtusa.com##[class*="__aiCard"]
 ! Code insights
 www.virustotal.com##vt-crowdsourced-ai-gemini
 
+! =================
+! == Visit Wales ==
+! =================
+! Header banner promoting Gwydion
+www.croeso.cymru##.o-important-notification-banner:has-text(Mae Gwydion, Asiant AI Newydd AI Croeso Cymru)
+www.visitwales.com##.o-important-notification-banner:has-text(Gwydion, Visit Wales’ new AI Agent)
+! Floating "Ask Gwydion" button
+www.croeso.cymru,www.visitwales.com###gwydion-launcher
+
 ! ===================
 ! == Visual Studio ==
 ! ===================
