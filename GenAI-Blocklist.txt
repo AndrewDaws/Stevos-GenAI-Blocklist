@@ -218,6 +218,26 @@ archiveofourown.org##.blurb:has(.tag:is([href="/tags/AI%20Art/works"],[href="/ta
 ! "Also try our new AI"
 products.aspose.app##a-overview p:has([href="https://products.aspose.ai/font/"])
 
+! ================
+! == Astronomer ==
+! ================
+! -- https://www.astronomer.io/docs/learn/overview
+! Assistant button next to search bar
+www.astronomer.io###assistant-entry
+! Copy page button - Ask AI menu options
+www.astronomer.io##[role="menuitem"]:has([d^="m50.228 170.321 50.357-28.257.843-2.463-.843-1.361h-2.462l-8.426-.518-28.775"])
+www.astronomer.io##[role="menuitem"]:has([d^="M21.55 10.004a5.416 5.416 0 00-.478-4.501c-1.217-2.09-3.662-3.166-6.05-2.66A5.59"])
+www.astronomer.io##[role="menuitem"]:has([d^="M15.688 2.343a2.588 2.588 0 00-3.61 0l-9.626 9.44a.863.863 0 01-1.203 0 .823.823"])
+
+! ==========
+! == Asus ==
+! ==========
+! AI in header navbar
+www.asus.com##.Header__menuOuter__xBkro:has(> #aiMenu)
+www.asus.com##.Header__menuOuter__xBkro:has(> #aiMenu) + .Header__spaceForMenuItem__14d_b
+! Floating chatbot button
+www.asus.com###brandAssistant-root
+
 ! ===============
 ! == Atlassian ==
 ! ===============
@@ -283,26 +303,6 @@ www.autonocion.com###an-box-btn
 ! -- https://www.autozone.com/p/duralast-platinum-battery-h7-agm/319458
 ! Review summary
 www.autozone.com###custom-reviews-container [data-testid="st-view"]:has(> [data-testid="st-view"] > [src="/images/reviews/ai.svg"])
-
-! ================
-! == Astronomer ==
-! ================
-! -- https://www.astronomer.io/docs/learn/overview
-! Assistant button next to search bar
-www.astronomer.io###assistant-entry
-! Copy page button - Ask AI menu options
-www.astronomer.io##[role="menuitem"]:has([d^="m50.228 170.321 50.357-28.257.843-2.463-.843-1.361h-2.462l-8.426-.518-28.775"])
-www.astronomer.io##[role="menuitem"]:has([d^="M21.55 10.004a5.416 5.416 0 00-.478-4.501c-1.217-2.09-3.662-3.166-6.05-2.66A5.59"])
-www.astronomer.io##[role="menuitem"]:has([d^="M15.688 2.343a2.588 2.588 0 00-3.61 0l-9.626 9.44a.863.863 0 01-1.203 0 .823.823"])
-
-! ==========
-! == Asus ==
-! ==========
-! AI in header navbar
-www.asus.com##.Header__menuOuter__xBkro:has(> #aiMenu)
-www.asus.com##.Header__menuOuter__xBkro:has(> #aiMenu) + .Header__spaceForMenuItem__14d_b
-! Floating chatbot button
-www.asus.com###brandAssistant-root
 
 ! =======================
 ! == AWS Documentation ==
