@@ -659,9 +659,6 @@ dictionary.cambridge.org##.lb-cm.hlh21:has(> [href$="/assistant"])
 ! Fixed footer - AI Assistant bar (mobile)
 dictionary.cambridge.org##.ai-bar
 
-! -- https://dictionary.cambridge.org/assistant
-||dictionary.cambridge.org/api/assistant/$xhr,domain=dictionary.cambridge.org
-
 ! -- https://dictionary.cambridge.org/dictionary/english/test
 ! Fixed footer - AI Assistant button
 dictionary.cambridge.org##.ai-bar-button

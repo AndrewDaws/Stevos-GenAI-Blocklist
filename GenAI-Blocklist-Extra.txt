@@ -157,6 +157,12 @@ app.bitly.com##.integration-card:has([alt="Perplexity logo"])
 ! Footer - For agentic AI security
 bitwarden.com##li.leading-1:has(> [href="/solutions/agentic-ai-security/"])
 
+! ==========================
+! == Cambridge Dictionary ==
+! ==========================
+! -- https://dictionary.cambridge.org/assistant
+||dictionary.cambridge.org/api/assistant/$xhr,domain=dictionary.cambridge.org
+
 ! ================
 ! == Cribl Docs ==
 ! ================
