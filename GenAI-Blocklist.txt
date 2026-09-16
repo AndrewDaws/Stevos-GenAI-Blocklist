@@ -5643,6 +5643,13 @@ myhentaigallery.com##center:has(> div > iframe)
 ! Floating ad
 myhentaigallery.com###Slider
 
+! ===========================
+! == nhentai (togo) (NSFW) ==
+! ===========================
+! -- https://nhentai.to/go
+! AI roleplay banner
+nhentai.to###nb-band
+
 ! ========================
 ! == nhentai.xxx (NSFW) ==
 ! ========================
