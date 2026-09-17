@@ -1627,6 +1627,10 @@ github.com##[data-component="ActionList.Divider"] + [data-component="ActionList.
 ! "Explain error" button
 github.com##[data-test-id="copilot-actions-chat-button"]
 
+! -- https://github.com/ (logged out)
+! Download GitHub Copilot app button
+github.com##[class^="Primer_Brand__Button-module__Button___"][href="/features/ai/github-app"]
+
 ! -- https://github.com/home
 ! Try Copilot button (No longer used?)
 github.com##.CtaForm-secondaryAction[href="/github-copilot/pro"]
