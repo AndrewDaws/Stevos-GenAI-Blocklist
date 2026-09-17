@@ -4444,6 +4444,15 @@ www.ulta.com##chat-messenger[service*="commerce-ai"]
 ! "How can I help" questions
 www.ulta.com##.DynamicPrompts
 
+! ==============
+! == Unbounce ==
+! ==============
+! -- https://unbounce.com/landing-page-articles/what-is-a-landing-page/
+! Product list & Footer - MCP
+unbounce.com##.menu-mcp
+! Footer - "Ask AI how Unbounce scales your marketing"
+unbounce.com##.footer-ai-nav
+
 ! =====================
 ! == United Airlines ==
 ! =====================
