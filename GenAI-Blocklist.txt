@@ -3685,6 +3685,16 @@ docs.rackspace.com##.Menu-Item[href^="https://claude.ai/new?q="] + .Menu-Divider
 ! AI news overview
 www.rambler.ru##.rc__788yz.rc__U-mRx.r-vvrm5f4e
 
+! ==================
+! == Raspberry Pi ==
+! ==================
+! -- https://www.raspberrypi.com/documentation/
+! Search "or Ask a question"
+www.raspberrypi.com##.search-or
+www.raspberrypi.com##.ask-ai-trigger
+! Search suggestion for "Ask a question about"
+www.raspberrypi.com##.DocSearch-HitsFooter:has(> .DocSearch-AskAI)
+
 ! =============
 ! == Raycast ==
 ! =============

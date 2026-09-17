@@ -679,6 +679,13 @@ support.simplifi.quicken.com##[data-testid="notification-preview-container"]:has
 ! "Copy Page" as markdown button
 docs.rackspace.com##.rm-AIDropdown
 
+! ==================
+! == Raspberry Pi ==
+! ==================
+! -- https://www.raspberrypi.com/documentation/
+! Documentation for "AI software"
+www.raspberrypi.com##.box[href="/documentation/computers/ai.html"]
+
 ! =============
 ! == Raycast ==
 ! =============
