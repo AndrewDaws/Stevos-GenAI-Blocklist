@@ -180,9 +180,22 @@ blog.cloudflare.com##.nav-item[data-tag="ai"]
 ! == CodeAI ==
 ! ============
 ! -- https://code.org/en-US
+! "Students already use AI" page header
+code.org##[data-test-id="contentful-container"] > .cf-33efcb1481cf5dd8badb9291766ba80a.cf-4b210d7b12374460fe9937cd64336a1f.cf-3dd61578533e7529a63589dcc03fa385:has(> h1)
+! "Code.org has become CodeAI" banner
+code.org##section:has(.fa-bullhorn):has([href="/codeai"][class*="genericButton-module__button-black___"])
 ! AI cards in "New curriculum for a new standard"
 code.org##.container > div[data-component-wrapper="true"]:has(+ .contentful-container [data-testid="content-card"] [href="/curriculum/artificial-intelligence-discoveries"]):has(+ .contentful-container [href="/curriculum/artificial-intelligence-discoveries"]):has(+ .contentful-container [href^="https://studio.code.org/s/k5-ai-data"])
 code.org##.container > .contentful-container:has([data-testid="content-card"] [href="/curriculum/artificial-intelligence-discoveries"]):has([href="/curriculum/artificial-intelligence-discoveries"]):has([href^="https://studio.code.org/s/k5-ai-data"])
+
+! -- https://code.org/en-US/curriculum
+code.org##section:has(img[src*="TEACHER_DASHBOARD___MIX___MOVE_WITH_AI"]):has(img[src*="AIOceans-16x9-min_copy.jpg"]):has(img[src*="action-block-music-lab-jam-session.png"])
+
+! -- https://code.org/en-US/parents
+! "Hour of AI activities" button
+code.org##div:has(> [href="/hour-of-ai"][class^="genericButton-module__button___"])
+! "Start with the Hour of AI" section
+code.org##h2:has-text(Start with the Hour of AI):upward(section)
 
 ! ============
 ! == DBCode ==
