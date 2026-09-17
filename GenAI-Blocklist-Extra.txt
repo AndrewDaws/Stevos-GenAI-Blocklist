@@ -297,6 +297,10 @@ github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"
 ! Right sidebar - Copilot promo banner
 ||github.com/static/images/modules/dashboard/promos/copilot-$image,1p
 
+! -- https://github.com/home
+! "Accelerate your entire workflow" section
+github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > :is(.lp-SectionIntro, .lp-SectionHero)
+
 ! =================
 ! == GitHub Blog ==
 ! =================
