@@ -5765,6 +5765,8 @@ www.reddvideo.tube##.nav-item:has(> [href="https://www.gptgirlfriend.online/"])
 www.redgifs.com##.aTab:has-text(AI Porn)
 ! ☰ menu - AI Porn
 www.redgifs.com##.burgerMenuItem:has([href^="https://a.aivanta76.com/"])
+! Recommended videos when scrolling (May not apply to first few videos)
+www.redgifs.com##+js(json-edit, $.gifs[?@.tags[?@=="Ai Generated"]])
 
 ! ====================
 ! == RedTube (NSFW) ==
