@@ -984,3 +984,11 @@ zoom.us##.highlight-control-bar-outer-container
 zoom.us###tab-summary
 ! Summary tab content
 zoom.us###pane-summary
+
+! ------------------------
+
+! ===========================
+! == The Porn Links (NSFW) ==
+! ===========================
+! Blog post about AI porn vs traditional porn
+thepornlinks.com##.RelatedPosts-hp > [href="https://thepornlinks.com/blog/ai-porn-generators-vs-traditional-porn-sites/"]
