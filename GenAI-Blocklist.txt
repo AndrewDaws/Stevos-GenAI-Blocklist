@@ -1116,6 +1116,8 @@ docs.docker.com##[onclick="askGordon()"]
 ! -- https://hub.docker.com/
 ! Navbar - Gordon AI button
 hub.docker.com##div:has(> .MuiButtonBase-root > [data-testid="GordonIcon"])
+! Search - "Chat with Gordon" autocomplete suggestion
+hub.docker.com###header-search-dialog-gordon-cta
 ! Left sidebar - Generative AI
 hub.docker.com##.MuiAccordion-root:has([id="Generative AI-content"])
 ! Machine Learning & AI section category
