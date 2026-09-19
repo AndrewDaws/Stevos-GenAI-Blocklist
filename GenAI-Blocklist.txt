@@ -1103,7 +1103,7 @@ www.diffchecker.com##button.bg-surface-purple:has([clip-path="url(#sparkle_svg__
 ! ============
 ! -- https://docs.docker.com/
 ! Header - State of AI Agents report
-docs.docker.com###docker-announcement-bar:has([href="https://www.docker.com/resources/the-state-of-agentic-ai-white-paper/"])
+docs.docker.com,hub.docker.com###docker-announcement-bar:has([href="https://www.docker.com/resources/the-state-of-agentic-ai-white-paper/"])
 ! Navbar - Gordon button
 docs.docker.com##[data-tooltip-wrapper]:has(> [aria-describedby="gordon-tooltip"])
 ! "Ask anything about docker" chatbox
