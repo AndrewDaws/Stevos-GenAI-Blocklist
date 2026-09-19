@@ -2249,6 +2249,9 @@ www.google.com#@#.YzCcne:remove()
 www.google.*##.oGdvd
 
 ! -- https://www.google.com/search?q=caine
+! AI Overview header logo (mobile)
+! * Non-AI pieces like images can stay, but use :has() to make sure the actual AI element is something we caught in other filters
+www.google.com##.MjjYud:has(+ .MjjYud [data-attnms]) [data-prvwid="HEADER"] > .Ws2DOe
 ! "Things to know" and "People also ask" sections
 ! * First filter hides list items, .cUnQKe hides header if all items are AI, .ULSxyf hides extra space if needed
 ! * Extra sanity checks on child elements of .ULSxyf to avoid overfiltering. (Example: https://www.google.com/search?q=world+cup+standing)
