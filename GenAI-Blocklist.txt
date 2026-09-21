@@ -5134,6 +5134,8 @@ studio.youtube.com##.ask-studio-container
 ! Floating chatbot icon
 ! * Appears during searches. Does not appear for all users.
 www.zillow.com##.voyager-omnibutton
+! * Appears in popout for individual search results
+www.zillow.com##[data-testid="voyager-omni-button"]
 
 ! ============
 ! == Zocdoc ==
