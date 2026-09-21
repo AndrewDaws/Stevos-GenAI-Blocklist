@@ -2112,7 +2112,7 @@ drive.google.com##.h-v:has([src="https://ssl.gstatic.com/docs/doclist/images/med
 
 ! -- https://drive.google.com/drive/search?q=what%20is%20my%20biggest%20file%3F
 ! AI Overview
-||drive.google.com/generate_204$image,domain=drive.google.com
+||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=drive.google.com
 drive.google.com##.De8rPe
 
 ! -- Viewing a file
