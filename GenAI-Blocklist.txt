@@ -567,11 +567,16 @@ www.booking.com##[data-testid="filters-search-widget"]
 ! ==================
 ! == Brave Search ==
 ! ==================
+! -- https://search.brave.com/ (General)
+! Disable AI summarizer
+search.brave.com##+js(set-cookie, summarizer, 0)
+! Navbar - Settings - Answer with AI toggle
+! * Only hide if setting is disabled
+search.brave.com##.settings-content > .card > section:has([href="/help/ai"]):has(input[type="checkbox"]:not(:checked))
+
 ! -- https://search.brave.com/ (Homepage)
 ! Purple "Ask" button in search bar
 search.brave.com###submit-llm-button
-! Disable AI summarizer
-search.brave.com##+js(set-cookie, summarizer, 0)
 
 ! -- https://search.brave.com/search?q=Why+are+we+here (Search results)
 ! "Ask" tab in navbar
@@ -580,6 +585,11 @@ search.brave.com##.tab-item:has(> a[href^="/ask"])
 search.brave.com###llm-snippet
 ! * Block generating answer for non-pre-generated responses
 ||search.brave.com/api/chatllm/with_ask$xhr,domain=search.brave.com
+
+! -- https://search.brave.com/search?q=define+test
+! Digest button below word definition
+search.brave.com##.footer-button:has(> svg > [d^="M11.352 2.005a2.234 2.234 0 0 0-2.168"])
+search.brave.com##.footer-button:has(> svg > [d^="M11.352 2.005a2.234 2.234 0 0 0-2.168"]) + .spacing
 
 ! ============
 ! == Bricks ==
