@@ -2144,6 +2144,10 @@ drive.google.com##.DbMyfd.LOB30e:has([aria-label="Create an audio overview"])
 ! Genini in sidebar
 drive.google.com##.equNN
 
+! -- https://drive.google.com/file/d/[id]/view (Direct file link)
+! "Gemini for all your Drive files" modal dialog
+drive.google.com##[data-dialog-id]:has([href="https://support.google.com/drive?p=gemini_drive_pdf"])
+
 ! ====================
 ! == Google Flights ==
 ! ====================
