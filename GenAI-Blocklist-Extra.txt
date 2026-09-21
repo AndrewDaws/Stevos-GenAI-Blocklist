@@ -952,6 +952,10 @@ www.youtube.com###movie_player::after:style(content:var(--new-text-2); z-index:9
 !   by asking to contact a real person.
 studio.youtube.com##ytcp-sam-chat
 
+! -- Video details
+! Automatic chapter suggestions
+studio.youtube.com###suggestion-button:has([aria-label="Chapters available"])
+
 ! ============
 ! == Zazzle ==
 ! ============
