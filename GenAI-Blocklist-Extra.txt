@@ -541,7 +541,7 @@ central.insightsoftware.com###forethought-chat
 ! * Needs testing before it can be moved to main filters
 ! * Doesn't work in AdGuard. Unsure why.
 !#if ext_ublock
-www.instagram.com##+js(json-edit, $..[?@.node..ai_label_info.gen_ai_detection_method], , propsToMatch, https://www.instagram.com/graphql/query)
+www.instagram.com##+js(json-edit, $..[?@.node..ai_label_info.gen_ai_detection_method], , propsToMatch, /graphql/query)
 !#endif
 
 ! ==================
