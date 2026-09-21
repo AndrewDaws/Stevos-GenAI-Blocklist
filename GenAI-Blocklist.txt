@@ -5129,6 +5129,13 @@ studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
 studio.youtube.com##.ask-studio-container
 
 ! ============
+! == Zillow ==
+! ============
+! Floating chatbot icon
+! * Appears during searches. Does not appear for all users.
+www.zillow.com##.voyager-omnibutton
+
+! ============
 ! == Zocdoc ==
 ! ============
 ! AI Care Assistant
