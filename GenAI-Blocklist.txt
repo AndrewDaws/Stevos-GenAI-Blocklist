@@ -1353,9 +1353,9 @@ www.extendoffice.com##.uk-margin-remove-last-child tr:has([href^="https://www.ex
 ! =============
 ! -- https://fdroid.gitlab.io/fdroid-website/en/packages/
 ! AI Chat app category
-f-droid.org,fdroid.gitlab.io##.post-content > h3:has(+ #package-list + p > [href$="/categories/ai-chat/"])
-f-droid.org,fdroid.gitlab.io##.post-content > #package-list:has(+ p > [href$="/categories/ai-chat/"])
-f-droid.org,fdroid.gitlab.io##.post-content > p:has(> [href$="/categories/ai-chat/"])
+f-droid.org,fdroid.gitlab.io##.post-content > h3:has(+ #package-list + p > [href$="/categories/ai-chat/"]:only-child)
+f-droid.org,fdroid.gitlab.io##.post-content > #package-list:has(+ p > [href$="/categories/ai-chat/"]:only-child)
+f-droid.org,fdroid.gitlab.io##.post-content > p:has(> [href$="/categories/ai-chat/"]:only-child)
 
 ! ==============
 ! == Facebook ==
