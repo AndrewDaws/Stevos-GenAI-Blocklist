@@ -1348,6 +1348,15 @@ www.extendoffice.com##.uk-margin-remove-last-child:has([src="//cdn.extendoffice.
 ! "Kutools AI Aide" in "Best Office Productivity Tools"
 www.extendoffice.com##.uk-margin-remove-last-child tr:has([href^="https://www.extendoffice.com/product/kutools-for-excel/kutools-excel-ai-assistant.html"])
 
+! =============
+! == F-Droid ==
+! =============
+! -- https://fdroid.gitlab.io/fdroid-website/en/packages/
+! AI Chat app category
+f-droid.org,fdroid.gitlab.io##.post-content > h3:has(+ #package-list + p > [href$="/categories/ai-chat/"])
+f-droid.org,fdroid.gitlab.io##.post-content > #package-list:has(+ p > [href$="/categories/ai-chat/"])
+f-droid.org,fdroid.gitlab.io##.post-content > p:has(> [href$="/categories/ai-chat/"])
+
 ! ==============
 ! == Facebook ==
 ! ==============
