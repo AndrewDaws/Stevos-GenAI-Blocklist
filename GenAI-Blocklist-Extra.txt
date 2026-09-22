@@ -176,6 +176,13 @@ bitwarden.com##li.leading-1:has(> [href="/solutions/agentic-ai-security/"])
 ! Copy as markdown button
 docs.cribl.io##.markdown-view-toggle__container
 
+! =============
+! == Crowdin ==
+! =============
+! -- https://crowdin.com/profile (logged in)
+! Sidebar - AI
+crowdin.com##.side-menu__link[title="AI"]
+
 ! =====================
 ! == Cloudflare Blog ==
 ! =====================

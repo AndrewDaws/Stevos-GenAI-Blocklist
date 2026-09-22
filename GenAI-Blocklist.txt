@@ -924,6 +924,24 @@ docs.cribl.io##[data-action="copilot"]
 ! Floating AI button
 docs.cribl.io###copilot
 
+! =============
+! == Crowdin ==
+! =============
+! -- https://crowdin.com/
+! Navbar - AI
+crowdin.com##li:has(> [href="/features/ai-translation"])
+
+! -- https://crowdin.com/profile (logged in)
+! Header - Extensions - Crowdin Copilot
+crowdin.com##.dropdown-item:has(> img[src^="https://crowdin-copilot.app.crowdin.net/logo.svg"])
+
+! -- https://crowdin.com/editor (After selecting a file)
+! Sidebar - Crowdin Copilot
+crowdin.com##[role="listitem"]:has(> #crowdin-copilot¦crowdin-copilot-editor-panels)
+! Automated suggestions
+crowdin.com##.suggestions_separator:has(> #automated-suggestions-toggler)
+crowdin.com##.suggestions_separator:has(> #automated-suggestions-toggler) + div:has(> .string-suggestions-wrapper)
+
 ! ===============
 ! == Cybernews ==
 ! ===============
