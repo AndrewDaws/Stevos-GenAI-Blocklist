@@ -660,6 +660,13 @@ forums.opera.com##.category-61
 ! AI category in header
 www.pcguide.com##.menu-item-150141
 
+! ==========
+! == pnpm ==
+! ==========
+! -- https://pnpm.io/motivation
+! "Copy Page" markdown button
+pnpm.io###copy-page-button-container
+
 ! ===================
 ! == PriceCharting ==
 ! ===================
