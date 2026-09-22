@@ -13,7 +13,6 @@ This repository categorizes filters between two files: a main list `GenAI-Blockl
 
 ### Items to hide in the extra filters
 * AI chatbots that have an option to contact human support agents.
-* Descriptions of AI features on company landing pages.
 * Filters that have a chance of blocking non-ai generated content
 * Filters that have a chance of breaking site functionality
 
