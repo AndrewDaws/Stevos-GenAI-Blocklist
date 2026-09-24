@@ -4615,6 +4615,14 @@ app.vanta.com##[data-testid="global-vanta-ai-button"]
 ! Vanta agent in sidebar
 app.vanta.com###vanta-agent
 
+! ===============================
+! == Veldach Szczecin (Polish) ==
+! ===============================
+! Floating chat widget
+||widget.wenetasystent.ai/page/$subdocument,domain=www.veldach.com.pl
+www.veldach.com.pl##.assistant-widget-container
+www.veldach.com.pl##.assistant-widget-drawer-content
+
 ! ============
 ! == Vercel ==
 ! ============
