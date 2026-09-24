@@ -974,6 +974,12 @@ www.youtube.com###movie_player::after:style(content:var(--new-text-2); z-index:9
 ! * TODO: Remove "View Chapters" button & chapters in "In this video" sidebar
 www.youtube.com##+js(json-edit, $..playerOverlays..[?@.visibleOnLoad.key=="AUTO_CHAPTERS"])
 
+! -- https://m.youtube.com/watch?v=oh5p5f5_-7A (mobile)
+! "Ask" slide in comment carousel below video
+! * In extra for testing purposes.
+m.youtube.com##+js(json-edit, $..[?@.carouselTitleViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
+m.youtube.com##+js(json-edit, $..[?@.carouselItemViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
+
 ! ====================
 ! == YouTube Studio ==
 ! ====================
