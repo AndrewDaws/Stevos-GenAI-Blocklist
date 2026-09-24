@@ -5183,6 +5183,12 @@ www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="1080p"
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]]..adaptiveFormats.*[?.qualityLabel=="720p"])
 !#endif
 
+! -- https://m.youtube.com/watch?v=oh5p5f5_-7A (mobile)
+! "Ask" slide in comment carousel below video
+! * Does not work on AdGuard for iOS
+m.youtube.com##+js(json-edit, $..[?@.carouselTitleViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
+m.youtube.com##+js(json-edit, $..[?@.carouselItemViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
+
 ! -- Livestream
 ! Chat summary
 www.youtube.com##yt-live-chat-banner-manager:has(yt-live-chat-banner-chat-summary-renderer)
