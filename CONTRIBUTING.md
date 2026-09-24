@@ -18,7 +18,7 @@ This repository categorizes filters between two files: a main list `GenAI-Blockl
 
 ### Items that should not be hidden
 * Any features that impact core site functionality
-* Automatic video subtitles (See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/92#issuecomment-4604071069)
+* Automatic video subtitles that are not explicitly labeled as AI generated. (See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/92#issuecomment-4604071069)
 * Automated chatbots with pre-written responses that do not use generative AI.
 * Search engine results from sites with AI generated images. (Covered by [just_a_husk's image-search Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist) and [laylavish’s AI blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist))
 * Full site blocks for AI content farms (Covered by [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist))
