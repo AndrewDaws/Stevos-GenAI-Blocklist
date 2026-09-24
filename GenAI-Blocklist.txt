@@ -3496,7 +3496,7 @@ outlook.office.com##.fai-CopilotProvider
 ! "AI Discovery Assistant" by searchbar
 academic.oup.com##.ai
 ! Header - Sparkle icon for AI assistant (mobile)
-academic.oup.com##.oup-header-menu-item:has(.widget-DynamicDiscoveryLink)
+academic.oup.com##.oup-header-menu-item:has(.navbar-ai-assistant-link)
 
 ! -- https://academic.oup.com/search-results?q=test
 ! "AI Discovery Assistant" in navbar 
