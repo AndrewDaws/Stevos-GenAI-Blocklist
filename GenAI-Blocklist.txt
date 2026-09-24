@@ -4690,6 +4690,12 @@ www.virtusa.com##[class*="__aiCard"]
 ! ================
 ! == VirusTotal ==
 ! ================
+! -- https://www.virustotal.com/gui/home/upload
+! Floating assistant icon
+www.virustotal.com##fab-container
+! Footer - VirusTotalAI
+www.virustotal.com###ai-virustotal-footer
+
 ! -- https://www.virustotal.com/gui/file/40b8fe7d0867307fdb399371dc9d749baaf237d57a978f1e0527a0c199183b34
 ! Code insights
 www.virustotal.com##vt-crowdsourced-ai-gemini
