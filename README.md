@@ -36,7 +36,10 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 1. Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
 2. Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
 3. Select the "_Filter lists_" tab
-4. Open the "_Import..._" section and paste [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+4. Open the "_Import..._" section and paste the following link:
+   ```
+   https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
+   ```
 5. Click "_Apply Changes_"
 
 ### Google Chrome (Desktop)
@@ -69,9 +72,12 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 5. Click the "AdGuard for Safari" extension, and click "*Always Allow on Every Website...*"
 6. In the notification that appears, click "*Always Allow on Every Website...*" again.
 7. Open the AdGuard Mini app and go to *Settings → Filters → Custom filters*
-8. Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) and click *Next*
+8. Paste the following link:
+   ```
+   https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
+   ```
+9.  Click *Next*
     - (_Recommended_) Check the "Trusted" box.
-9. Click *Add*.
 10. Change the toggle for custom filters from "Disabled" to "Enabled"
 
 ### Brave (Desktop)
@@ -88,8 +94,11 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 5. Tap _uBlock Origin_ and select _Settings_
 6. Open the "_Filter lists_" tab
 7. Scroll to the bottom and tap "_Import..._"
-8. Paste in the link [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-9. Tap "_Apply Changes_"
+8. Paste in the following link:
+   ```
+   https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
+   ```
+10. Tap "_Apply Changes_"
 
 ### Safari (iOS/iPadOS)
 1. Install [AdGuard Ad Blocker for Safari](https://apps.apple.com/us/app/adguard-ad-blocker-for-safari/id1047223162)
@@ -101,14 +110,20 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 6. Tap the shield icon to open the Protection screen
 7. Tap *Safari Protection → Filters → Custom* (Tap the text itself, not the on-off icon)
 8. Tap "*Add a filter*"
-9. Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-10. Tap *Next → Add*.
-11. Change the toggle for custom filters from "Disabled" to "Enabled"
+9. Paste in the following link:
+   ```
+   https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
+   ```
+12. Tap *Next → Add*.
+13. Change the toggle for custom filters from "Disabled" to "Enabled"
 
 ### Brave Browser (iOS/iPadOS)
 1. Install [Brave Browser](https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175).
 2. Open Brave and tap *... → Shields and Privacy → Content Filtering → Add Filter by URL...*
-3. Paste in the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+3. Paste in the following link:
+   ```
+   https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
+   ```
 4. Press *Add*.
 
 ## Optional extra blocklist
