@@ -2841,6 +2841,12 @@ www.lawinsider.com##.zKcZVDrbtr
 www.lawinsider.com##.mdc-menu-surface--anchor:has([data-trigger-paywall-id="CLAUSE_FINDER"])
 www.lawinsider.com##.mdc-menu-surface--anchor:has(> [data-trigger-paywall-id="AI_SEARCH_COLUMNS"])
 
+! =============================
+! == Les Numériques (French) ==
+! =============================
+! Floating chat icon
+www.lesnumeriques.com##[data-lemrock-component]
+
 ! ========
 ! == LG ==
 ! ========
