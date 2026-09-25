@@ -43,7 +43,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 5. Click "_Apply Changes_"
 
 ### Google Chrome & Microsoft Edge (Desktop)
-1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
+1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) from the Chrome Web Store.
 2. Click the extensions button (puzzle piece icon) in the toolbar
 3. Click the green AdGuard icon then click the gear icon.
 4. Open the Filters tab, and click the "*Annoyances*" category.
