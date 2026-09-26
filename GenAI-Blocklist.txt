@@ -4686,6 +4686,13 @@ vercel.com##[aria-label="Ask AI"]
 vercel.com##.mt-3 button:has-text(Ask AI)
 vercel.com##.mt-3 div:has(+ button:has-text(Ask AI))
 
+! =============
+! == Verizon ==
+! =============
+! Floating chatbot
+www.verizon.com###vz-gpt-flare-button
+||chatbot-exp.verizon.com/chatbot/nsa/nos/h8sv-vzwcb-onebot-proxy/eksprod/public/askverizon.js$script,domain=www.verizon.com
+
 ! ===========
 ! == Vimeo ==
 ! ===========
