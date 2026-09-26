@@ -5220,6 +5220,12 @@ www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]
 m.youtube.com##+js(json-edit, $..[?@.carouselTitleViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
 m.youtube.com##+js(json-edit, $..[?@.carouselItemViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
 
+! -- https://www.youtube.com/watch?v=1K55xVb6qhY
+! Automatic video chapters
+! * May not work for all users
+! * TODO: Remove "View Chapters" button & chapters for "In this video" sidebar
+www.youtube.com##+js(json-edit, $..playerOverlays..[?@.visibleOnLoad.key=="AUTO_CHAPTERS"])
+
 ! -- Livestream
 ! Chat summary
 www.youtube.com##yt-live-chat-banner-manager:has(yt-live-chat-banner-chat-summary-renderer)
