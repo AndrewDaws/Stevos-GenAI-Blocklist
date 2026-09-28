@@ -4315,6 +4315,12 @@ www.supersummary.com##.e1jtsgu01:has(> [src="/ai-assistant-icon.svg"])
 ! Floating assistant icon
 talent.performyard.com##+js(json-prune-fetch-response, *, , propsToMatch, /v1/ai/)
 
+! ==============
+! == Synology ==
+! ==============
+! Header AI button
+www.synology.com##.s-nvbr__service-ai
+
 ! ============
 ! == Sysdig ==
 ! ============
