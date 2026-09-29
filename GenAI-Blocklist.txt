@@ -4133,6 +4133,13 @@ online-store-web.shopifyapps.com##.Polaris-Layout__Section:has(._generationsCont
 ! "Create a custom website with AI" promo
 www.shopify.com##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
 
+! ================
+! == Shutterfly ==
+! ================
+! Navbar - Ask Paige
+www.shutterfly.com###paige-ai-chatbot-button-desktop
+www.shutterfly.com###paige-ai-chatbot-button-mobile
+
 ! ========================
 ! == Singapore Airlines ==
 ! ========================
