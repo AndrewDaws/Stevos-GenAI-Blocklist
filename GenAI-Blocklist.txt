@@ -1819,9 +1819,9 @@ gitlab.com##[data-testid="nav-item"]:has(> [data-track-label="orbit_menu"])
 ! Profile icon > What's new for you > Duo items in sidebar
 gitlab.com##[data-testid="whats-new-article-toggle"]:has-text(GitLab Duo):upward(1)
 
-! -- https://gitlab.com/ (Group/Project issue pages - logged in)
+! -- https://gitlab.com/ (Group/Project issue pages - logged in) (no longer used?)
 ! "View summarize" button
-gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
+gitlab.com##.btn:has(> svg[data-testid="tanuki-ai-icon"])
 
 ! ==============
 ! == GitShare ==
