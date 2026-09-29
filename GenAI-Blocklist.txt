@@ -3728,6 +3728,16 @@ prezi.com##[role="dialog"] [href^="/features/ai/"]
 ! Powered by AI - "Create your own" subscription promo
 prezi.com##div[class*="lg:"]:has(> div.rounded-xl > button path[d^="M7 14C8.05 9.8 9.8 8.05 14 7C9.8 5.95 8.05"])
 
+! -- https://prezi.com/dashboard/ (logged in)
+! Modal - "New Prezi AI experience is here"
+prezi.com###modal-root:has-text(New Prezi AI experience is here)
+! Header - Get unlimited AI
+prezi.com##[class^="GetUnlimitedCreditsButton__Container"]
+! Header - AI credits
+prezi.com##[class^="CreditCountIndicator__Container"]
+! "Create with AI" text box
+prezi.com##section[class^="TomorrowMachineRolloutBanner__BannerContainerWithWave"]
+
 ! ===============
 ! == Priceline ==
 ! ===============

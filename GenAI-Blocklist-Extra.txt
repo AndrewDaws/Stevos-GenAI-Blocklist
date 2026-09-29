@@ -667,6 +667,15 @@ www.pcguide.com##.menu-item-150141
 ! "Copy Page" markdown button
 pnpm.io###copy-page-button-container
 
+! ===========
+! == Prezi ==
+! ===========
+! -- https://prezi.com/ (logged out)
+! FAQ
+prezi.com##details > summary > h3:has-text(Can I use Prezi with slides I made in ChatGPT?):upward(2)
+prezi.com##details > summary > h3:has-text(Can Prezi make an AI presentation from a prompt?):upward(2)
+prezi.com##details > summary > h3:has-text(Can I edit the presentation Prezi creates with AI?):upward(2)
+
 ! ===================
 ! == PriceCharting ==
 ! ===================
