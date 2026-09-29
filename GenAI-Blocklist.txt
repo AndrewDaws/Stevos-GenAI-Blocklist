@@ -3187,7 +3187,7 @@ excel.cloud.microsoft##.___qeeaaj0:has([role="region"][aria-label="Explore Copil
 ! "Copilot in Excel" recomended template (No longer used?)
 excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
 
-! -- With document open
+! -- https://excel.cloud.microsoft/ (With document open)
 ! Floating copilot button + network requests
 ||/officeonline/x/s/*__layouts/App_Scripts/rslc0/EwaTS.copilot*.js$script,domain=usc-excel.officeapps.live.com
 ! Copilot navbar button
@@ -3205,9 +3205,9 @@ powerpoint.cloud.microsoft##[aria-label="Create with Copilot"]
 powerpoint.cloud.microsoft##[aria-label="Explore Copilot section."]
 powerpoint.cloud.microsoft##.___qeeaaj0:has(> [aria-label="Explore Copilot section."]:only-child)
 
-! -- With document open
-! * TODO: Copilot button briefly appears when PowerPoint is loading
-usc-powerpoint.officeapps.live.com#?##ChatPPT-group:upward(2)
+! -- https://powerpoint.cloud.microsoft/ (With document open)
+! Ribbon - Home - Designer button
+usc-powerpoint.officeapps.live.com###innerRibbonContainer > [class^="groupContainer-"]:has(#ChatPPT-group)
 
 ! -- https://onenote.cloud.microsoft/notebooks/
 ! Header promo for Copilot Notebooks
