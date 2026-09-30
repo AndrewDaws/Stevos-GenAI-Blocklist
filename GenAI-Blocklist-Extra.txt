@@ -551,6 +551,12 @@ central.insightsoftware.com###forethought-chat
 www.instagram.com##+js(json-edit, $..[?@.node..ai_label_info.gen_ai_detection_method], , propsToMatch, /graphql/query)
 !#endif
 
+! ==========
+! == Kagi ==
+! ==========
+! AI image filter options if "None" has been selected
+kagi.com##.dropdown.filter-item:has(>.dd-list[data-name="ai"] .inner-label[aria-current="true"]:not([href*="&ai="]))
+
 ! ==================
 ! == Live Science ==
 ! ==================
